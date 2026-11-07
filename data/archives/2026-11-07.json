@@ -1,10 +1,10 @@
 {
   "snapshot_date": "2026-11-07",
-  "generated_at": "2026-11-07T11:32:56.058355+00:00",
+  "generated_at": "2026-11-07T11:40:24.302269+00:00",
   "period_start": "2026-11-01",
   "period_end": "2026-11-07",
   "paper_count": 395,
-  "new_to_index_count": 393,
+  "new_to_index_count": 0,
   "source_counts": {
     "arxiv": 608,
     "openreview": 0,
