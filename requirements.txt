@@ -1,0 +1,2 @@
+# The ingestion and build scripts use only the Python standard library.
+# No pip installation is required.

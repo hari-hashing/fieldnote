@@ -1,0 +1,97 @@
+{
+  "snapshot_date": "2026-11-07",
+  "generated_at": "2026-11-07T10:30:00Z",
+  "period_start": "2026-11-01",
+  "period_end": "2026-11-07",
+  "paper_count": 2,
+  "new_to_index_count": 2,
+  "source_counts": {
+    "arxiv": 2,
+    "openreview": 0,
+    "openalex_discovery": 0
+  },
+  "coverage_note": "Bootstrap snapshot from the initial curated seed. Automated source ingestion has not yet run in this checkout.",
+  "warnings": [
+    "Initial archive contains only the recent seed records; run the GitHub Actions workflow to populate source discovery."
+  ],
+  "papers": [
+    {
+      "id": "2611.08156",
+      "title": "La-JEPA: Compact Robot Policies with Latent World Modeling",
+      "authors": "Mateo Clémente, George Z. Xue, Amin Abyaneh, Liheng Ma, Rui Heng Yang, Tongtong Cao, Zhanguang Zhang, Yingxue Zhang",
+      "first_published": "2026-11-05",
+      "year": 2026,
+      "status": "preprint",
+      "primary_bin": "wam",
+      "secondary_bins": [
+        "world",
+        "vla",
+        "systems",
+        "evaluation"
+      ],
+      "tags": [
+        "JEPA",
+        "latent dynamics",
+        "future features",
+        "control-oriented architecture",
+        "real robot"
+      ],
+      "abstract": "A compact world-action model trained from scratch in the feature space of a pretrained V-JEPA 2.1 encoder. It predicts future features jointly with actions during training and generates only actions at inference. The paper reports strong RoboTwin 2.0 and LIBERO-Plus results and comparable performance to π0.5 on four real-robot tasks.",
+      "contribution": "Control-oriented latent world-action policy; contrasts JEPA features with video VAE latents and studies training-time future prediction choices.",
+      "limitations": "New preprint; results and baseline comparisons need independent reproduction. Verify benchmark instruction corrections and hardware conditions before drawing conclusions.",
+      "datasets": [
+        "RoboTwin 2.0",
+        "LIBERO-Plus"
+      ],
+      "embodiments": [
+        "robot manipulation; exact hardware variants should be checked in full text"
+      ],
+      "real_robot": "Yes — four real-robot tasks are stated in the abstract.",
+      "code_url": "",
+      "paper_url": "https://arxiv.org/abs/2611.08156",
+      "source": "arXiv",
+      "source_type": "primary",
+      "venue": "Preprint",
+      "added_at": "2026-11-07",
+      "notes": "Seeded from the 5 Nov 2026 arXiv record. Metadata and claims should be refreshed by the automated ingestion pipeline."
+    },
+    {
+      "id": "2611.08449",
+      "title": "VFlash: Fast, Accurate Visual Planning via Flash Primitive Decoding",
+      "authors": "Yu-Cheng Chou et al.",
+      "first_published": "2026-11-05",
+      "year": 2026,
+      "status": "preprint",
+      "primary_bin": "spatial",
+      "secondary_bins": [
+        "reasoning",
+        "systems",
+        "wam"
+      ],
+      "tags": [
+        "visual planning",
+        "3D points",
+        "trajectory decoding",
+        "MolmoSpaces"
+      ],
+      "abstract": "VFlash predicts structured visual primitives such as points, boxes and variable-length trajectories jointly in one forward pass instead of autoregressively decoding coordinate tokens. Its authors report approximately 25× faster single-rollout generation for 3D point-motion forecasting and improved downstream WAM planning results.",
+      "contribution": "Primitive-aware flash decoding for structured spatial outputs, with type-, dimension- and length-adaptive layouts.",
+      "limitations": "Fast plan decoding does not by itself guarantee kinematic feasibility or closed-loop physical correctness. Validate end-to-end latency and physical execution separately.",
+      "datasets": [
+        "2D/3D robot trajectory tasks",
+        "MolmoSpaces"
+      ],
+      "embodiments": [
+        "robot trajectory planning; specific hardware should be confirmed"
+      ],
+      "real_robot": "Not established from the abstract inspected.",
+      "code_url": "",
+      "paper_url": "https://arxiv.org/abs/2611.08449",
+      "source": "arXiv",
+      "source_type": "primary",
+      "venue": "Preprint",
+      "added_at": "2026-11-07",
+      "notes": "Seeded from the 5 Nov 2026 arXiv record."
+    }
+  ]
+}

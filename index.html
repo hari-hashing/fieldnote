@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="A continuously updated research atlas for VLMs, VLAs, world models, World-Action Models and embodied robotics.">
+  <meta name="theme-color" content="#0b1020">
+  <title>Fieldnote — Embodied AI Research Atlas</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+  <div class="ambient ambient-a"></div><div class="ambient ambient-b"></div>
+  <header class="topbar">
+    <a class="brand" href="#overview" aria-label="Fieldnote home">
+      <span class="brand-mark">F<span>·</span></span>
+      <span><b>FIELDNOTE</b><small>EMBODIED INTELLIGENCE</small></span>
+    </a>
+    <div class="topmeta">
+      <span class="live-dot"></span><span id="freshness">Loading research index…</span>
+      <a class="top-link" href="https://docs.github.com/en/pages" target="_blank" rel="noreferrer">GitHub Pages ↗</a>
+    </div>
+  </header>
+
+  <div class="shell">
+    <aside class="sidebar">
+      <div class="side-label">WORKSPACE</div>
+      <button class="nav-item active" data-view="overview"><span>◫</span> Overview</button>
+      <button class="nav-item" data-view="papers"><span>▤</span> Paper library <em id="paper-nav-count">—</em></button>
+      <button class="nav-item" data-view="opportunities"><span>✳</span> Research opportunities <em id="idea-nav-count">—</em></button>
+      <button class="nav-item" data-view="archives"><span>◷</span> Weekly archives</button>
+      <button class="nav-item" data-view="prompt"><span>⌘</span> Idea deep-dive lab</button>
+      <div class="side-divider"></div>
+      <div class="side-label">RESEARCH BINS <span id="bin-total">11</span></div>
+      <div id="bin-nav" class="bin-nav"></div>
+      <div class="sidebar-bottom">
+        <div class="source-pulse"><span></span><div><b>Ingestion pipeline</b><small>GitHub Actions · daily</small></div></div>
+        <a href="README.md" target="_blank">Setup & documentation ↗</a>
+      </div>
+    </aside>
+
+    <main class="main">
+      <section id="view-overview" class="view active">
+        <div class="eyebrow">RESEARCH INTELLIGENCE / 2026</div>
+        <div class="hero-row">
+          <div>
+            <h1>Understand the frontier.<br><span>Find what comes next.</span></h1>
+            <p class="hero-copy">A living map of vision-language models, action policies, predictive world models and embodied robotics — organized by the scientific problem each paper solves.</p>
+          </div>
+          <div class="hero-stamp"><span>FIELDNOTE</span><b>01—11</b><small>RESEARCH BINS</small></div>
+        </div>
+        <div class="stats-grid">
+          <article class="stat-card"><span class="stat-kicker">INDEXED PAPERS</span><b id="stat-papers">—</b><small>Across the research atlas</small></article>
+          <article class="stat-card"><span class="stat-kicker">ACTIVE BINS</span><b id="stat-bins">—</b><small>Primary research categories</small></article>
+          <article class="stat-card"><span class="stat-kicker">NEW THIS WEEK</span><b id="stat-week">—</b><small>First surfaced in 7 days</small></article>
+          <article class="stat-card"><span class="stat-kicker">OPPORTUNITY LEADS</span><b id="stat-ideas">—</b><small>Heuristic research hypotheses</small></article>
+        </div>
+        <div class="section-heading"><div><div class="eyebrow">THE TAXONOMY</div><h2>11 ways to study embodied intelligence</h2></div><span class="section-note">Select a bin to filter the literature</span></div>
+        <div id="bin-grid" class="bin-grid"></div>
+        <div class="two-col-section">
+          <section><div class="section-heading compact"><div><div class="eyebrow">RECENTLY SURFACED</div><h2>New in the index</h2></div><button class="text-button" data-go="papers">All papers ↗</button></div><div id="recent-papers" class="stack-list"></div></section>
+          <section><div class="section-heading compact"><div><div class="eyebrow">RESEARCH LAB</div><h2>Underexplored intersections</h2></div><button class="text-button" data-go="opportunities">Explore all ↗</button></div><div id="featured-ideas" class="stack-list"></div></section>
+        </div>
+        <div class="method-strip"><div class="method-icon">◎</div><div><b>Evidence before novelty claims</b><p>Opportunity scores are literature-coverage heuristics, not proof of novelty. Every idea links to the papers and bins that motivated it; verify novelty with a dedicated search before committing.</p></div><button class="text-button" data-go="prompt">Open idea lab ↗</button></div>
+      </section>
+
+      <section id="view-papers" class="view">
+        <div class="page-head"><div><div class="eyebrow">THE LIBRARY</div><h1>Research papers</h1><p>Search, filter and trace the literature by scientific contribution.</p></div><button class="outline-button" id="download-papers">↓ Export JSON</button></div>
+        <div class="filter-panel">
+          <label class="searchbox"><span>⌕</span><input id="paper-search" type="search" placeholder="Search titles, methods, authors, datasets…"></label>
+          <select id="filter-bin"><option value="">All research bins</option></select>
+          <select id="filter-status"><option value="">All statuses</option><option value="preprint">Preprint</option><option value="published">Published / venue listed</option><option value="accepted">Accepted</option><option value="needs_verification">Needs verification</option></select>
+          <select id="filter-year"><option value="">All years</option></select>
+        </div>
+        <div class="results-line"><span id="result-count">Loading…</span><span>Primary bin + cross-cutting tags</span></div>
+        <div id="paper-results" class="paper-grid"></div>
+        <div id="empty-papers" class="empty-state hidden">No papers match these filters. Try broadening your search.</div>
+      </section>
+
+      <section id="view-opportunities" class="view">
+        <div class="page-head"><div><div class="eyebrow">RESEARCH LAB / HYPOTHESIS GENERATION</div><h1>Research opportunities</h1><p>Practical research directions inferred from sparse intersections in the indexed literature.</p></div><span class="confidence-pill">Heuristic discovery · not novelty proof</span></div>
+        <div class="callout"><b>How to read these suggestions</b><p>Each lead combines an observed research gap with feasibility and experimental tractability. A low paper count means “underrepresented in this index,” not “nobody has studied it.” The update job refreshes the evidence and recalculates coverage daily.</p></div>
+        <div class="opportunity-toolbar"><div class="segmented" id="idea-sort"><button class="selected" data-sort="score">Highest potential</button><button data-sort="feasibility">Most practical</button><button data-sort="gap">Least covered</button></div><select id="idea-bin-filter"><option value="">All bins</option></select></div>
+        <div id="opportunity-results" class="opportunity-grid"></div>
+      </section>
+
+      <section id="view-archives" class="view">
+        <div class="page-head"><div><div class="eyebrow">PERSISTENT HISTORY</div><h1>Research archives</h1><p>Each successful ingestion run creates a dated snapshot. Older weekly snapshots remain in the repository.</p></div></div>
+        <div class="archive-layout"><div id="archive-list" class="archive-list"></div><div id="archive-detail" class="archive-detail"><div class="empty-state">Select an archive to inspect its snapshot.</div></div></div>
+      </section>
+
+      <section id="view-prompt" class="view">
+        <div class="page-head"><div><div class="eyebrow">IDEA DEEP-DIVE LAB</div><h1>Turn a lead into a research plan</h1><p>Generate a rigorous research prompt that makes a model investigate prior work, novelty, mathematical formulation and implementation feasibility.</p></div></div>
+        <div class="prompt-layout">
+          <div class="prompt-controls">
+            <label>Research idea<select id="prompt-idea"><option value="">Choose an opportunity…</option></select></label>
+            <label>Target embodiment<input id="prompt-embodiment" value="Franka Panda / dual-arm manipulator; compare simulation and real robot where feasible"></label>
+            <label>Compute constraints<input id="prompt-compute" value="1–2 GPUs; prioritize parameter-efficient and inference-efficient approaches"></label>
+            <label>Research horizon<select id="prompt-horizon"><option>4–8 weeks: reproducible prototype</option><option>3–6 months: publishable research project</option><option>9–12 months: full research programme</option></select></label>
+            <label>Additional context<textarea id="prompt-context" rows="4" placeholder="Existing code, simulator, datasets, hardware, lab constraints, preferred methods…"></textarea></label>
+            <button class="primary-button" id="generate-prompt">Generate deep-dive prompt <span>↗</span></button>
+          </div>
+          <div class="prompt-output"><div class="output-head"><div><span class="eyebrow">MODEL-READY PROMPT</span><b>Research investigation brief</b></div><button class="outline-button" id="copy-prompt">Copy prompt</button></div><textarea id="prompt-output" spellcheck="false" placeholder="Choose an idea and generate the research prompt. The result will appear here."></textarea><div class="output-foot"><span>Includes literature audit · novelty analysis · technical design · experiments · implementation plan</span><button class="text-button" id="download-prompt">Download .md</button></div></div>
+        </div>
+        <div class="prompt-note"><b>Important:</b> The prompt explicitly requires primary-source verification, comparison against prior/ongoing/proposed work, and uncertainty labels. A language model's novelty assessment is a research hypothesis, not a substitute for a systematic literature review or expert review.</div>
+      </section>
+
+      <footer><span>FIELDNOTE · EMBODIED INTELLIGENCE ATLAS</span><span id="footer-updated">Local archive · GitHub Pages ready</span><a href="https://info.arxiv.org/help/api/">Data source notes ↗</a></footer>
+    </main>
+  </div>
+  <script src="assets/app.js"></script>
+</body>
+</html>

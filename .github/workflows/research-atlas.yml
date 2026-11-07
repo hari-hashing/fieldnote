@@ -1,0 +1,80 @@
+name: Update and deploy research atlas
+
+on:
+  push:
+    branches: [main]
+  schedule:
+    - cron: '17 2 * * *' # Daily at 02:17 UTC / 07:47 India time
+  workflow_dispatch:
+    inputs:
+      lookback_days:
+        description: 'Research discovery look-back window'
+        required: false
+        default: '7'
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  update-build-deploy:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v7
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v7
+        with:
+          python-version: '3.12'
+
+      - name: Ingest recent research and update archives
+        env:
+          LOOKBACK_DAYS: ${{ github.event.inputs.lookback_days || '7' }}
+        run: python scripts/update_research.py --days "$LOOKBACK_DAYS"
+
+      - name: Optional model-assisted opportunity generation
+        if: ${{ vars.OPENAI_MODEL != '' }}
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          OPENAI_MODEL: ${{ vars.OPENAI_MODEL }}
+          OPENAI_BASE_URL: ${{ vars.OPENAI_BASE_URL }}
+        run: python scripts/enrich_opportunities.py
+
+      - name: Commit updated index and dated archive
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/
+          if git diff --cached --quiet; then
+            echo "No data changes to commit."
+          else
+            git commit -m "chore(research): update papers and archive"
+            git push
+          fi
+
+      - name: Build static site
+        run: python scripts/build_site.py
+
+      - name: Configure GitHub Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: _site
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

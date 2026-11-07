@@ -1,0 +1,457 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-11-07T10:30:00Z",
+  "last_ingestion": "2026-11-07T10:30:00Z",
+  "sources": {
+    "seed": 12,
+    "arxiv": 0,
+    "openreview": 0,
+    "openalex_discovery": 0
+  },
+  "papers": [
+    {
+      "id": "2611.08449",
+      "title": "VFlash: Fast, Accurate Visual Planning via Flash Primitive Decoding",
+      "authors": "Yu-Cheng Chou et al.",
+      "first_published": "2026-11-05",
+      "year": 2026,
+      "status": "preprint",
+      "primary_bin": "spatial",
+      "secondary_bins": [
+        "reasoning",
+        "systems",
+        "wam"
+      ],
+      "tags": [
+        "visual planning",
+        "3D points",
+        "trajectory decoding",
+        "MolmoSpaces"
+      ],
+      "abstract": "VFlash predicts structured visual primitives such as points, boxes and variable-length trajectories jointly in one forward pass instead of autoregressively decoding coordinate tokens. Its authors report approximately 25× faster single-rollout generation for 3D point-motion forecasting and improved downstream WAM planning results.",
+      "contribution": "Primitive-aware flash decoding for structured spatial outputs, with type-, dimension- and length-adaptive layouts.",
+      "limitations": "Fast plan decoding does not by itself guarantee kinematic feasibility or closed-loop physical correctness. Validate end-to-end latency and physical execution separately.",
+      "datasets": [
+        "2D/3D robot trajectory tasks",
+        "MolmoSpaces"
+      ],
+      "embodiments": [
+        "robot trajectory planning; specific hardware should be confirmed"
+      ],
+      "real_robot": "Not established from the abstract inspected.",
+      "code_url": "",
+      "paper_url": "https://arxiv.org/abs/2611.08449",
+      "source": "arXiv",
+      "source_type": "primary",
+      "venue": "Preprint",
+      "added_at": "2026-11-07",
+      "notes": "Seeded from the 5 Nov 2026 arXiv record."
+    },
+    {
+      "id": "2611.08156",
+      "title": "La-JEPA: Compact Robot Policies with Latent World Modeling",
+      "authors": "Mateo Clémente, George Z. Xue, Amin Abyaneh, Liheng Ma, Rui Heng Yang, Tongtong Cao, Zhanguang Zhang, Yingxue Zhang",
+      "first_published": "2026-11-05",
+      "year": 2026,
+      "status": "preprint",
+      "primary_bin": "wam",
+      "secondary_bins": [
+        "world",
+        "vla",
+        "systems",
+        "evaluation"
+      ],
+      "tags": [
+        "JEPA",
+        "latent dynamics",
+        "future features",
+        "control-oriented architecture",
+        "real robot"
+      ],
+      "abstract": "A compact world-action model trained from scratch in the feature space of a pretrained V-JEPA 2.1 encoder. It predicts future features jointly with actions during training and generates only actions at inference. The paper reports strong RoboTwin 2.0 and LIBERO-Plus results and comparable performance to π0.5 on four real-robot tasks.",
+      "contribution": "Control-oriented latent world-action policy; contrasts JEPA features with video VAE latents and studies training-time future prediction choices.",
+      "limitations": "New preprint; results and baseline comparisons need independent reproduction. Verify benchmark instruction corrections and hardware conditions before drawing conclusions.",
+      "datasets": [
+        "RoboTwin 2.0",
+        "LIBERO-Plus"
+      ],
+      "embodiments": [
+        "robot manipulation; exact hardware variants should be checked in full text"
+      ],
+      "real_robot": "Yes — four real-robot tasks are stated in the abstract.",
+      "code_url": "",
+      "paper_url": "https://arxiv.org/abs/2611.08156",
+      "source": "arXiv",
+      "source_type": "primary",
+      "venue": "Preprint",
+      "added_at": "2026-11-07",
+      "notes": "Seeded from the 5 Nov 2026 arXiv record. Metadata and claims should be refreshed by the automated ingestion pipeline."
+    },
+    {
+      "id": "2609.16074",
+      "title": "World-Action Models for Robot Learning and Control: A Survey",
+      "authors": "Zuxing Lu et al.",
+      "first_published": "2026-09-13",
+      "year": 2026,
+      "status": "preprint",
+      "primary_bin": "wam",
+      "secondary_bins": [
+        "world",
+        "vla",
+        "learning",
+        "evaluation"
+      ],
+      "tags": [
+        "survey",
+        "action alignment",
+        "factorization",
+        "inference efficiency"
+      ],
+      "abstract": "A robotics-oriented survey of world-action models covering representations, transition modelling, action interfaces, architectures, training pipelines, data modalities, scaling, benchmarks and challenges.",
+      "contribution": "Connects WAM research with manipulation, navigation and autonomous driving, and identifies issues such as action alignment, spatial consistency, memory and efficient inference.",
+      "limitations": "Survey scope and completeness are constrained by its date; compare with newer submissions and project releases.",
+      "datasets": [],
+      "embodiments": [
+        "manipulation",
+        "navigation",
+        "autonomous driving"
+      ],
+      "real_robot": "Survey; not applicable.",
+      "code_url": "https://rcl-robotics.github.io/Awesome-World-Action-Models/",
+      "paper_url": "https://arxiv.org/abs/2609.16074",
+      "source": "arXiv",
+      "source_type": "primary",
+      "venue": "Preprint / survey",
+      "added_at": "2026-11-07"
+    },
+    {
+      "id": "2605.12090",
+      "title": "World Action Models: The Next Frontier in Embodied AI",
+      "authors": "Siyin Wang et al.",
+      "first_published": "2026-05-12",
+      "year": 2026,
+      "status": "preprint",
+      "primary_bin": "wam",
+      "secondary_bins": [
+        "world",
+        "vla",
+        "data",
+        "evaluation"
+      ],
+      "tags": [
+        "survey",
+        "WAM taxonomy",
+        "cascaded models",
+        "joint models",
+        "data ecosystem"
+      ],
+      "abstract": "A survey defining World-Action Models as embodied foundation models coupling predictive state modelling with executable action generation. It organizes WAMs into cascaded and joint architectures and reviews data, evaluation and open challenges.",
+      "contribution": "Provides a conceptual framework distinguishing WAMs from reactive VLA policies, conventional world models and action-conditioned video generation.",
+      "limitations": "A survey reflects its publication cutoff; use it as a taxonomy and verify later papers independently.",
+      "datasets": [],
+      "embodiments": [
+        "manipulation",
+        "navigation",
+        "autonomous driving"
+      ],
+      "real_robot": "Survey; not applicable.",
+      "code_url": "",
+      "paper_url": "https://arxiv.org/abs/2605.12090",
+      "source": "arXiv",
+      "source_type": "primary",
+      "venue": "Preprint / survey",
+      "added_at": "2026-11-07"
+    },
+    {
+      "id": "2410.24164",
+      "title": "π₀: A Vision-Language-Action Flow Model for General Robot Control",
+      "authors": "Physical Intelligence team",
+      "first_published": "2024-10-31",
+      "year": 2024,
+      "status": "preprint",
+      "primary_bin": "vla",
+      "secondary_bins": [
+        "learning",
+        "data",
+        "systems",
+        "embodiment"
+      ],
+      "tags": [
+        "flow matching",
+        "continuous actions",
+        "action chunks",
+        "generalist policy"
+      ],
+      "abstract": "Introduces a generalist robot policy that combines a pretrained vision-language model with a flow-matching action expert to generate continuous robot action chunks across multiple tasks and embodiments.",
+      "contribution": "Flow-matching action generation as an alternative to discrete autoregressive action tokenization.",
+      "limitations": "Generative action inference can be computationally expensive; deployment latency, embodiment coverage and fine-grained control remain important evaluation dimensions.",
+      "datasets": [
+        "large multi-robot demonstration data; see paper for exact mixture"
+      ],
+      "embodiments": [
+        "multiple robot embodiments"
+      ],
+      "real_robot": "Yes — physical robot evaluations are reported.",
+      "code_url": "https://github.com/Physical-Intelligence/openpi",
+      "paper_url": "https://arxiv.org/abs/2410.24164",
+      "source": "arXiv",
+      "source_type": "primary",
+      "venue": "RSS 2025",
+      "added_at": "2026-11-07"
+    },
+    {
+      "id": "2406.09246",
+      "title": "OpenVLA: An Open-Source Vision-Language-Action Model",
+      "authors": "Moo Jin Kim et al.",
+      "first_published": "2024-06-13",
+      "year": 2024,
+      "status": "preprint",
+      "primary_bin": "vla",
+      "secondary_bins": [
+        "perception",
+        "data",
+        "learning",
+        "evaluation"
+      ],
+      "tags": [
+        "open weights",
+        "autoregressive VLA",
+        "robot demonstrations",
+        "fine-tuning"
+      ],
+      "abstract": "An open-source 7B vision-language-action model based on a pretrained vision-language backbone and trained on a large multi-robot demonstration corpus. It provides an accessible baseline for adaptation and evaluation.",
+      "contribution": "Open, reproducible VLA foundation model with released weights and fine-tuning code.",
+      "limitations": "Autoregressive tokenized actions, dataset coverage and deployment compute are important constraints; performance depends on fine-tuning and embodiment compatibility.",
+      "datasets": [
+        "Open X-Embodiment / RT-X mixture"
+      ],
+      "embodiments": [
+        "multiple robot arms represented in training mixture"
+      ],
+      "real_robot": "Yes — physical robot evaluations are reported in the paper.",
+      "code_url": "https://github.com/openvla/openvla",
+      "paper_url": "https://arxiv.org/abs/2406.09246",
+      "source": "arXiv",
+      "source_type": "primary",
+      "venue": "CoRL 2024",
+      "added_at": "2026-11-07"
+    },
+    {
+      "id": "2405.12213",
+      "title": "Octo: An Open-Source Generalist Robot Policy",
+      "authors": "Octo Model Team",
+      "first_published": "2024-05-20",
+      "year": 2024,
+      "status": "published",
+      "primary_bin": "vla",
+      "secondary_bins": [
+        "data",
+        "learning",
+        "evaluation"
+      ],
+      "tags": [
+        "generalist policy",
+        "transformer",
+        "multi-robot data",
+        "open source"
+      ],
+      "abstract": "A transformer-based generalist robot policy trained on a diverse mixture of robot trajectories and designed to be fine-tuned for new observation and action spaces.",
+      "contribution": "Open generalist policy and training recipe for adapting across robot setups.",
+      "limitations": "Generalization still depends on the training mixture and downstream adaptation; action spaces and observations need careful alignment.",
+      "datasets": [
+        "Open X-Embodiment"
+      ],
+      "embodiments": [
+        "multiple robot arms"
+      ],
+      "real_robot": "Yes — real-world fine-tuning and evaluation are reported.",
+      "code_url": "https://github.com/octo-models/octo",
+      "paper_url": "https://arxiv.org/abs/2405.12213",
+      "source": "arXiv",
+      "source_type": "primary",
+      "venue": "RSS 2024",
+      "added_at": "2026-11-07"
+    },
+    {
+      "id": "2403.09631",
+      "title": "3D-VLA: A 3D Vision-Language-Action Generative World Model",
+      "authors": "Haoyu Zhen et al.",
+      "first_published": "2024-03-14",
+      "year": 2024,
+      "status": "published",
+      "primary_bin": "spatial",
+      "secondary_bins": [
+        "world",
+        "vla",
+        "perception"
+      ],
+      "tags": [
+        "3D scene representation",
+        "generative world model",
+        "embodied reasoning"
+      ],
+      "abstract": "Combines 3D perception, language-conditioned reasoning and generative world modelling for embodied tasks, emphasizing spatially grounded interaction.",
+      "contribution": "Connects 3D scene understanding with language-conditioned action and generative world modelling.",
+      "limitations": "Check the full experimental setup when comparing simulated results to physical robot performance; 3D representation quality is a major dependency.",
+      "datasets": [
+        "3D embodied benchmark tasks; see paper"
+      ],
+      "embodiments": [
+        "robot manipulation"
+      ],
+      "real_robot": "Not assumed; verify full paper before claiming physical deployment.",
+      "code_url": "",
+      "paper_url": "https://arxiv.org/abs/2403.09631",
+      "source": "arXiv",
+      "source_type": "primary",
+      "venue": "ICML 2024",
+      "added_at": "2026-11-07"
+    },
+    {
+      "id": "2310.08864",
+      "title": "Open X-Embodiment: Robotic Learning Datasets and RT-X Models",
+      "authors": "Open X-Embodiment Collaboration et al.",
+      "first_published": "2023-10-13",
+      "year": 2023,
+      "status": "published",
+      "primary_bin": "data",
+      "secondary_bins": [
+        "vla",
+        "learning",
+        "embodiment",
+        "evaluation"
+      ],
+      "tags": [
+        "multi-robot dataset",
+        "cross-embodiment transfer",
+        "generalist policy",
+        "RLDS"
+      ],
+      "abstract": "A standardized multi-robot dataset and RT-X model effort assembled from 22 robot embodiments and 21 institutions, spanning 527 skills and 160,266 tasks. The authors demonstrate positive transfer across robot platforms.",
+      "contribution": "A foundational data infrastructure for X-robot policy learning and cross-embodiment transfer.",
+      "limitations": "Dataset heterogeneity, embodiment alignment and task-distribution coverage remain important constraints; aggregate scale does not guarantee uniform quality across all tasks.",
+      "datasets": [
+        "Open X-Embodiment (22 robots; 527 skills; 160,266 tasks)"
+      ],
+      "embodiments": [
+        "22 robot embodiments"
+      ],
+      "real_robot": "Yes — dataset and experiments comprise real robot data.",
+      "code_url": "https://github.com/ICRA-2024/google-deepmind_open_x_embodiment",
+      "project_url": "https://robotics-transformer-x.github.io/",
+      "paper_url": "https://arxiv.org/abs/2310.08864",
+      "doi": "10.1109/ICRA57147.2024.10611477",
+      "source": "arXiv",
+      "source_type": "primary",
+      "venue": "ICRA 2024",
+      "added_at": "2026-11-07",
+      "notes": "First submitted 13 Oct 2023; peer-reviewed ICRA 2024 publication. Bibliographic details verified against arXiv and ICRA publication metadata."
+    },
+    {
+      "id": "2307.15818",
+      "title": "RT-2: Vision-Language-Action Models Transfer Web Knowledge to Robotic Control",
+      "authors": "Anthony Brohan et al.",
+      "first_published": "2023-07-28",
+      "year": 2023,
+      "status": "published",
+      "primary_bin": "vla",
+      "secondary_bins": [
+        "perception",
+        "reasoning",
+        "data"
+      ],
+      "tags": [
+        "web-scale pretraining",
+        "action tokens",
+        "semantic generalization"
+      ],
+      "abstract": "A vision-language-action approach that co-fine-tunes vision-language models on web-scale vision-language data and robot demonstrations, representing robot actions as token sequences.",
+      "contribution": "Demonstrates transfer of semantic knowledge from web pretraining into robotic manipulation.",
+      "limitations": "Action tokenization and limited robot data coverage; strong semantic performance is not equivalent to broad physical competence.",
+      "datasets": [
+        "robot demonstration datasets; see paper"
+      ],
+      "embodiments": [
+        "robot arms"
+      ],
+      "real_robot": "Yes — physical robot experiments are reported.",
+      "code_url": "",
+      "paper_url": "https://arxiv.org/abs/2307.15818",
+      "source": "arXiv",
+      "source_type": "primary",
+      "venue": "CoRL 2023",
+      "added_at": "2026-11-07"
+    },
+    {
+      "id": "2303.03378",
+      "title": "PaLM-E: An Embodied Multimodal Language Model",
+      "authors": "Danny Driess et al.",
+      "first_published": "2023-03-06",
+      "year": 2023,
+      "status": "published",
+      "primary_bin": "perception",
+      "secondary_bins": [
+        "reasoning",
+        "spatial",
+        "vla"
+      ],
+      "tags": [
+        "embodied multimodal model",
+        "sensor tokens",
+        "language model"
+      ],
+      "abstract": "An embodied multimodal language model that integrates continuous observations such as images and state estimates into a language model for robotics and multimodal reasoning tasks.",
+      "contribution": "A unified multimodal language-model approach that accepts embodied observations and transfers across language, vision and robotics tasks.",
+      "limitations": "A model capable of embodied reasoning is not necessarily a high-frequency low-level controller; closed-loop execution requires separate control machinery.",
+      "datasets": [
+        "robotics and multimodal task datasets; see paper"
+      ],
+      "embodiments": [
+        "robot manipulation platforms"
+      ],
+      "real_robot": "Yes — real robotic tasks are included.",
+      "code_url": "",
+      "paper_url": "https://arxiv.org/abs/2303.03378",
+      "source": "arXiv",
+      "source_type": "primary",
+      "venue": "ICML 2023",
+      "added_at": "2026-11-07"
+    },
+    {
+      "id": "2204.01691",
+      "title": "Do As I Can, Not As I Say: Grounding Language in Robotic Affordances",
+      "authors": "Michael Ahn et al.",
+      "first_published": "2022-04-04",
+      "year": 2022,
+      "status": "published",
+      "primary_bin": "reasoning",
+      "secondary_bins": [
+        "perception",
+        "spatial",
+        "learning"
+      ],
+      "tags": [
+        "SayCan",
+        "affordance grounding",
+        "LLM planning",
+        "skill selection"
+      ],
+      "abstract": "Combines language-model task proposals with learned robotic affordance values to select executable skills and ground open-ended instructions in physical capabilities.",
+      "contribution": "A foundational neuro-symbolic planning architecture connecting semantic intent to low-level skill feasibility.",
+      "limitations": "Depends on the available skill library and affordance estimates; novel skills require separate learning or composition.",
+      "datasets": [
+        "robot household task demonstrations"
+      ],
+      "embodiments": [
+        "mobile manipulator"
+      ],
+      "real_robot": "Yes — physical robot demonstrations and evaluations are reported.",
+      "code_url": "",
+      "paper_url": "https://arxiv.org/abs/2204.01691",
+      "source": "arXiv",
+      "source_type": "primary",
+      "venue": "CoRL 2022",
+      "added_at": "2026-11-07"
+    }
+  ]
+}
