@@ -1,6 +1,12 @@
 {
-  "generated_at": "2026-11-07T11:40:24.302269+00:00",
+  "generated_at": "2026-11-08T04:33:09.124887+00:00",
   "archives": [
+    {
+      "date": "2026-11-08",
+      "file": "data/archives/2026-11-08.json",
+      "paper_count": 407,
+      "period": "2026-11-02 → 2026-11-08"
+    },
     {
       "date": "2026-11-07",
       "file": "data/archives/2026-11-07.json",
