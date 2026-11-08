@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://hari-hashing.github.io/fieldnote/sitemap.xml

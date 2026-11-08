@@ -1,80 +1,102 @@
-name: Update and deploy research atlas
-
+name: Fieldnote CI and CD
 on:
   push:
     branches: [main]
+  pull_request:
+    branches: [main]
   schedule:
-    - cron: '17 2 * * *' # Daily at 02:17 UTC / 07:47 India time
+    - cron: "17 2 * * *"
   workflow_dispatch:
     inputs:
       lookback_days:
-        description: 'Research discovery look-back window'
+        description: "Research discovery look-back window"
         required: false
-        default: '7'
-
+        default: "7"
 permissions:
-  contents: write
-  pages: write
-  id-token: write
-
+  contents: read
 concurrency:
-  group: pages
+  group: fieldnote-pages
   cancel-in-progress: false
-
 jobs:
-  update-build-deploy:
+  refresh-research:
+    if: ${{ github.event_name == 'schedule' || github.event_name == 'workflow_dispatch' }}
     runs-on: ubuntu-latest
-    timeout-minutes: 25
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
+    timeout-minutes: 30
+    permissions:
+      contents: write
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v7
+      - uses: actions/checkout@v4
         with:
+          ref: main
           fetch-depth: 0
-
-      - name: Set up Python
-        uses: actions/setup-python@v7
+      - uses: actions/setup-python@v5
         with:
-          python-version: '3.12'
-
-      - name: Ingest recent research and update archives
+          python-version: "3.12"
+      - name: Ingest papers and create archive
         env:
           LOOKBACK_DAYS: ${{ github.event.inputs.lookback_days || '7' }}
         run: python scripts/update_research.py --days "$LOOKBACK_DAYS"
-
-      - name: Optional model-assisted opportunity generation
+      - name: Optional AI-assisted opportunity enrichment
         if: ${{ vars.OPENAI_MODEL != '' }}
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
           OPENAI_MODEL: ${{ vars.OPENAI_MODEL }}
           OPENAI_BASE_URL: ${{ vars.OPENAI_BASE_URL }}
-        run: python scripts/enrich_opportunities.py
-
-      - name: Commit updated index and dated archive
+        run: |
+          if [ -z "$OPENAI_API_KEY" ]; then echo 'OPENAI_MODEL is set but OPENAI_API_KEY is missing.'; exit 1; fi
+          python scripts/enrich_opportunities.py
+      - name: Commit updated research data
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add data/
-          if git diff --cached --quiet; then
-            echo "No data changes to commit."
-          else
-            git commit -m "chore(research): update papers and archive"
-            git push
+          if ! git diff --cached --quiet; then
+            git commit -m "chore(research): refresh index and archive [skip ci]"
+            git push origin main
           fi
-
-      - name: Build static site
-        run: python scripts/build_site.py
-
-      - name: Configure GitHub Pages
-        uses: actions/configure-pages@v5
-
+  validate-build:
+    needs: refresh-research
+    if: ${{ always() && !cancelled() && (needs.refresh-research.result == 'success' || needs.refresh-research.result == 'skipped') }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.pull_request.head.sha || 'main' }}
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - name: Python syntax
+        run: python -m compileall -q scripts
+      - name: JavaScript syntax
+        run: |
+          node --check assets/app.js
+          node --check assets/preferences.js
+          node --check assets/newsletter-config.js
+          node --check assets/newsletter.js
+          node --check newsletter/worker.js
+      - name: Data checks and static build
+        run: python scripts/test_site.py
       - name: Upload Pages artifact
+        if: ${{ github.event_name != 'pull_request' }}
         uses: actions/upload-pages-artifact@v4
         with:
           path: _site
-
-      - name: Deploy to GitHub Pages
+  deploy:
+    needs: validate-build
+    if: ${{ github.event_name != 'pull_request' }}
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/configure-pages@v5
+      - name: Deploy site
         id: deployment
         uses: actions/deploy-pages@v4

@@ -1,0 +1,16 @@
+name = "fieldnote-newsletter"
+main = "worker.js"
+compatibility_date = "2026-11-07"
+workers_dev = true
+[vars]
+SITE_URL = "https://hari-hashing.github.io/fieldnote"
+ALLOWED_ORIGIN = "https://hari-hashing.github.io"
+FROM_EMAIL = "Fieldnote <updates@YOUR-VERIFIED-DOMAIN.example>"
+WORKER_URL = "https://fieldnote-newsletter.YOUR-CLOUDFLARE-SUBDOMAIN.workers.dev"
+[triggers]
+crons = ["*/5 * * * *"]
+[[d1_databases]]
+binding = "DB"
+database_name = "fieldnote-newsletter"
+database_id = "REPLACE_WITH_CLOUDFLARE_D1_DATABASE_ID"
+  migrations_dir = "migrations"

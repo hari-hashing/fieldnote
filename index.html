@@ -3,7 +3,17 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <meta name="description" content="A continuously updated research atlas for VLMs, VLAs, world models, World-Action Models and embodied robotics.">
+  <meta name="description" content="A searchable research atlas for vision-language models, VLAs, world models, World-Action Models and embodied robotics.">
+  <meta name="keywords" content="embodied AI, VLA, VLM, world models, robotics research, robot learning, humanoids, manipulation">
+  <meta name="robots" content="index,follow,max-image-preview:large">
+  <link rel="canonical" href="https://hari-hashing.github.io/fieldnote/">
+  <link rel="alternate" type="application/atom+xml" title="Fieldnote research feed" href="https://hari-hashing.github.io/fieldnote/feed.xml">
+  <meta property="og:type" content="website"><meta property="og:site_name" content="Fieldnote">
+  <meta property="og:title" content="Fieldnote — Embodied AI Research Atlas">
+  <meta property="og:description" content="A living map of VLMs, VLAs, world models and embodied robotics.">
+  <meta property="og:url" content="https://hari-hashing.github.io/fieldnote/">
+  <meta name="twitter:card" content="summary">
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"CollectionPage","name":"Fieldnote — Embodied AI Research Atlas","url":"https://hari-hashing.github.io/fieldnote/","description":"Research atlas for VLMs, VLAs, world models and embodied robotics.","isAccessibleForFree":true}</script>
   <meta name="theme-color" content="#0b1020">
   <title>Fieldnote — Embodied AI Research Atlas</title>
   <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
@@ -19,6 +29,10 @@
     <div class="topmeta">
       <span class="live-dot"></span><span id="freshness">Loading research index…</span>
       <a class="top-link" href="https://docs.github.com/en/pages" target="_blank" rel="noreferrer">GitHub Pages ↗</a>
+      <div class="appearance-controls">
+        <label>Theme <select id="theme-select" aria-label="Color theme"><option value="system">System</option><option value="dark">Midnight</option><option value="light">Light</option><option value="forest">Forest</option></select></label>
+        <label>Font <select id="font-select" aria-label="Interface font"><option value="dm">DM Sans</option><option value="inter">Inter</option><option value="plex">IBM Plex</option><option value="source">Source Sans</option><option value="atkinson">Atkinson</option><option value="space">Space Grotesk</option></select></label>
+      </div>
     </div>
   </header>
 
@@ -61,6 +75,23 @@
           <section><div class="section-heading compact"><div><div class="eyebrow">RECENTLY SURFACED</div><h2>New in the index</h2></div><button class="text-button" data-go="papers">All papers ↗</button></div><div id="recent-papers" class="stack-list"></div></section>
           <section><div class="section-heading compact"><div><div class="eyebrow">RESEARCH LAB</div><h2>Underexplored intersections</h2></div><button class="text-button" data-go="opportunities">Explore all ↗</button></div><div id="featured-ideas" class="stack-list"></div></section>
         </div>
+        <section class="newsletter-panel" aria-labelledby="newsletter-title">
+          <div class="newsletter-copy"><div class="eyebrow">WEEKLY RESEARCH BRIEF</div><h2 id="newsletter-title">The frontier, delivered on Wednesday.</h2>
+            <p>One evidence-linked digest each week: new papers, research-bin movements and practical research leads. Delivery defaults to 9:00 AM Wednesday in your local time zone.</p>
+            <div class="newsletter-trust">Double opt-in · One email per week · Unsubscribe any time</div>
+          </div>
+          <form id="newsletter-form" class="newsletter-form">
+            <label>Email address<input id="newsletter-email" name="email" type="email" autocomplete="email" required maxlength="254" placeholder="you@example.com"></label>
+            <div class="newsletter-fields">
+              <label>Local time zone<input id="newsletter-timezone" name="timezone" type="text" required maxlength="80" spellcheck="false" placeholder="Asia/Kolkata"></label>
+              <label>Wednesday<select id="newsletter-hour" name="deliveryHour"><option value="8">8:00 AM</option><option value="9" selected>9:00 AM</option><option value="10">10:00 AM</option><option value="11">11:00 AM</option></select></label>
+            </div>
+            <label class="newsletter-consent"><input id="newsletter-consent" type="checkbox" required><span>I agree to receive the weekly Fieldnote research email. I can unsubscribe at any time.</span></label>
+            <label class="newsletter-honeypot">Company<input name="company" tabindex="-1" autocomplete="off"></label>
+            <button class="primary-button" type="submit">Subscribe to the weekly digest <span>↗</span></button>
+            <p id="newsletter-status" class="newsletter-status" role="status" aria-live="polite">Email sign-up requires the newsletter service to be configured by the site administrator.</p>
+          </form>
+        </section>
         <div class="method-strip"><div class="method-icon">◎</div><div><b>Evidence before novelty claims</b><p>Opportunity scores are literature-coverage heuristics, not proof of novelty. Every idea links to the papers and bins that motivated it; verify novelty with a dedicated search before committing.</p></div><button class="text-button" data-go="prompt">Open idea lab ↗</button></div>
       </section>
 
@@ -105,9 +136,9 @@
         <div class="prompt-note"><b>Important:</b> The prompt explicitly requires primary-source verification, comparison against prior/ongoing/proposed work, and uncertainty labels. A language model's novelty assessment is a research hypothesis, not a substitute for a systematic literature review or expert review.</div>
       </section>
 
-      <footer><span>FIELDNOTE · EMBODIED INTELLIGENCE ATLAS</span><span id="footer-updated">Local archive · GitHub Pages ready</span><a href="https://info.arxiv.org/help/api/">Data source notes ↗</a></footer>
+      <footer><span>FIELDNOTE · EMBODIED INTELLIGENCE ATLAS</span><span id="footer-updated">Local archive · GitHub Pages ready</span><span class="footer-links"><a href="feed.xml">RSS feed ↗</a><a href="privacy.html">Privacy ↗</a><a href="https://info.arxiv.org/help/api/">Data source notes ↗</a></span></footer>
     </main>
   </div>
-  <script src="assets/app.js"></script>
+  <script src="assets/app.js"></script><script src="assets/preferences.js"></script><script src="assets/newsletter-config.js"></script><script src="assets/newsletter.js"></script>
 </body>
 </html>
