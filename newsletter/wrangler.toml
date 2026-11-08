@@ -5,12 +5,12 @@ workers_dev = true
 [vars]
 SITE_URL = "https://hari-hashing.github.io/fieldnote"
 ALLOWED_ORIGIN = "https://hari-hashing.github.io"
-FROM_EMAIL = "Fieldnote <updates@YOUR-VERIFIED-DOMAIN.example>"
-WORKER_URL = "https://fieldnote-newsletter.YOUR-CLOUDFLARE-SUBDOMAIN.workers.dev"
+FROM_EMAIL = "Fieldnote <onboarding@resend.dev>"
+WORKER_URL = "https://fieldnote-newsletter.adityaindia792.workers.dev"
 [triggers]
 crons = ["*/5 * * * *"]
 [[d1_databases]]
 binding = "DB"
-database_name = "fieldnote-newsletter"
-database_id = "REPLACE_WITH_CLOUDFLARE_D1_DATABASE_ID"
+database_name = "fieldnote_embodied_intelligence_database"
+database_id = "f9ed3592-68b4-45d8-9656-af46e99963c2"
   migrations_dir = "migrations"
