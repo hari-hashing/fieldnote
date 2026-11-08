@@ -108,3 +108,14 @@ python scripts/update_research.py --days 7 --skip-openreview
 ## License and attribution
 
 The frontend and ingestion scripts in this repository are provided under the MIT License. Paper titles, abstracts, bibliographic metadata and author-provided material remain the property of their respective authors/publishers and are linked to their original sources. Do not mirror paper PDFs unless their licenses permit it.
+
+
+## Public discovery, themes and newsletter
+
+The project is a public GitHub repository. The build creates a crawlable HTML landing page for each indexed paper, canonical metadata, ScholarlyArticle structured data, `robots.txt`, `sitemap.xml` and an Atom feed. These help search-engine discovery but do not guarantee indexing. See `docs/DISCOVERABILITY_AND_RELEASE.md` and submit the sitemap through Google Search Console after deployment.
+
+Visitors can choose System, Midnight, Light or Forest themes and DM Sans, Inter, IBM Plex, Source Sans 3, Atkinson Hyperlegible or Space Grotesk fonts. Preferences are stored locally in the browser.
+
+The weekly newsletter uses the separate Cloudflare Worker/D1 + Resend service in `newsletter/`. It supports double opt-in, an editable IANA time zone, Wednesday delivery between 08:00 and 11:00 local time, weekly duplicate protection and unsubscribe links. Follow `newsletter/README.md`. Set both `WORKER_URL` in `newsletter/wrangler.toml` and `window.FIELDNOTE_NEWSLETTER_API` in `assets/newsletter-config.js` after the first Worker deploy. The signup form stays inactive until the Worker URL and sender setup are configured.
+
+The single CI/CD workflow validates pull requests, refreshes research on scheduled/manual runs, builds crawlable paper pages and deploys to GitHub Pages. The older overlapping `static.yml` and Jekyll workflows have been removed to prevent competing deployments.

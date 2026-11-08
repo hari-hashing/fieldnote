@@ -3,3 +3,7 @@ __pycache__/
 _site/
 .env
 .DS_Store
+.dev.vars
+newsletter/.dev.vars
+node_modules/
+newsletter/node_modules/
