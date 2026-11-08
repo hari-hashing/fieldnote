@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-08T06:40:51.185968+00:00",
-  "last_ingestion": "2026-11-08T06:40:51.185968+00:00",
+  "generated_at": "2026-11-08T08:58:57.689542+00:00",
+  "last_ingestion": "2026-11-08T08:58:57.689542+00:00",
   "sources": {
     "arxiv": 530,
     "openreview": 0,
