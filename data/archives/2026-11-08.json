@@ -1,24 +1,17 @@
 {
   "snapshot_date": "2026-11-08",
-  "generated_at": "2026-11-08T04:33:09.124887+00:00",
+  "generated_at": "2026-11-08T06:23:02.355383+00:00",
   "period_start": "2026-11-02",
   "period_end": "2026-11-08",
   "paper_count": 407,
-  "new_to_index_count": 46,
+  "new_to_index_count": 0,
   "source_counts": {
-    "arxiv": 0,
+    "arxiv": 530,
     "openreview": 0,
     "openalex_discovery": 176
   },
   "coverage_note": "Snapshot of records first published within the preceding window. Aggregator-discovered records remain marked for primary-source verification.",
   "warnings": [
-    "arXiv cs.RO query failed at start=0: HTTP Error 429: Unknown Error",
-    "arXiv cs.CV query failed at start=0: HTTP Error 429: Unknown Error",
-    "arXiv cs.AI query failed at start=0: HTTP Error 429: Unknown Error",
-    "arXiv cs.LG query failed at start=0: HTTP Error 429: Unknown Error",
-    "arXiv all_vla query failed at start=0: HTTP Error 429: Unknown Error",
-    "arXiv all_wam query failed at start=0: HTTP Error 429: Unknown Error",
-    "arXiv all_robot_world query failed at start=0: HTTP Error 429: Unknown Error",
     "OpenReview API query failed at offset 0: HTTP Error 403: Forbidden"
   ],
   "papers": [
@@ -1339,7 +1332,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-07",
-      "last_seen": "2026-11-07",
+      "last_seen": "2026-11-08",
       "sources_seen": [
         "arXiv"
       ]
@@ -1404,7 +1397,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-07",
-      "last_seen": "2026-11-07",
+      "last_seen": "2026-11-08",
       "sources_seen": [
         "arXiv"
       ]
@@ -1444,7 +1437,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-07",
-      "last_seen": "2026-11-07",
+      "last_seen": "2026-11-08",
       "sources_seen": [
         "arXiv"
       ]
@@ -1550,7 +1543,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-07",
-      "last_seen": "2026-11-07",
+      "last_seen": "2026-11-08",
       "sources_seen": [
         "arXiv"
       ]
@@ -1594,7 +1587,7 @@
       "notes": "Seeded from the 5 Nov 2026 arXiv record.",
       "latest_revision": "2026-11-05",
       "pdf_url": "https://arxiv.org/pdf/2611.08449v1",
-      "last_seen": "2026-11-07",
+      "last_seen": "2026-11-08",
       "sources_seen": [
         "arXiv"
       ]
@@ -1737,7 +1730,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-07",
-      "last_seen": "2026-11-07",
+      "last_seen": "2026-11-08",
       "sources_seen": [
         "arXiv"
       ]
@@ -1847,7 +1840,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-07",
-      "last_seen": "2026-11-07",
+      "last_seen": "2026-11-08",
       "sources_seen": [
         "arXiv"
       ]
@@ -1886,7 +1879,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-07",
-      "last_seen": "2026-11-07",
+      "last_seen": "2026-11-08",
       "sources_seen": [
         "arXiv"
       ]
@@ -1924,7 +1917,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-07",
-      "last_seen": "2026-11-07",
+      "last_seen": "2026-11-08",
       "sources_seen": [
         "arXiv"
       ]
@@ -1963,7 +1956,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-07",
-      "last_seen": "2026-11-07",
+      "last_seen": "2026-11-08",
       "sources_seen": [
         "arXiv"
       ]
@@ -2038,7 +2031,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-07",
-      "last_seen": "2026-11-07",
+      "last_seen": "2026-11-08",
       "sources_seen": [
         "arXiv"
       ]
@@ -2080,7 +2073,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-07",
-      "last_seen": "2026-11-07",
+      "last_seen": "2026-11-08",
       "sources_seen": [
         "arXiv"
       ]
@@ -2118,7 +2111,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-07",
-      "last_seen": "2026-11-07",
+      "last_seen": "2026-11-08",
       "sources_seen": [
         "arXiv"
       ]
@@ -2196,7 +2189,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-07",
-      "last_seen": "2026-11-07",
+      "last_seen": "2026-11-08",
       "sources_seen": [
         "arXiv"
       ]
@@ -2236,7 +2229,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-07",
-      "last_seen": "2026-11-07",
+      "last_seen": "2026-11-08",
       "sources_seen": [
         "arXiv"
       ]
@@ -2416,7 +2409,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-07",
-      "last_seen": "2026-11-07",
+      "last_seen": "2026-11-08",
       "sources_seen": [
         "arXiv"
       ]
@@ -2454,7 +2447,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-07",
-      "last_seen": "2026-11-07",
+      "last_seen": "2026-11-08",
       "sources_seen": [
         "arXiv"
       ]
@@ -2529,7 +2522,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-07",
-      "last_seen": "2026-11-07",
+      "last_seen": "2026-11-08",
       "sources_seen": [
         "arXiv"
       ]
@@ -2568,7 +2561,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-07",
-      "last_seen": "2026-11-07",
+      "last_seen": "2026-11-08",
       "sources_seen": [
         "arXiv"
       ]
@@ -2607,7 +2600,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-07",
-      "last_seen": "2026-11-07",
+      "last_seen": "2026-11-08",
       "sources_seen": [
         "arXiv"
       ]
@@ -2675,7 +2668,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-07",
-      "last_seen": "2026-11-07",
+      "last_seen": "2026-11-08",
       "sources_seen": [
         "arXiv"
       ]
@@ -2716,7 +2709,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "https://github.com/Zizizi-hao/NegWAM",
       "added_at": "2026-11-07",
-      "last_seen": "2026-11-07",
+      "last_seen": "2026-11-08",
       "sources_seen": [
         "arXiv"
       ]
@@ -2756,7 +2749,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-07",
-      "last_seen": "2026-11-07",
+      "last_seen": "2026-11-08",
       "sources_seen": [
         "arXiv"
       ]
@@ -2794,7 +2787,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-07",
-      "last_seen": "2026-11-07",
+      "last_seen": "2026-11-08",
       "sources_seen": [
         "arXiv"
       ]
@@ -2834,7 +2827,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-07",
-      "last_seen": "2026-11-07",
+      "last_seen": "2026-11-08",
       "sources_seen": [
         "arXiv"
       ]
@@ -2941,7 +2934,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-07",
-      "last_seen": "2026-11-07",
+      "last_seen": "2026-11-08",
       "sources_seen": [
         "arXiv"
       ]
@@ -3011,7 +3004,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-07",
-      "last_seen": "2026-11-07",
+      "last_seen": "2026-11-08",
       "sources_seen": [
         "arXiv"
       ]
@@ -3050,7 +3043,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-07",
-      "last_seen": "2026-11-07",
+      "last_seen": "2026-11-08",
       "sources_seen": [
         "arXiv"
       ]
@@ -3125,7 +3118,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-07",
-      "last_seen": "2026-11-07",
+      "last_seen": "2026-11-08",
       "sources_seen": [
         "arXiv"
       ]
@@ -3166,7 +3159,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-07",
-      "last_seen": "2026-11-07",
+      "last_seen": "2026-11-08",
       "sources_seen": [
         "arXiv"
       ]
@@ -3238,7 +3231,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-07",
-      "last_seen": "2026-11-07",
+      "last_seen": "2026-11-08",
       "sources_seen": [
         "arXiv"
       ]
@@ -3276,7 +3269,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-07",
-      "last_seen": "2026-11-07",
+      "last_seen": "2026-11-08",
       "sources_seen": [
         "arXiv"
       ]
@@ -3317,7 +3310,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-07",
-      "last_seen": "2026-11-07",
+      "last_seen": "2026-11-08",
       "sources_seen": [
         "arXiv"
       ]
@@ -3357,7 +3350,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-07",
-      "last_seen": "2026-11-07",
+      "last_seen": "2026-11-08",
       "sources_seen": [
         "arXiv"
       ]
@@ -3443,7 +3436,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-07",
-      "last_seen": "2026-11-07",
+      "last_seen": "2026-11-08",
       "sources_seen": [
         "arXiv"
       ]
@@ -3479,7 +3472,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-07",
-      "last_seen": "2026-11-07",
+      "last_seen": "2026-11-08",
       "sources_seen": [
         "arXiv"
       ]
@@ -3520,7 +3513,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-07",
-      "last_seen": "2026-11-07",
+      "last_seen": "2026-11-08",
       "sources_seen": [
         "arXiv"
       ]
@@ -3592,7 +3585,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-07",
-      "last_seen": "2026-11-07",
+      "last_seen": "2026-11-08",
       "sources_seen": [
         "arXiv"
       ]
@@ -3661,7 +3654,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-07",
-      "last_seen": "2026-11-07",
+      "last_seen": "2026-11-08",
       "sources_seen": [
         "arXiv"
       ]
@@ -3799,7 +3792,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-07",
-      "last_seen": "2026-11-07",
+      "last_seen": "2026-11-08",
       "sources_seen": [
         "arXiv"
       ]
@@ -3838,7 +3831,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-07",
-      "last_seen": "2026-11-07",
+      "last_seen": "2026-11-08",
       "sources_seen": [
         "arXiv"
       ]
@@ -3877,7 +3870,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-07",
-      "last_seen": "2026-11-07",
+      "last_seen": "2026-11-08",
       "sources_seen": [
         "arXiv"
       ]
@@ -3916,7 +3909,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-07",
-      "last_seen": "2026-11-07",
+      "last_seen": "2026-11-08",
       "sources_seen": [
         "arXiv"
       ]
@@ -3985,7 +3978,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-07",
-      "last_seen": "2026-11-07",
+      "last_seen": "2026-11-08",
       "sources_seen": [
         "arXiv"
       ]
@@ -4059,7 +4052,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-07",
-      "last_seen": "2026-11-07",
+      "last_seen": "2026-11-08",
       "sources_seen": [
         "arXiv"
       ]
@@ -4198,7 +4191,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-07",
-      "last_seen": "2026-11-07",
+      "last_seen": "2026-11-08",
       "sources_seen": [
         "arXiv"
       ]
@@ -4237,7 +4230,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-07",
-      "last_seen": "2026-11-07",
+      "last_seen": "2026-11-08",
       "sources_seen": [
         "arXiv"
       ]
@@ -4279,7 +4272,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-07",
-      "last_seen": "2026-11-07",
+      "last_seen": "2026-11-08",
       "sources_seen": [
         "arXiv"
       ]
@@ -4317,7 +4310,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-07",
-      "last_seen": "2026-11-07",
+      "last_seen": "2026-11-08",
       "sources_seen": [
         "arXiv"
       ]
@@ -4391,7 +4384,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-07",
-      "last_seen": "2026-11-07",
+      "last_seen": "2026-11-08",
       "sources_seen": [
         "arXiv"
       ]
@@ -4464,7 +4457,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-07",
-      "last_seen": "2026-11-07",
+      "last_seen": "2026-11-08",
       "sources_seen": [
         "arXiv"
       ]
@@ -4504,7 +4497,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-07",
-      "last_seen": "2026-11-07",
+      "last_seen": "2026-11-08",
       "sources_seen": [
         "arXiv"
       ]
@@ -4539,7 +4532,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-07",
-      "last_seen": "2026-11-07",
+      "last_seen": "2026-11-08",
       "sources_seen": [
         "arXiv"
       ]
@@ -4612,7 +4605,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-07",
-      "last_seen": "2026-11-07",
+      "last_seen": "2026-11-08",
       "sources_seen": [
         "arXiv"
       ]
@@ -4652,7 +4645,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-07",
-      "last_seen": "2026-11-07",
+      "last_seen": "2026-11-08",
       "sources_seen": [
         "arXiv"
       ]
@@ -4724,7 +4717,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-07",
-      "last_seen": "2026-11-07",
+      "last_seen": "2026-11-08",
       "sources_seen": [
         "arXiv"
       ]
@@ -4764,7 +4757,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-07",
-      "last_seen": "2026-11-07",
+      "last_seen": "2026-11-08",
       "sources_seen": [
         "arXiv"
       ]
@@ -4801,7 +4794,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-07",
-      "last_seen": "2026-11-07",
+      "last_seen": "2026-11-08",
       "sources_seen": [
         "arXiv"
       ]
@@ -4872,7 +4865,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "https://github.com/lose4578/Concertina",
       "added_at": "2026-11-07",
-      "last_seen": "2026-11-07",
+      "last_seen": "2026-11-08",
       "sources_seen": [
         "arXiv"
       ]
@@ -4912,7 +4905,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-07",
-      "last_seen": "2026-11-07",
+      "last_seen": "2026-11-08",
       "sources_seen": [
         "arXiv"
       ]
@@ -4949,7 +4942,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-07",
-      "last_seen": "2026-11-07",
+      "last_seen": "2026-11-08",
       "sources_seen": [
         "arXiv"
       ]
@@ -5088,7 +5081,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "https://github.com/cau-hai-lab/ALFWorld-Para",
       "added_at": "2026-11-07",
-      "last_seen": "2026-11-07",
+      "last_seen": "2026-11-08",
       "sources_seen": [
         "arXiv"
       ]
@@ -5222,7 +5215,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-07",
-      "last_seen": "2026-11-07",
+      "last_seen": "2026-11-08",
       "sources_seen": [
         "arXiv"
       ]
@@ -5260,7 +5253,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-07",
-      "last_seen": "2026-11-07",
+      "last_seen": "2026-11-08",
       "sources_seen": [
         "arXiv"
       ]
@@ -5301,7 +5294,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-07",
-      "last_seen": "2026-11-07",
+      "last_seen": "2026-11-08",
       "sources_seen": [
         "arXiv"
       ]
@@ -5339,7 +5332,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-07",
-      "last_seen": "2026-11-07",
+      "last_seen": "2026-11-08",
       "sources_seen": [
         "arXiv"
       ]
@@ -5376,7 +5369,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-07",
-      "last_seen": "2026-11-07",
+      "last_seen": "2026-11-08",
       "sources_seen": [
         "arXiv"
       ]
@@ -5479,7 +5472,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-07",
-      "last_seen": "2026-11-07",
+      "last_seen": "2026-11-08",
       "sources_seen": [
         "arXiv"
       ]
@@ -5520,7 +5513,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-07",
-      "last_seen": "2026-11-07",
+      "last_seen": "2026-11-08",
       "sources_seen": [
         "arXiv"
       ]
@@ -5559,7 +5552,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-07",
-      "last_seen": "2026-11-07",
+      "last_seen": "2026-11-08",
       "sources_seen": [
         "arXiv"
       ]
@@ -5599,7 +5592,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-07",
-      "last_seen": "2026-11-07",
+      "last_seen": "2026-11-08",
       "sources_seen": [
         "arXiv"
       ]
@@ -5673,7 +5666,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-07",
-      "last_seen": "2026-11-07",
+      "last_seen": "2026-11-08",
       "sources_seen": [
         "arXiv"
       ]
@@ -5713,7 +5706,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-07",
-      "last_seen": "2026-11-07",
+      "last_seen": "2026-11-08",
       "sources_seen": [
         "arXiv"
       ]
@@ -5753,7 +5746,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-07",
-      "last_seen": "2026-11-07",
+      "last_seen": "2026-11-08",
       "sources_seen": [
         "arXiv"
       ]
@@ -5776,7 +5769,7 @@
       "source": "arXiv",
       "source_type": "primary",
       "status": "preprint",
-      "venue": "arXiv (Cornell University)",
+      "venue": "Preprint",
       "primary_bin": "systems",
       "secondary_bins": [
         "perception",
@@ -5792,7 +5785,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-07",
-      "last_seen": "2026-11-07",
+      "last_seen": "2026-11-08",
       "sources_seen": [
         "OpenAlex discovery",
         "arXiv"
@@ -5829,7 +5822,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-07",
-      "last_seen": "2026-11-07",
+      "last_seen": "2026-11-08",
       "sources_seen": [
         "arXiv"
       ]
@@ -5867,7 +5860,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-07",
-      "last_seen": "2026-11-07",
+      "last_seen": "2026-11-08",
       "sources_seen": [
         "arXiv"
       ]
@@ -5923,7 +5916,7 @@
       "source": "arXiv",
       "source_type": "primary",
       "status": "preprint",
-      "venue": "arXiv (Cornell University)",
+      "venue": "Preprint",
       "primary_bin": "evaluation",
       "secondary_bins": [
         "learning",
@@ -5938,7 +5931,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-07",
-      "last_seen": "2026-11-07",
+      "last_seen": "2026-11-08",
       "sources_seen": [
         "OpenAlex discovery",
         "arXiv"
@@ -5978,7 +5971,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-07",
-      "last_seen": "2026-11-07",
+      "last_seen": "2026-11-08",
       "sources_seen": [
         "arXiv"
       ]
@@ -6001,7 +5994,7 @@
       "source": "arXiv",
       "source_type": "primary",
       "status": "preprint",
-      "venue": "arXiv (Cornell University)",
+      "venue": "Preprint",
       "primary_bin": "learning",
       "secondary_bins": [
         "data",
@@ -6017,7 +6010,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-07",
-      "last_seen": "2026-11-07",
+      "last_seen": "2026-11-08",
       "sources_seen": [
         "OpenAlex discovery",
         "arXiv"
@@ -6128,7 +6121,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-07",
-      "last_seen": "2026-11-07",
+      "last_seen": "2026-11-08",
       "sources_seen": [
         "arXiv"
       ]
@@ -6198,7 +6191,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-07",
-      "last_seen": "2026-11-07",
+      "last_seen": "2026-11-08",
       "sources_seen": [
         "arXiv"
       ]
@@ -6221,7 +6214,7 @@
       "source": "arXiv",
       "source_type": "primary",
       "status": "preprint",
-      "venue": "arXiv (Cornell University)",
+      "venue": "Preprint",
       "primary_bin": "spatial",
       "secondary_bins": [
         "embodiment",
@@ -6238,7 +6231,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-07",
-      "last_seen": "2026-11-07",
+      "last_seen": "2026-11-08",
       "sources_seen": [
         "OpenAlex discovery",
         "arXiv"
@@ -6279,7 +6272,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-07",
-      "last_seen": "2026-11-07",
+      "last_seen": "2026-11-08",
       "sources_seen": [
         "arXiv"
       ]
@@ -6350,7 +6343,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-07",
-      "last_seen": "2026-11-07",
+      "last_seen": "2026-11-08",
       "sources_seen": [
         "arXiv"
       ]
@@ -6420,7 +6413,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-07",
-      "last_seen": "2026-11-07",
+      "last_seen": "2026-11-08",
       "sources_seen": [
         "arXiv"
       ]
@@ -6455,7 +6448,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-07",
-      "last_seen": "2026-11-07",
+      "last_seen": "2026-11-08",
       "sources_seen": [
         "arXiv"
       ]
@@ -6528,7 +6521,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-07",
-      "last_seen": "2026-11-07",
+      "last_seen": "2026-11-08",
       "sources_seen": [
         "arXiv"
       ]
@@ -6552,7 +6545,7 @@
       "source": "arXiv",
       "source_type": "primary",
       "status": "preprint",
-      "venue": "arXiv (Cornell University)",
+      "venue": "Preprint",
       "primary_bin": "reasoning",
       "secondary_bins": [
         "learning",
@@ -6567,7 +6560,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-07",
-      "last_seen": "2026-11-07",
+      "last_seen": "2026-11-08",
       "sources_seen": [
         "OpenAlex discovery",
         "arXiv"
@@ -6640,7 +6633,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-07",
-      "last_seen": "2026-11-07",
+      "last_seen": "2026-11-08",
       "sources_seen": [
         "arXiv"
       ]
@@ -6663,7 +6656,7 @@
       "source": "arXiv",
       "source_type": "primary",
       "status": "preprint",
-      "venue": "arXiv (Cornell University)",
+      "venue": "Preprint",
       "primary_bin": "evaluation",
       "secondary_bins": [
         "learning",
@@ -6680,7 +6673,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-07",
-      "last_seen": "2026-11-07",
+      "last_seen": "2026-11-08",
       "sources_seen": [
         "OpenAlex discovery",
         "arXiv"
@@ -6720,7 +6713,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-07",
-      "last_seen": "2026-11-07",
+      "last_seen": "2026-11-08",
       "sources_seen": [
         "arXiv"
       ]
@@ -6762,7 +6755,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-07",
-      "last_seen": "2026-11-07",
+      "last_seen": "2026-11-08",
       "sources_seen": [
         "arXiv"
       ]
@@ -6802,7 +6795,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-07",
-      "last_seen": "2026-11-07",
+      "last_seen": "2026-11-08",
       "sources_seen": [
         "arXiv"
       ]
@@ -6874,7 +6867,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-07",
-      "last_seen": "2026-11-07",
+      "last_seen": "2026-11-08",
       "sources_seen": [
         "arXiv"
       ]
@@ -6912,7 +6905,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-07",
-      "last_seen": "2026-11-07",
+      "last_seen": "2026-11-08",
       "sources_seen": [
         "arXiv"
       ]
@@ -6952,7 +6945,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "https://github.com/VarunIIITH/MotoVerse",
       "added_at": "2026-11-07",
-      "last_seen": "2026-11-07",
+      "last_seen": "2026-11-08",
       "sources_seen": [
         "arXiv"
       ]
@@ -6991,7 +6984,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-07",
-      "last_seen": "2026-11-07",
+      "last_seen": "2026-11-08",
       "sources_seen": [
         "arXiv"
       ]
@@ -7032,7 +7025,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-07",
-      "last_seen": "2026-11-07",
+      "last_seen": "2026-11-08",
       "sources_seen": [
         "arXiv"
       ]
@@ -7071,7 +7064,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-07",
-      "last_seen": "2026-11-07",
+      "last_seen": "2026-11-08",
       "sources_seen": [
         "arXiv"
       ]
@@ -7110,7 +7103,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-07",
-      "last_seen": "2026-11-07",
+      "last_seen": "2026-11-08",
       "sources_seen": [
         "arXiv"
       ]
@@ -7136,7 +7129,7 @@
       "source": "arXiv",
       "source_type": "primary",
       "status": "preprint",
-      "venue": "arXiv (Cornell University)",
+      "venue": "Preprint",
       "primary_bin": "systems",
       "secondary_bins": [
         "embodiment",
@@ -7152,7 +7145,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "https://github.com/nvidia/cosmos",
       "added_at": "2026-11-07",
-      "last_seen": "2026-11-07",
+      "last_seen": "2026-11-08",
       "sources_seen": [
         "OpenAlex discovery",
         "arXiv"
@@ -7223,7 +7216,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-07",
-      "last_seen": "2026-11-07",
+      "last_seen": "2026-11-08",
       "sources_seen": [
         "arXiv"
       ]
@@ -7262,7 +7255,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-07",
-      "last_seen": "2026-11-07",
+      "last_seen": "2026-11-08",
       "sources_seen": [
         "arXiv"
       ]
@@ -7300,7 +7293,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-07",
-      "last_seen": "2026-11-07",
+      "last_seen": "2026-11-08",
       "sources_seen": [
         "arXiv"
       ]
@@ -7336,7 +7329,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-07",
-      "last_seen": "2026-11-07",
+      "last_seen": "2026-11-08",
       "sources_seen": [
         "arXiv"
       ]
@@ -7373,7 +7366,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-07",
-      "last_seen": "2026-11-07",
+      "last_seen": "2026-11-08",
       "sources_seen": [
         "arXiv"
       ]
@@ -7408,7 +7401,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-07",
-      "last_seen": "2026-11-07",
+      "last_seen": "2026-11-08",
       "sources_seen": [
         "arXiv"
       ]
@@ -7445,7 +7438,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-07",
-      "last_seen": "2026-11-07",
+      "last_seen": "2026-11-08",
       "sources_seen": [
         "arXiv"
       ]
@@ -7483,7 +7476,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-07",
-      "last_seen": "2026-11-07",
+      "last_seen": "2026-11-08",
       "sources_seen": [
         "arXiv"
       ]
@@ -7521,7 +7514,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-07",
-      "last_seen": "2026-11-07",
+      "last_seen": "2026-11-08",
       "sources_seen": [
         "arXiv"
       ]
@@ -7558,7 +7551,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-07",
-      "last_seen": "2026-11-07",
+      "last_seen": "2026-11-08",
       "sources_seen": [
         "arXiv"
       ]
@@ -7601,7 +7594,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-07",
-      "last_seen": "2026-11-07",
+      "last_seen": "2026-11-08",
       "sources_seen": [
         "arXiv"
       ]
@@ -7641,7 +7634,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-07",
-      "last_seen": "2026-11-07",
+      "last_seen": "2026-11-08",
       "sources_seen": [
         "arXiv"
       ]
@@ -7676,7 +7669,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-07",
-      "last_seen": "2026-11-07",
+      "last_seen": "2026-11-08",
       "sources_seen": [
         "arXiv"
       ]
@@ -7715,7 +7708,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-07",
-      "last_seen": "2026-11-07",
+      "last_seen": "2026-11-08",
       "sources_seen": [
         "arXiv"
       ]
@@ -7789,7 +7782,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-07",
-      "last_seen": "2026-11-07",
+      "last_seen": "2026-11-08",
       "sources_seen": [
         "arXiv"
       ]
@@ -7829,7 +7822,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-07",
-      "last_seen": "2026-11-07",
+      "last_seen": "2026-11-08",
       "sources_seen": [
         "arXiv"
       ]
@@ -7864,7 +7857,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-07",
-      "last_seen": "2026-11-07",
+      "last_seen": "2026-11-08",
       "sources_seen": [
         "arXiv"
       ]
@@ -7887,7 +7880,7 @@
       "source": "arXiv",
       "source_type": "primary",
       "status": "preprint",
-      "venue": "arXiv (Cornell University)",
+      "venue": "Preprint",
       "primary_bin": "vla",
       "secondary_bins": [
         "evaluation",
@@ -7902,7 +7895,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-07",
-      "last_seen": "2026-11-07",
+      "last_seen": "2026-11-08",
       "sources_seen": [
         "OpenAlex discovery",
         "arXiv"
@@ -7942,7 +7935,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-07",
-      "last_seen": "2026-11-07",
+      "last_seen": "2026-11-08",
       "sources_seen": [
         "arXiv"
       ]
@@ -8017,7 +8010,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-07",
-      "last_seen": "2026-11-07",
+      "last_seen": "2026-11-08",
       "sources_seen": [
         "arXiv"
       ]
@@ -8056,7 +8049,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-07",
-      "last_seen": "2026-11-07",
+      "last_seen": "2026-11-08",
       "sources_seen": [
         "arXiv"
       ]
@@ -8121,7 +8114,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-07",
-      "last_seen": "2026-11-07",
+      "last_seen": "2026-11-08",
       "sources_seen": [
         "arXiv"
       ]
@@ -8282,7 +8275,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-07",
-      "last_seen": "2026-11-07",
+      "last_seen": "2026-11-08",
       "sources_seen": [
         "arXiv"
       ]
@@ -8305,7 +8298,7 @@
       "source": "arXiv",
       "source_type": "primary",
       "status": "preprint",
-      "venue": "arXiv (Cornell University)",
+      "venue": "Preprint",
       "primary_bin": "perception",
       "secondary_bins": [
         "evaluation",
@@ -8321,7 +8314,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-07",
-      "last_seen": "2026-11-07",
+      "last_seen": "2026-11-08",
       "sources_seen": [
         "OpenAlex discovery",
         "arXiv"
@@ -8362,7 +8355,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-07",
-      "last_seen": "2026-11-07",
+      "last_seen": "2026-11-08",
       "sources_seen": [
         "arXiv"
       ]
@@ -8435,7 +8428,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-07",
-      "last_seen": "2026-11-07",
+      "last_seen": "2026-11-08",
       "sources_seen": [
         "arXiv"
       ]
@@ -8475,7 +8468,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-07",
-      "last_seen": "2026-11-07",
+      "last_seen": "2026-11-08",
       "sources_seen": [
         "arXiv"
       ]
@@ -8518,7 +8511,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-07",
-      "last_seen": "2026-11-07",
+      "last_seen": "2026-11-08",
       "sources_seen": [
         "arXiv"
       ]
@@ -8558,7 +8551,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-07",
-      "last_seen": "2026-11-07",
+      "last_seen": "2026-11-08",
       "sources_seen": [
         "arXiv"
       ]
@@ -8600,7 +8593,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "https://github.com/bhattarailab/Surgical-Vision-World-Model",
       "added_at": "2026-11-07",
-      "last_seen": "2026-11-07",
+      "last_seen": "2026-11-08",
       "sources_seen": [
         "arXiv"
       ]
@@ -8638,7 +8631,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-07",
-      "last_seen": "2026-11-07",
+      "last_seen": "2026-11-08",
       "sources_seen": [
         "arXiv"
       ]
@@ -8676,7 +8669,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-07",
-      "last_seen": "2026-11-07",
+      "last_seen": "2026-11-08",
       "sources_seen": [
         "arXiv"
       ]
@@ -8715,7 +8708,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-07",
-      "last_seen": "2026-11-07",
+      "last_seen": "2026-11-08",
       "sources_seen": [
         "arXiv"
       ]
@@ -8750,7 +8743,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-07",
-      "last_seen": "2026-11-07",
+      "last_seen": "2026-11-08",
       "sources_seen": [
         "arXiv"
       ]
@@ -8794,7 +8787,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-07",
-      "last_seen": "2026-11-07",
+      "last_seen": "2026-11-08",
       "sources_seen": [
         "arXiv"
       ]
@@ -8833,7 +8826,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "https://github.com/VioAgnes/SPOD",
       "added_at": "2026-11-07",
-      "last_seen": "2026-11-07",
+      "last_seen": "2026-11-08",
       "sources_seen": [
         "arXiv"
       ]
@@ -8868,7 +8861,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-07",
-      "last_seen": "2026-11-07",
+      "last_seen": "2026-11-08",
       "sources_seen": [
         "arXiv"
       ]
@@ -8907,7 +8900,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-07",
-      "last_seen": "2026-11-07",
+      "last_seen": "2026-11-08",
       "sources_seen": [
         "arXiv"
       ]
@@ -8945,7 +8938,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-07",
-      "last_seen": "2026-11-07",
+      "last_seen": "2026-11-08",
       "sources_seen": [
         "arXiv"
       ]
@@ -8983,7 +8976,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-07",
-      "last_seen": "2026-11-07",
+      "last_seen": "2026-11-08",
       "sources_seen": [
         "arXiv"
       ]
@@ -9021,7 +9014,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-07",
-      "last_seen": "2026-11-07",
+      "last_seen": "2026-11-08",
       "sources_seen": [
         "arXiv"
       ]
@@ -9062,7 +9055,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-07",
-      "last_seen": "2026-11-07",
+      "last_seen": "2026-11-08",
       "sources_seen": [
         "arXiv"
       ]
@@ -9101,7 +9094,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-07",
-      "last_seen": "2026-11-07",
+      "last_seen": "2026-11-08",
       "sources_seen": [
         "arXiv"
       ]
@@ -9142,7 +9135,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-07",
-      "last_seen": "2026-11-07",
+      "last_seen": "2026-11-08",
       "sources_seen": [
         "arXiv"
       ]
@@ -9182,7 +9175,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "https://github.com/Tinaliu0123/PolicyIK",
       "added_at": "2026-11-07",
-      "last_seen": "2026-11-07",
+      "last_seen": "2026-11-08",
       "sources_seen": [
         "arXiv"
       ]
@@ -9255,7 +9248,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-07",
-      "last_seen": "2026-11-07",
+      "last_seen": "2026-11-08",
       "sources_seen": [
         "arXiv"
       ]
@@ -9322,7 +9315,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-07",
-      "last_seen": "2026-11-07",
+      "last_seen": "2026-11-08",
       "sources_seen": [
         "arXiv"
       ]
@@ -9357,7 +9350,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-07",
-      "last_seen": "2026-11-07",
+      "last_seen": "2026-11-08",
       "sources_seen": [
         "arXiv"
       ]
@@ -9399,7 +9392,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-07",
-      "last_seen": "2026-11-07",
+      "last_seen": "2026-11-08",
       "sources_seen": [
         "arXiv"
       ]
@@ -9442,7 +9435,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-07",
-      "last_seen": "2026-11-07",
+      "last_seen": "2026-11-08",
       "sources_seen": [
         "arXiv"
       ]
@@ -9509,7 +9502,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-07",
-      "last_seen": "2026-11-07",
+      "last_seen": "2026-11-08",
       "sources_seen": [
         "arXiv"
       ]
@@ -9582,7 +9575,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-07",
-      "last_seen": "2026-11-07",
+      "last_seen": "2026-11-08",
       "sources_seen": [
         "arXiv"
       ]
@@ -9621,7 +9614,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-07",
-      "last_seen": "2026-11-07",
+      "last_seen": "2026-11-08",
       "sources_seen": [
         "arXiv"
       ]
@@ -9663,7 +9656,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-07",
-      "last_seen": "2026-11-07",
+      "last_seen": "2026-11-08",
       "sources_seen": [
         "arXiv"
       ]
@@ -9702,7 +9695,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-07",
-      "last_seen": "2026-11-07",
+      "last_seen": "2026-11-08",
       "sources_seen": [
         "arXiv"
       ]
@@ -9743,7 +9736,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-07",
-      "last_seen": "2026-11-07",
+      "last_seen": "2026-11-08",
       "sources_seen": [
         "arXiv"
       ]
@@ -9818,7 +9811,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-07",
-      "last_seen": "2026-11-07",
+      "last_seen": "2026-11-08",
       "sources_seen": [
         "arXiv"
       ]
@@ -9855,7 +9848,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-07",
-      "last_seen": "2026-11-07",
+      "last_seen": "2026-11-08",
       "sources_seen": [
         "arXiv"
       ]
@@ -9891,7 +9884,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-07",
-      "last_seen": "2026-11-07",
+      "last_seen": "2026-11-08",
       "sources_seen": [
         "arXiv"
       ]
@@ -9929,7 +9922,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-07",
-      "last_seen": "2026-11-07",
+      "last_seen": "2026-11-08",
       "sources_seen": [
         "arXiv"
       ]
@@ -9972,7 +9965,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-07",
-      "last_seen": "2026-11-07",
+      "last_seen": "2026-11-08",
       "sources_seen": [
         "arXiv"
       ]
@@ -10011,7 +10004,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-07",
-      "last_seen": "2026-11-07",
+      "last_seen": "2026-11-08",
       "sources_seen": [
         "arXiv"
       ]
@@ -10049,7 +10042,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-07",
-      "last_seen": "2026-11-07",
+      "last_seen": "2026-11-08",
       "sources_seen": [
         "arXiv"
       ]
@@ -10086,7 +10079,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-07",
-      "last_seen": "2026-11-07",
+      "last_seen": "2026-11-08",
       "sources_seen": [
         "arXiv"
       ]
@@ -10154,7 +10147,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "https://github.com/startracker0/htce.git",
       "added_at": "2026-11-07",
-      "last_seen": "2026-11-07",
+      "last_seen": "2026-11-08",
       "sources_seen": [
         "arXiv"
       ]
@@ -10191,7 +10184,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-07",
-      "last_seen": "2026-11-07",
+      "last_seen": "2026-11-08",
       "sources_seen": [
         "arXiv"
       ]
@@ -10226,7 +10219,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-07",
-      "last_seen": "2026-11-07",
+      "last_seen": "2026-11-08",
       "sources_seen": [
         "arXiv"
       ]
@@ -10266,7 +10259,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-07",
-      "last_seen": "2026-11-07",
+      "last_seen": "2026-11-08",
       "sources_seen": [
         "arXiv"
       ]
@@ -10306,7 +10299,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-07",
-      "last_seen": "2026-11-07",
+      "last_seen": "2026-11-08",
       "sources_seen": [
         "arXiv"
       ]
@@ -10345,7 +10338,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-07",
-      "last_seen": "2026-11-07",
+      "last_seen": "2026-11-08",
       "sources_seen": [
         "arXiv"
       ]
@@ -10385,7 +10378,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-07",
-      "last_seen": "2026-11-07",
+      "last_seen": "2026-11-08",
       "sources_seen": [
         "arXiv"
       ]
@@ -10424,7 +10417,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-07",
-      "last_seen": "2026-11-07",
+      "last_seen": "2026-11-08",
       "sources_seen": [
         "arXiv"
       ]
@@ -10462,7 +10455,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-07",
-      "last_seen": "2026-11-07",
+      "last_seen": "2026-11-08",
       "sources_seen": [
         "arXiv"
       ]
@@ -10504,7 +10497,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-07",
-      "last_seen": "2026-11-07",
+      "last_seen": "2026-11-08",
       "sources_seen": [
         "arXiv"
       ]
@@ -10557,7 +10550,7 @@
       "source": "arXiv",
       "source_type": "primary",
       "status": "preprint",
-      "venue": "arXiv (Cornell University)",
+      "venue": "Preprint",
       "primary_bin": "world",
       "secondary_bins": [
         "evaluation",
@@ -10573,7 +10566,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-07",
-      "last_seen": "2026-11-07",
+      "last_seen": "2026-11-08",
       "sources_seen": [
         "OpenAlex discovery",
         "arXiv"
@@ -10643,7 +10636,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-07",
-      "last_seen": "2026-11-07",
+      "last_seen": "2026-11-08",
       "sources_seen": [
         "arXiv"
       ]
@@ -10684,7 +10677,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-07",
-      "last_seen": "2026-11-07",
+      "last_seen": "2026-11-08",
       "sources_seen": [
         "arXiv"
       ]
@@ -10720,7 +10713,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-07",
-      "last_seen": "2026-11-07",
+      "last_seen": "2026-11-08",
       "sources_seen": [
         "arXiv"
       ]
@@ -10757,7 +10750,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-07",
-      "last_seen": "2026-11-07",
+      "last_seen": "2026-11-08",
       "sources_seen": [
         "arXiv"
       ]
@@ -10797,7 +10790,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-07",
-      "last_seen": "2026-11-07",
+      "last_seen": "2026-11-08",
       "sources_seen": [
         "arXiv"
       ]
@@ -10838,7 +10831,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-07",
-      "last_seen": "2026-11-07",
+      "last_seen": "2026-11-08",
       "sources_seen": [
         "arXiv"
       ]
@@ -10873,7 +10866,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-07",
-      "last_seen": "2026-11-07",
+      "last_seen": "2026-11-08",
       "sources_seen": [
         "arXiv"
       ]
@@ -10914,7 +10907,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "https://github.com/CarloSgaravatti/DenseTwins",
       "added_at": "2026-11-07",
-      "last_seen": "2026-11-07",
+      "last_seen": "2026-11-08",
       "sources_seen": [
         "arXiv"
       ]
@@ -10954,7 +10947,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-07",
-      "last_seen": "2026-11-07",
+      "last_seen": "2026-11-08",
       "sources_seen": [
         "arXiv"
       ]
@@ -10994,7 +10987,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-07",
-      "last_seen": "2026-11-07",
+      "last_seen": "2026-11-08",
       "sources_seen": [
         "arXiv"
       ]
@@ -11035,7 +11028,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-07",
-      "last_seen": "2026-11-07",
+      "last_seen": "2026-11-08",
       "sources_seen": [
         "arXiv"
       ]
@@ -11073,7 +11066,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-07",
-      "last_seen": "2026-11-07",
+      "last_seen": "2026-11-08",
       "sources_seen": [
         "arXiv"
       ]
@@ -11113,7 +11106,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-07",
-      "last_seen": "2026-11-07",
+      "last_seen": "2026-11-08",
       "sources_seen": [
         "arXiv"
       ]
@@ -11150,7 +11143,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-07",
-      "last_seen": "2026-11-07",
+      "last_seen": "2026-11-08",
       "sources_seen": [
         "arXiv"
       ]
@@ -11192,7 +11185,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-07",
-      "last_seen": "2026-11-07",
+      "last_seen": "2026-11-08",
       "sources_seen": [
         "arXiv"
       ]
@@ -11233,7 +11226,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-07",
-      "last_seen": "2026-11-07",
+      "last_seen": "2026-11-08",
       "sources_seen": [
         "arXiv"
       ]
@@ -11269,7 +11262,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-07",
-      "last_seen": "2026-11-07",
+      "last_seen": "2026-11-08",
       "sources_seen": [
         "arXiv"
       ]
@@ -11308,7 +11301,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-07",
-      "last_seen": "2026-11-07",
+      "last_seen": "2026-11-08",
       "sources_seen": [
         "arXiv"
       ]
@@ -11347,7 +11340,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-07",
-      "last_seen": "2026-11-07",
+      "last_seen": "2026-11-08",
       "sources_seen": [
         "arXiv"
       ]
@@ -11388,7 +11381,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-07",
-      "last_seen": "2026-11-07",
+      "last_seen": "2026-11-08",
       "sources_seen": [
         "arXiv"
       ]
@@ -11460,7 +11453,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-07",
-      "last_seen": "2026-11-07",
+      "last_seen": "2026-11-08",
       "sources_seen": [
         "arXiv"
       ]
@@ -11503,7 +11496,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "https://github.com/ylee-sling/Aero-VPA",
       "added_at": "2026-11-07",
-      "last_seen": "2026-11-07",
+      "last_seen": "2026-11-08",
       "sources_seen": [
         "arXiv"
       ]
@@ -11541,7 +11534,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-07",
-      "last_seen": "2026-11-07",
+      "last_seen": "2026-11-08",
       "sources_seen": [
         "arXiv"
       ]
@@ -11579,7 +11572,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-07",
-      "last_seen": "2026-11-07",
+      "last_seen": "2026-11-08",
       "sources_seen": [
         "arXiv"
       ]
@@ -11620,7 +11613,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-07",
-      "last_seen": "2026-11-07",
+      "last_seen": "2026-11-08",
       "sources_seen": [
         "arXiv"
       ]
@@ -11723,7 +11716,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-07",
-      "last_seen": "2026-11-07",
+      "last_seen": "2026-11-08",
       "sources_seen": [
         "arXiv"
       ]
@@ -11791,7 +11784,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-07",
-      "last_seen": "2026-11-07",
+      "last_seen": "2026-11-08",
       "sources_seen": [
         "arXiv"
       ]
@@ -11830,7 +11823,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-07",
-      "last_seen": "2026-11-07",
+      "last_seen": "2026-11-08",
       "sources_seen": [
         "arXiv"
       ]
@@ -11938,7 +11931,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-07",
-      "last_seen": "2026-11-07",
+      "last_seen": "2026-11-08",
       "sources_seen": [
         "arXiv"
       ]
@@ -11977,7 +11970,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-07",
-      "last_seen": "2026-11-07",
+      "last_seen": "2026-11-08",
       "sources_seen": [
         "arXiv"
       ]
@@ -12015,7 +12008,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-07",
-      "last_seen": "2026-11-07",
+      "last_seen": "2026-11-08",
       "sources_seen": [
         "arXiv"
       ]
@@ -12055,7 +12048,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-07",
-      "last_seen": "2026-11-07",
+      "last_seen": "2026-11-08",
       "sources_seen": [
         "arXiv"
       ]
@@ -12120,7 +12113,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-07",
-      "last_seen": "2026-11-07",
+      "last_seen": "2026-11-08",
       "sources_seen": [
         "arXiv"
       ]
@@ -12159,7 +12152,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-07",
-      "last_seen": "2026-11-07",
+      "last_seen": "2026-11-08",
       "sources_seen": [
         "arXiv"
       ]
@@ -12197,7 +12190,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "https://github.com/JucciK/Trails",
       "added_at": "2026-11-07",
-      "last_seen": "2026-11-07",
+      "last_seen": "2026-11-08",
       "sources_seen": [
         "arXiv"
       ]
@@ -12276,7 +12269,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-07",
-      "last_seen": "2026-11-07",
+      "last_seen": "2026-11-08",
       "sources_seen": [
         "arXiv"
       ]
@@ -12317,7 +12310,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "https://github.com/hezhicheng2002/SurgPace",
       "added_at": "2026-11-07",
-      "last_seen": "2026-11-07",
+      "last_seen": "2026-11-08",
       "sources_seen": [
         "arXiv"
       ]
@@ -12355,7 +12348,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-07",
-      "last_seen": "2026-11-07",
+      "last_seen": "2026-11-08",
       "sources_seen": [
         "arXiv"
       ]
@@ -12397,7 +12390,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-07",
-      "last_seen": "2026-11-07",
+      "last_seen": "2026-11-08",
       "sources_seen": [
         "arXiv"
       ]
@@ -12433,7 +12426,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-07",
-      "last_seen": "2026-11-07",
+      "last_seen": "2026-11-08",
       "sources_seen": [
         "arXiv"
       ]
@@ -12468,7 +12461,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-07",
-      "last_seen": "2026-11-07",
+      "last_seen": "2026-11-08",
       "sources_seen": [
         "arXiv"
       ]
@@ -12503,7 +12496,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-07",
-      "last_seen": "2026-11-07",
+      "last_seen": "2026-11-08",
       "sources_seen": [
         "arXiv"
       ]
@@ -12542,7 +12535,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-07",
-      "last_seen": "2026-11-07",
+      "last_seen": "2026-11-08",
       "sources_seen": [
         "arXiv"
       ]
@@ -12582,7 +12575,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-07",
-      "last_seen": "2026-11-07",
+      "last_seen": "2026-11-08",
       "sources_seen": [
         "arXiv"
       ]
@@ -12620,7 +12613,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-07",
-      "last_seen": "2026-11-07",
+      "last_seen": "2026-11-08",
       "sources_seen": [
         "arXiv"
       ]
@@ -12691,7 +12684,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-07",
-      "last_seen": "2026-11-07",
+      "last_seen": "2026-11-08",
       "sources_seen": [
         "arXiv"
       ]
@@ -12728,7 +12721,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-07",
-      "last_seen": "2026-11-07",
+      "last_seen": "2026-11-08",
       "sources_seen": [
         "arXiv"
       ]
@@ -12767,7 +12760,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-07",
-      "last_seen": "2026-11-07",
+      "last_seen": "2026-11-08",
       "sources_seen": [
         "arXiv"
       ]
@@ -12849,7 +12842,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-07",
-      "last_seen": "2026-11-07",
+      "last_seen": "2026-11-08",
       "sources_seen": [
         "arXiv"
       ]
@@ -12888,7 +12881,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-07",
-      "last_seen": "2026-11-07",
+      "last_seen": "2026-11-08",
       "sources_seen": [
         "arXiv"
       ]
@@ -12964,7 +12957,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-07",
-      "last_seen": "2026-11-07",
+      "last_seen": "2026-11-08",
       "sources_seen": [
         "arXiv"
       ]
@@ -13038,7 +13031,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-07",
-      "last_seen": "2026-11-07",
+      "last_seen": "2026-11-08",
       "sources_seen": [
         "arXiv"
       ]
@@ -13077,7 +13070,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-07",
-      "last_seen": "2026-11-07",
+      "last_seen": "2026-11-08",
       "sources_seen": [
         "arXiv"
       ]
@@ -13204,7 +13197,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-07",
-      "last_seen": "2026-11-07",
+      "last_seen": "2026-11-08",
       "sources_seen": [
         "arXiv"
       ]
@@ -13240,7 +13233,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-07",
-      "last_seen": "2026-11-07",
+      "last_seen": "2026-11-08",
       "sources_seen": [
         "arXiv"
       ]
@@ -13279,7 +13272,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-07",
-      "last_seen": "2026-11-07",
+      "last_seen": "2026-11-08",
       "sources_seen": [
         "arXiv"
       ]
@@ -13315,7 +13308,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-07",
-      "last_seen": "2026-11-07",
+      "last_seen": "2026-11-08",
       "sources_seen": [
         "arXiv"
       ]
@@ -13392,7 +13385,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-07",
-      "last_seen": "2026-11-07",
+      "last_seen": "2026-11-08",
       "sources_seen": [
         "arXiv"
       ]
@@ -13431,7 +13424,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-07",
-      "last_seen": "2026-11-07",
+      "last_seen": "2026-11-08",
       "sources_seen": [
         "arXiv"
       ]
@@ -13467,7 +13460,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-07",
-      "last_seen": "2026-11-07",
+      "last_seen": "2026-11-08",
       "sources_seen": [
         "arXiv"
       ]
@@ -13506,7 +13499,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-07",
-      "last_seen": "2026-11-07",
+      "last_seen": "2026-11-08",
       "sources_seen": [
         "arXiv"
       ]
@@ -13543,7 +13536,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-07",
-      "last_seen": "2026-11-07",
+      "last_seen": "2026-11-08",
       "sources_seen": [
         "arXiv"
       ]
@@ -13582,7 +13575,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-07",
-      "last_seen": "2026-11-07",
+      "last_seen": "2026-11-08",
       "sources_seen": [
         "arXiv"
       ]
@@ -13621,7 +13614,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-07",
-      "last_seen": "2026-11-07",
+      "last_seen": "2026-11-08",
       "sources_seen": [
         "arXiv"
       ]
@@ -13657,7 +13650,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-07",
-      "last_seen": "2026-11-07",
+      "last_seen": "2026-11-08",
       "sources_seen": [
         "arXiv"
       ]
@@ -13698,7 +13691,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "https://github.com/IDSCETHZurich/klask_software",
       "added_at": "2026-11-07",
-      "last_seen": "2026-11-07",
+      "last_seen": "2026-11-08",
       "sources_seen": [
         "arXiv"
       ]
@@ -13738,7 +13731,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-07",
-      "last_seen": "2026-11-07",
+      "last_seen": "2026-11-08",
       "sources_seen": [
         "arXiv"
       ]
@@ -13778,7 +13771,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-07",
-      "last_seen": "2026-11-07",
+      "last_seen": "2026-11-08",
       "sources_seen": [
         "arXiv"
       ]
@@ -13817,7 +13810,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-07",
-      "last_seen": "2026-11-07",
+      "last_seen": "2026-11-08",
       "sources_seen": [
         "arXiv"
       ]
@@ -13857,7 +13850,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-07",
-      "last_seen": "2026-11-07",
+      "last_seen": "2026-11-08",
       "sources_seen": [
         "arXiv"
       ]
@@ -13980,7 +13973,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "https://github.com/liuyifan22/FlowBench",
       "added_at": "2026-11-07",
-      "last_seen": "2026-11-07",
+      "last_seen": "2026-11-08",
       "sources_seen": [
         "arXiv"
       ]
@@ -14017,7 +14010,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "https://github.com/eqcy/FineCraft",
       "added_at": "2026-11-07",
-      "last_seen": "2026-11-07",
+      "last_seen": "2026-11-08",
       "sources_seen": [
         "arXiv"
       ]
@@ -14056,7 +14049,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-07",
-      "last_seen": "2026-11-07",
+      "last_seen": "2026-11-08",
       "sources_seen": [
         "arXiv"
       ]
@@ -14093,7 +14086,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-07",
-      "last_seen": "2026-11-07",
+      "last_seen": "2026-11-08",
       "sources_seen": [
         "arXiv"
       ]
@@ -14132,7 +14125,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-07",
-      "last_seen": "2026-11-07",
+      "last_seen": "2026-11-08",
       "sources_seen": [
         "arXiv"
       ]
@@ -14202,7 +14195,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-07",
-      "last_seen": "2026-11-07",
+      "last_seen": "2026-11-08",
       "sources_seen": [
         "arXiv"
       ]
@@ -14270,7 +14263,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-07",
-      "last_seen": "2026-11-07",
+      "last_seen": "2026-11-08",
       "sources_seen": [
         "arXiv"
       ]
@@ -14307,7 +14300,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-07",
-      "last_seen": "2026-11-07",
+      "last_seen": "2026-11-08",
       "sources_seen": [
         "arXiv"
       ]
@@ -14346,7 +14339,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-07",
-      "last_seen": "2026-11-07",
+      "last_seen": "2026-11-08",
       "sources_seen": [
         "arXiv"
       ]
@@ -14390,7 +14383,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-07",
-      "last_seen": "2026-11-07",
+      "last_seen": "2026-11-08",
       "sources_seen": [
         "arXiv"
       ]
@@ -14427,7 +14420,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-07",
-      "last_seen": "2026-11-07",
+      "last_seen": "2026-11-08",
       "sources_seen": [
         "arXiv"
       ]
@@ -14468,7 +14461,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-07",
-      "last_seen": "2026-11-07",
+      "last_seen": "2026-11-08",
       "sources_seen": [
         "arXiv"
       ]
@@ -14508,7 +14501,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "https://github.com/realjoenguyen/RAGPJ-official",
       "added_at": "2026-11-07",
-      "last_seen": "2026-11-07",
+      "last_seen": "2026-11-08",
       "sources_seen": [
         "arXiv"
       ]
@@ -14548,7 +14541,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-07",
-      "last_seen": "2026-11-07",
+      "last_seen": "2026-11-08",
       "sources_seen": [
         "arXiv"
       ]
@@ -14584,7 +14577,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-07",
-      "last_seen": "2026-11-07",
+      "last_seen": "2026-11-08",
       "sources_seen": [
         "arXiv"
       ]
@@ -14619,7 +14612,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-07",
-      "last_seen": "2026-11-07",
+      "last_seen": "2026-11-08",
       "sources_seen": [
         "arXiv"
       ]
@@ -14657,7 +14650,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "https://github.com/iit-DLSLab/BeyondContact",
       "added_at": "2026-11-07",
-      "last_seen": "2026-11-07",
+      "last_seen": "2026-11-08",
       "sources_seen": [
         "arXiv"
       ]
@@ -14736,7 +14729,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-07",
-      "last_seen": "2026-11-07",
+      "last_seen": "2026-11-08",
       "sources_seen": [
         "arXiv"
       ]
@@ -14835,7 +14828,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-07",
-      "last_seen": "2026-11-07",
+      "last_seen": "2026-11-08",
       "sources_seen": [
         "arXiv"
       ]
@@ -14875,7 +14868,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-07",
-      "last_seen": "2026-11-07",
+      "last_seen": "2026-11-08",
       "sources_seen": [
         "arXiv"
       ]
@@ -14918,7 +14911,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-07",
-      "last_seen": "2026-11-07",
+      "last_seen": "2026-11-08",
       "sources_seen": [
         "arXiv"
       ]
@@ -14954,7 +14947,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-07",
-      "last_seen": "2026-11-07",
+      "last_seen": "2026-11-08",
       "sources_seen": [
         "arXiv"
       ]
@@ -14993,7 +14986,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-07",
-      "last_seen": "2026-11-07",
+      "last_seen": "2026-11-08",
       "sources_seen": [
         "arXiv"
       ]
@@ -15030,7 +15023,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-07",
-      "last_seen": "2026-11-07",
+      "last_seen": "2026-11-08",
       "sources_seen": [
         "arXiv"
       ]
@@ -15103,7 +15096,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-07",
-      "last_seen": "2026-11-07",
+      "last_seen": "2026-11-08",
       "sources_seen": [
         "arXiv"
       ]
@@ -15177,7 +15170,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-07",
-      "last_seen": "2026-11-07",
+      "last_seen": "2026-11-08",
       "sources_seen": [
         "arXiv"
       ]
@@ -15219,7 +15212,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-07",
-      "last_seen": "2026-11-07",
+      "last_seen": "2026-11-08",
       "sources_seen": [
         "arXiv"
       ]
