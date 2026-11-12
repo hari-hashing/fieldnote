@@ -1,13 +1,49 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-11T09:24:17.419890+00:00",
-  "last_ingestion": "2026-11-11T09:24:17.419890+00:00",
+  "generated_at": "2026-11-12T09:49:55.490838+00:00",
+  "last_ingestion": "2026-11-12T09:49:55.490838+00:00",
   "sources": {
-    "arxiv": 705,
+    "arxiv": 545,
     "openreview": 0,
-    "openalex_discovery": 154
+    "openalex_discovery": 152
   },
   "papers": [
+    {
+      "id": "https://doi.org/10.21203/rs.3.rs-11390604/v1",
+      "title": "When does online vision-language inference help? A survey of socially aware robot navigation",
+      "authors": "박성산, Young-Sik Shin, Sanghyun Kim",
+      "first_published": "2026-11-10",
+      "year": 2026,
+      "abstract": "Abstract Vision-language models (VLMs) and large language models are increasingly built into the navigation stacks of robots that share space with people, where the models read cues that occupancy maps omit, such as a raised hand or a conversing group. This survey organizes 41 cases reported from 2024 to 2026, 34 on socially aware navigation and 7 adjacent mechanism extensions, by where the model enters the stack: scene interpretation, cost modulation, subgoal or path proposal, hierarchical coordination, direct action output and offline transfer or generation. For each of these six patterns we describe representative systems and their reported results, and we review the datasets, simulators, benchmarks and metrics behind them. We then discuss what the reported comparisons establish about running the model online, separating system utility, component contribution and online necessity. In these comparisons, cue-aware systems improved the outcomes that hinge on their cue, although whole-system differences limit attribution to the VLM; in one offline study, a model selector helped on hard selections and hurt on routine ones; in one deployment, delayed advice stayed useful when fused with current plans; model-supervised students navigated without runtime teacher queries, but online, cached and distilled alternatives have not been compared with student computation included; and better answers have not yet been linked to better behavior. We also define an invocation ratio (model requests per control decision), propose a minimum reporting set for deployment comparisons, and outline open challenges in real-time reasoning, spatial grounding and safety.",
+      "paper_url": "https://doi.org/10.21203/rs.3.rs-11390604/v1",
+      "doi": "https://doi.org/10.21203/rs.3.rs-11390604/v1",
+      "source": "OpenAlex discovery",
+      "source_type": "aggregator_discovery",
+      "status": "needs_verification",
+      "venue": "Research Square",
+      "notes": "Discovery record only. Verify title, date, venue and claims at the publisher/preprint source before treating as confirmed.",
+      "primary_bin": "systems",
+      "secondary_bins": [
+        "embodiment",
+        "evaluation",
+        "perception",
+        "reasoning",
+        "spatial"
+      ],
+      "tags": [
+        "auto-classified"
+      ],
+      "limitations": "Not extracted automatically. Read the full paper before drawing conclusions.",
+      "datasets": [],
+      "embodiments": [],
+      "real_robot": "Not established; verify full text.",
+      "code_url": "",
+      "added_at": "2026-11-12",
+      "last_seen": "2026-11-12",
+      "sources_seen": [
+        "OpenAlex discovery"
+      ]
+    },
     {
       "id": "2611.13818",
       "title": "WAM is capable in BEHAVIOR-1K: the 2nd-place solution to the 2026 BEHAVIOR Challenge",
@@ -43,7 +79,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-11",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "sources_seen": [
         "arXiv"
       ]
@@ -84,7 +120,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-11",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "sources_seen": [
         "arXiv"
       ]
@@ -124,7 +160,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-11",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "sources_seen": [
         "arXiv"
       ]
@@ -163,7 +199,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-11",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "sources_seen": [
         "arXiv"
       ]
@@ -201,7 +237,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-11",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "sources_seen": [
         "arXiv"
       ]
@@ -239,7 +275,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-11",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "sources_seen": [
         "arXiv"
       ]
@@ -278,7 +314,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-11",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "sources_seen": [
         "arXiv"
       ]
@@ -317,7 +353,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-11",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "sources_seen": [
         "arXiv"
       ]
@@ -352,7 +388,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-11",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "sources_seen": [
         "arXiv"
       ]
@@ -387,7 +423,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-11",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "sources_seen": [
         "arXiv"
       ]
@@ -424,7 +460,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-11",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "sources_seen": [
         "arXiv"
       ]
@@ -461,7 +497,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-11",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "sources_seen": [
         "arXiv"
       ]
@@ -498,7 +534,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-11",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "sources_seen": [
         "arXiv"
       ]
@@ -542,7 +578,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-11",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "sources_seen": [
         "arXiv"
       ]
@@ -577,7 +613,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-11",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "sources_seen": [
         "arXiv"
       ]
@@ -615,7 +651,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-11",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "sources_seen": [
         "arXiv"
       ]
@@ -656,7 +692,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-11",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "sources_seen": [
         "arXiv"
       ]
@@ -698,7 +734,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-11",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "sources_seen": [
         "arXiv"
       ]
@@ -738,7 +774,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-11",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "sources_seen": [
         "arXiv"
       ]
@@ -778,7 +814,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-11",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "sources_seen": [
         "arXiv"
       ]
@@ -818,7 +854,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-11",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "sources_seen": [
         "arXiv"
       ]
@@ -858,7 +894,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-11",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "sources_seen": [
         "arXiv"
       ]
@@ -898,7 +934,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-11",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "sources_seen": [
         "arXiv"
       ]
@@ -937,7 +973,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-11",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "sources_seen": [
         "arXiv"
       ]
@@ -977,9 +1013,43 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "https://github.com/haiyang2022/HiPFuse",
       "added_at": "2026-11-11",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "sources_seen": [
         "arXiv"
+      ]
+    },
+    {
+      "id": "https://doi.org/10.21203/rs.3.rs-11672879/v1",
+      "title": "Global Food Waste Challenge (SDG 12): A VR Cooking and Food Management Application",
+      "authors": "Srinivas Rao B",
+      "first_published": "2026-11-10",
+      "year": 2026,
+      "abstract": "Abstract The increasing global issue of food waste presents significant environmental, economic, and social challenges, di rectly impacting Sustainable Development Goal 12 (Responsible Consumption and Production). This work presents an enhanced Virtual Reality (VR)-based interactive application titled “Global Food Waste Challenge,” designed using Android Studio with Kotlin to promote responsible food consumption through immersive experiential learning. Unlike traditional systems, the proposed application integrates gyroscope-based XR navigation, gaze-driven interaction, and a dynamic UI rendering system to simulate a realistic kitchen environment. Users interact with virtual elements such as fridge and cabinet using motion-based controls, input food quantities, and receive real-time feedback on waste, shortage, and optimal usage based on computational logic. Additionally, the system introduces a food donation module, simulating real-world NGO interaction and incorporating animation-based visualization to enhance emotional engagement. A storytelling layer further reinforces awareness through humanitarian visuals and structured learning content. Experimental evaluation demonstrates 100% computational accuracy, high interaction reliability (∼95%), and improved user engagement compared to static systems reported in prior studies. The application provides an immersive, behavior driven educational platform aligned with SDG 12.",
+      "paper_url": "https://doi.org/10.21203/rs.3.rs-11672879/v1",
+      "doi": "https://doi.org/10.21203/rs.3.rs-11672879/v1",
+      "source": "OpenAlex discovery",
+      "source_type": "aggregator_discovery",
+      "status": "needs_verification",
+      "venue": "Research Square",
+      "notes": "Discovery record only. Verify title, date, venue and claims at the publisher/preprint source before treating as confirmed.",
+      "primary_bin": "evaluation",
+      "secondary_bins": [
+        "embodiment",
+        "learning",
+        "systems"
+      ],
+      "tags": [
+        "auto-classified"
+      ],
+      "limitations": "Not extracted automatically. Read the full paper before drawing conclusions.",
+      "datasets": [],
+      "embodiments": [],
+      "real_robot": "Not established; verify full text.",
+      "code_url": "",
+      "added_at": "2026-11-12",
+      "last_seen": "2026-11-12",
+      "sources_seen": [
+        "OpenAlex discovery"
       ]
     },
     {
@@ -1016,7 +1086,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-11",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "sources_seen": [
         "arXiv"
       ]
@@ -1057,7 +1127,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-11",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "sources_seen": [
         "arXiv"
       ]
@@ -1098,7 +1168,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "https://github.com/showlab/MetaWAM",
       "added_at": "2026-11-11",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "sources_seen": [
         "arXiv"
       ]
@@ -1137,7 +1207,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-11",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "sources_seen": [
         "arXiv"
       ]
@@ -1176,7 +1246,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-11",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "sources_seen": [
         "arXiv"
       ]
@@ -1216,7 +1286,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-11",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "sources_seen": [
         "arXiv"
       ]
@@ -1255,7 +1325,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "https://github.com/Sun-Happy-YKX/FlashMotion",
       "added_at": "2026-11-11",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "sources_seen": [
         "arXiv"
       ]
@@ -1293,7 +1363,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-11",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "sources_seen": [
         "arXiv"
       ]
@@ -1333,7 +1403,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-11",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "sources_seen": [
         "arXiv"
       ]
@@ -1373,7 +1443,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-11",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "sources_seen": [
         "arXiv"
       ]
@@ -1414,7 +1484,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-11",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "sources_seen": [
         "arXiv"
       ]
@@ -1454,7 +1524,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-11",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "sources_seen": [
         "arXiv"
       ]
@@ -1495,7 +1565,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-11",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "sources_seen": [
         "arXiv"
       ]
@@ -1534,7 +1604,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-11",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "sources_seen": [
         "arXiv"
       ]
@@ -1571,7 +1641,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-11",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "sources_seen": [
         "arXiv"
       ]
@@ -1608,9 +1678,42 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-11",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "sources_seen": [
         "arXiv"
+      ]
+    },
+    {
+      "id": "https://doi.org/10.1098/rstb.2025.0166",
+      "title": "Building a robotic self",
+      "authors": "Martin V. Butz, Verena V. Hafner, Pablo Lanillos",
+      "first_published": "2026-11-10",
+      "year": 2026,
+      "abstract": "Abstract I wake up in the morning, I see my hand and I know it is me. This seemingly simple skill lies at the foundation of our agentive selves. We assume that the development of the self, in both biological and synthetic agents, is grounded in sensorimotor embodiment and inductive learning biases, as well as in the principle of predictive coding. Here, we explore the core inductive biases and process components for building a robotic minimal self. We propose that the formation of a hierarchical, generative model of the self is driven by active inference processes that interactively infer both an endogenous contextual frame and behaviour within this frame. Accordingly, experimental implementations in humanoid robots show how body ownership and agency can develop as foundational computational components. This work on building a robotic minimal self outlines future research directions in mechanistic modelling of the development of an artificial self. To probe the depth of this development, we sketch out embodied Turing tests that challenge complex problem-solving skills, as well as social intelligence and theory of mind. We suggest that uncertainty resolution and the social domain may be promising avenues for further research in the near future. This article is part of the discussion meeting issue ‘From being to identity: analysis and synthesis of the self’.",
+      "paper_url": "https://doi.org/10.1098/rstb.2025.0166",
+      "doi": "https://doi.org/10.1098/rstb.2025.0166",
+      "source": "OpenAlex discovery",
+      "source_type": "aggregator_discovery",
+      "status": "needs_verification",
+      "venue": "Philosophical Transactions of the Royal Society B Biological Sciences",
+      "notes": "Discovery record only. Verify title, date, venue and claims at the publisher/preprint source before treating as confirmed.",
+      "primary_bin": "systems",
+      "secondary_bins": [
+        "embodiment",
+        "reasoning"
+      ],
+      "tags": [
+        "auto-classified"
+      ],
+      "limitations": "Not extracted automatically. Read the full paper before drawing conclusions.",
+      "datasets": [],
+      "embodiments": [],
+      "real_robot": "Not established; verify full text.",
+      "code_url": "",
+      "added_at": "2026-11-12",
+      "last_seen": "2026-11-12",
+      "sources_seen": [
+        "OpenAlex discovery"
       ]
     },
     {
@@ -1649,7 +1752,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-11",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "sources_seen": [
         "arXiv"
       ]
@@ -1684,7 +1787,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-11",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "sources_seen": [
         "arXiv"
       ]
@@ -1724,7 +1827,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-11",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "sources_seen": [
         "arXiv"
       ]
@@ -1762,7 +1865,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-11",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "sources_seen": [
         "arXiv"
       ]
@@ -1777,7 +1880,7 @@
       "abstract": "Trained action policies write manipulation skill into network weights, tying what is learned to the distribution it is learned from. In-context learning (ICL) avoids this coupling but has not matched trained policies, because a demonstration recorded in another scene carries no feedback from the world the robot currently faces. We observe that what an agent learns in context is semantic, recording task steps and object roles rather than visual appearance, so experience gathered in one world transfers to another. Based on this insight, we propose World In-Context Learning (WICL), a paradigm in which a frozen model starts from a demonstration, rehearses the task in a world such as a simulator, and writes the feedback into its context rather than its weights. We build RoboScript, a modular infrastructure that implements WICL for agentic manipulation. From a single demonstration, RoboScript learns each task through rehearsal in simulation, freezes the learned knowledge as a Task Memory, and deploys the frozen memory on new scenes with data isolation that ensures every deployment input is available on a real robot. On all 50 tasks of RoboTwin 2.0, RoboScript reaches 83.4% mean success across clean and randomized settings with one demonstration per task and no gradient updates, exceeding the strongest trained action policy by over 20 points. The method generalizes across visual distributions, improves through reflection, scales with the foundation model, and transfers to a physical dual-arm robot through cross-embodiment memory adaptation. With a world in the loop, a robot can learn a manipulation task in its context as well as it learns one in its weights. All code is available at https://github.com/ArcheOne-AI/RoboScript",
       "paper_url": "https://arxiv.org/abs/2611.12885",
       "pdf_url": "https://arxiv.org/pdf/2611.12885v1",
-      "doi": "",
+      "doi": "https://doi.org/10.48550/arxiv.2611.12885",
       "journal_ref": "",
       "categories": [
         "cs.CV",
@@ -1786,7 +1889,7 @@
       "source": "arXiv",
       "source_type": "primary",
       "status": "preprint",
-      "venue": "Preprint",
+      "venue": "arXiv (Cornell University)",
       "primary_bin": "learning",
       "secondary_bins": [
         "data",
@@ -1801,8 +1904,9 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "https://github.com/ArcheOne-AI/RoboScript",
       "added_at": "2026-11-10",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "sources_seen": [
+        "OpenAlex discovery",
         "arXiv"
       ]
     },
@@ -1840,7 +1944,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-10",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "sources_seen": [
         "arXiv"
       ]
@@ -1873,7 +1977,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-11",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "sources_seen": [
         "OpenAlex discovery"
       ]
@@ -1888,7 +1992,7 @@
       "abstract": "Physical intelligence requires embodied agents to ground language in observations and execute actions while retaining useful skills. Vision-language-action (VLA) policies offer a shared interface, but task-specific post-training often produces separate specialists. Consolidation is difficult: mixed-task reinforcement learning provides sparse trajectory-level credit, while offline distillation may miss student-visited observations and endpoint distillation does not supervise intermediate action-generation states. We introduce VLA Multi-teacher On-Policy Distillation (VLA-MOPD), a protocol for consolidating flow-matching VLA specialists. After acquiring task or suite experts, a shared student collects robot rollouts and queries the instruction-routed frozen teacher at each visited observation and intermediate ordinary differential equation (ODE) state. Detached per-flow-step transition targets supervise valid action chunks through a masked local matching loss; an optional reference-policy term supports retention on other tasks. Starting from one trajectory per LIBERO task, VLA-MOPD raises mean success-once from 75.4% to 98.9%, compared with 98.15% for endpoint action distillation. It improves mean RoboTwin 2.0 success from 73.0% to 89.3%; on a Piper robot, two consolidation rounds improve average success from 70.0% to 90.0%. In a near-matched Spatial-adaptation study, reference matching limits the Object suite decrease to 3.0 points, versus 13.2 without the reference term.",
       "paper_url": "https://arxiv.org/abs/2611.12286",
       "pdf_url": "https://arxiv.org/pdf/2611.12286v1",
-      "doi": "",
+      "doi": "https://doi.org/10.48550/arxiv.2611.12286",
       "journal_ref": "",
       "categories": [
         "cs.RO",
@@ -1897,7 +2001,7 @@
       "source": "arXiv",
       "source_type": "primary",
       "status": "preprint",
-      "venue": "Preprint",
+      "venue": "arXiv (Cornell University)",
       "primary_bin": "vla",
       "secondary_bins": [
         "embodiment",
@@ -1914,8 +2018,9 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-10",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "sources_seen": [
+        "OpenAlex discovery",
         "arXiv"
       ]
     },
@@ -1929,7 +2034,7 @@
       "abstract": "Vision-language-action (VLA) models are trained as general-purpose foundation models for robot learning, and require fine-tuning for each downstream task and robot. This raises practical questions such as how much data and training updates are needed, how checkpoints should be selected, and whether simulation can be leveraged to alleviate the cost of real data collection. We study these questions on a task that requires both precise manipulation and spatial understanding of the scene. In this task, an SO-101 arm moves a chess king between two squares that are given only by their names, such as e4 and a5. We fine-tune $π_{0.5}$ with various dataset sizes and update budgets, using teleoperated demonstrations as well as simulated demonstrations from a randomized scripted expert that imitates the variability of human demonstrations. In simulation, the success rate scales with both data and updates. Importantly, we find that a short learning-rate cool-down adds up to 31 points and is necessary for comparing checkpoints, and that validation loss and action error are unreliable for model selection. On the real arm, we fine-tune on up to 256 teleoperated demonstrations and evaluate ten policies in 25 trials each. Partial results indicate that pretraining on the simulated demonstrations helps substantially, most clearly when real data is scarce. We also present a negative result, in which training on the policy's own rollouts with filtered behavior cloning, RECAP-style advantage conditioning, corrections from an automatic coach, or residual reinforcement learning did not yield a measurable improvement over plain behavior cloning in our setting. We release the simulator, the expert and the real demonstrations.",
       "paper_url": "https://arxiv.org/abs/2611.12676",
       "pdf_url": "https://arxiv.org/pdf/2611.12676v1",
-      "doi": "",
+      "doi": "https://doi.org/10.48550/arxiv.2611.12676",
       "journal_ref": "",
       "categories": [
         "cs.RO",
@@ -1938,7 +2043,7 @@
       "source": "arXiv",
       "source_type": "primary",
       "status": "preprint",
-      "venue": "Preprint",
+      "venue": "arXiv (Cornell University)",
       "primary_bin": "learning",
       "secondary_bins": [
         "data",
@@ -1956,8 +2061,9 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-10",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "sources_seen": [
+        "OpenAlex discovery",
         "arXiv"
       ]
     },
@@ -1991,7 +2097,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-11",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "sources_seen": [
         "OpenAlex discovery"
       ]
@@ -2031,9 +2137,45 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-10",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "sources_seen": [
         "arXiv"
+      ]
+    },
+    {
+      "id": "https://doi.org/10.1002/aisy.70612",
+      "title": "TierTac: Physically‐Grounded Hierarchical Reasoning for Generalizable Tactile Perception",
+      "authors": "Shipeng Lyu, Lijie Sheng, Wenyao Zhang, Chen Yao, Zheng Li, Zhenzhong Jia, David Navarro-Alarcón, Isabel Y.N Guan",
+      "first_published": "2026-11-09",
+      "year": 2026,
+      "abstract": "Tactile perception is essential for intelligent robotic systems interacting with the physical world, yet achieving reliable understanding across heterogeneous sensors remains challenging. Existing approaches rely on representation learning or independent attribute prediction, often neglecting the physically grounded hierarchical dependencies underlying contact interactions. Here, we propose TierTac, a physically grounded hierarchical reasoning framework for generalizable tactile perception. TierTac organizes tactile understanding using a physics‐informed dependency hierarchy comprising three levels: intrinsic physical properties, compliance responses, and contact states. It combines contact‐aware, sensor‐agnostic representation learning with hierarchical neuro‐symbolic reasoning to enable physically consistent multiattribute inference. Experiments across multiple datasets demonstrate improved cross‐sensor alignment, physically consistent prediction, and generalization to unseen sensors. Real‐world robotic evaluations further show more stable and physically consistent interactions under both classical control and learned policies. These results highlight physically grounded hierarchical reasoning as an effective principle for developing generalizable tactile intelligence in robotic systems.",
+      "paper_url": "https://doi.org/10.1002/aisy.70612",
+      "doi": "https://doi.org/10.1002/aisy.70612",
+      "source": "OpenAlex discovery",
+      "source_type": "aggregator_discovery",
+      "status": "needs_verification",
+      "venue": "Advanced Intelligent Systems",
+      "notes": "Discovery record only. Verify title, date, venue and claims at the publisher/preprint source before treating as confirmed.",
+      "primary_bin": "reasoning",
+      "secondary_bins": [
+        "embodiment",
+        "evaluation",
+        "learning",
+        "perception",
+        "systems"
+      ],
+      "tags": [
+        "auto-classified"
+      ],
+      "limitations": "Not extracted automatically. Read the full paper before drawing conclusions.",
+      "datasets": [],
+      "embodiments": [],
+      "real_robot": "Not established; verify full text.",
+      "code_url": "",
+      "added_at": "2026-11-12",
+      "last_seen": "2026-11-12",
+      "sources_seen": [
+        "OpenAlex discovery"
       ]
     },
     {
@@ -2046,7 +2188,7 @@
       "abstract": "Recent Vision-Language-Action (VLA) models have begun incorporating thermal sensing, but existing approaches typically treat thermal images as ordinary visual inputs, providing limited support for temperature-aware relational reasoning in manipulation. To address this limitation, we propose Thermo-VLA with a ThermoRes Encoder, which decomposes thermal images into cold and hot attribute representations and injects them into the RGB token through language-conditioned residual modulation, enabling temperature-driven target selection and continuous manipulation. We further construct six real-world robotic tasks on a dual-arm Unitree G1 platform, spanning basic grounding to relational reasoning. Experiments show that Thermo-VLA achieves an average success rate of 0.86 across four thermal-dependent tasks, outperforming a pi_0.5 baseline that directly incorporates RGB-thermal observations by 18 percentage points. Under unseen-object and scene variations, Thermo-VLA maintains an average success rate of 0.78, achieving the best generalisation performance among the compared methods. Beyond thermal sensing, we transfer the same residual modulation mechanism to colour attributes and observe consistent improvements in both simulation and real-robot experiments, indicating its potential to generalise beyond thermal attributes. Project website: https://j-x-chen.github.io/Thermo-VLA-web/",
       "paper_url": "https://arxiv.org/abs/2611.11981",
       "pdf_url": "https://arxiv.org/pdf/2611.11981v1",
-      "doi": "",
+      "doi": "https://doi.org/10.48550/arxiv.2611.11981",
       "journal_ref": "",
       "categories": [
         "cs.RO",
@@ -2055,7 +2197,7 @@
       "source": "arXiv",
       "source_type": "primary",
       "status": "preprint",
-      "venue": "Preprint",
+      "venue": "arXiv (Cornell University)",
       "primary_bin": "vla",
       "secondary_bins": [
         "learning",
@@ -2071,8 +2213,9 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-10",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "sources_seen": [
+        "OpenAlex discovery",
         "arXiv"
       ]
     },
@@ -2109,9 +2252,41 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-10",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "sources_seen": [
         "arXiv"
+      ]
+    },
+    {
+      "id": "https://doi.org/10.5195/pom.2026.288",
+      "title": "The Algorithmic Gaze",
+      "authors": "Daniela Oehring",
+      "first_published": "2026-11-09",
+      "year": 2026,
+      "abstract": "The integration of AI into clinical medicine is an event in the genealogy of medical visibilities where causal-mechanistic and contextual reasoning are required. Extending Dai and Guo (2025) through Pearl’s causal hierarchy, a four-level taxonomy of consciousness, and a politicized conception of embodied care, this article develops two arguments: (1) only an agent that can be held to account can fail morally, and (2) associative systems cannot take up narrative and contextual material. Five epistemic deficits ground five governance responses, four resting on the knowledge argument; the responsibility argument distinguishes structural conditions from empirical performance and is conditional on non-functionalism.",
+      "paper_url": "https://doi.org/10.5195/pom.2026.288",
+      "doi": "https://doi.org/10.5195/pom.2026.288",
+      "source": "OpenAlex discovery",
+      "source_type": "aggregator_discovery",
+      "status": "needs_verification",
+      "venue": "Philosophy of Medicine",
+      "notes": "Discovery record only. Verify title, date, venue and claims at the publisher/preprint source before treating as confirmed.",
+      "primary_bin": "reasoning",
+      "secondary_bins": [
+        "learning"
+      ],
+      "tags": [
+        "auto-classified"
+      ],
+      "limitations": "Not extracted automatically. Read the full paper before drawing conclusions.",
+      "datasets": [],
+      "embodiments": [],
+      "real_robot": "Not established; verify full text.",
+      "code_url": "",
+      "added_at": "2026-11-12",
+      "last_seen": "2026-11-12",
+      "sources_seen": [
+        "OpenAlex discovery"
       ]
     },
     {
@@ -2146,9 +2321,69 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-10",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "sources_seen": [
         "arXiv"
+      ]
+    },
+    {
+      "id": "https://doi.org/10.1002/advs.78699",
+      "title": "Stretchable Electronic Skins Realized by Confined In Situ Silver Patterning on Siloxane‐Modified Polyimide",
+      "authors": "Jialun Yin, Yongjun Kang, Fangzhou Liu, Yifei Tong, Guofeng Tian, Shengli Qi, Dezhen Wu",
+      "first_published": "2026-11-09",
+      "year": 2026,
+      "abstract": "ABSTRACT The rapid development of soft robotics and embodied intelligence demands electronic skins (E‐skins) that are both mechanically self‐adaptive and skin‐conformal. However, the rigid aromatic backbones of conventional polyimides limit stretchability and hinder conformal integration with deformable surfaces. Here, elastically stretchable polyimide (es‐PI) films are developed by incorporating aminopropyl‐terminated siloxane spacers, while a confined‐patterned in situ self‐metallization strategy enables direct fabrication of patterned silver circuits. By spatially confining Ag + coordination and reduction within predefined regions, this strategy produces continuous silver nanolayers with well‐defined boundaries and robust metal–polymer interfaces, preserving electrical integrity during repeated deformation. The selected es‐PI‐0.5 substrate exhibits an estimated nominal elongation at break of approximately 96% and a tensile strength of approximately 25 MPa, while the corresponding metallized film retains electrical continuity during tensile deformation up to 50% strain. Device‐level feasibility is demonstrated through a strain‐dependent inductor–capacitor (LC) resonance response measured using a network analyzer and a separate smartphone‐assisted near‐field excitation experiment with rectified direct‐current (DC) output detected using a multimeter. This work establishes a materials–circuit integration approach for stretchable electronic skins and skin‐mounted sensing demonstrations.",
+      "paper_url": "https://doi.org/10.1002/advs.78699",
+      "doi": "https://doi.org/10.1002/advs.78699",
+      "source": "OpenAlex discovery",
+      "source_type": "aggregator_discovery",
+      "status": "needs_verification",
+      "venue": "Advanced Science",
+      "notes": "Discovery record only. Verify title, date, venue and claims at the publisher/preprint source before treating as confirmed.",
+      "primary_bin": "spatial",
+      "secondary_bins": [],
+      "tags": [
+        "auto-classified"
+      ],
+      "limitations": "Not extracted automatically. Read the full paper before drawing conclusions.",
+      "datasets": [],
+      "embodiments": [],
+      "real_robot": "Not established; verify full text.",
+      "code_url": "",
+      "added_at": "2026-11-12",
+      "last_seen": "2026-11-12",
+      "sources_seen": [
+        "OpenAlex discovery"
+      ]
+    },
+    {
+      "id": "https://doi.org/10.1002/rnc.70835",
+      "title": "Sliding Mode Controller Design for Robotic Manipulator Based on the Hybrid Pigeon‐Inspired Optimization",
+      "authors": "Xiaohan Liu, Ziwu Ren, Yunxi Miao, Zhongyuan Wang, Yangjun Wang",
+      "first_published": "2026-11-09",
+      "year": 2026,
+      "abstract": "ABSTRACT To address the challenge of finding the optimal parameter combination for proportional–integral sliding mode (PISM) controllers in robotic manipulators, this article proposes a novel hybrid pigeon‐inspired optimization (HPIO) algorithm for systematic parameter tuning. The proposed algorithm enhances the conventional PIO framework by incorporating a predation‐inspired random perturbation mechanism and a dynamic population screening strategy, thereby balancing global exploration and local exploitation capabilities. An ablation study validates the individual contributions of the two improvement phases and confirms their synergistic effect on convergence speed and optimization accuracy. Then the HPIO algorithm is employed to optimize the proportional gain , integral gain , and robust gain of the PISM controller, where influences the tracking error response, improves steady‐state accuracy, and enhances robustness to disturbances. Comparative experiments show that HPIO improves the best and mean fitness values relative to PIO and provides a favorable trade‐off between optimization quality and offline computational cost. The proposed method also achieves improved tracking performance under the tested disturbance conditions.",
+      "paper_url": "https://doi.org/10.1002/rnc.70835",
+      "doi": "https://doi.org/10.1002/rnc.70835",
+      "source": "OpenAlex discovery",
+      "source_type": "aggregator_discovery",
+      "status": "needs_verification",
+      "venue": "International Journal of Robust and Nonlinear Control",
+      "notes": "Discovery record only. Verify title, date, venue and claims at the publisher/preprint source before treating as confirmed.",
+      "primary_bin": "evaluation",
+      "secondary_bins": [],
+      "tags": [
+        "auto-classified"
+      ],
+      "limitations": "Not extracted automatically. Read the full paper before drawing conclusions.",
+      "datasets": [],
+      "embodiments": [],
+      "real_robot": "Not established; verify full text.",
+      "code_url": "",
+      "added_at": "2026-11-12",
+      "last_seen": "2026-11-12",
+      "sources_seen": [
+        "OpenAlex discovery"
       ]
     },
     {
@@ -2184,7 +2419,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-10",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "sources_seen": [
         "arXiv"
       ]
@@ -2222,7 +2457,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-10",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "sources_seen": [
         "arXiv"
       ]
@@ -2261,7 +2496,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-10",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "sources_seen": [
         "arXiv"
       ]
@@ -2301,7 +2536,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-10",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "sources_seen": [
         "arXiv"
       ]
@@ -2316,7 +2551,7 @@
       "abstract": "Large-scale representation learning has produced public foundation models that provide strong general-purpose visual features. However, their pretraining objectives are not designed for robot representation learning, so the resulting embeddings tend to emphasize global semantics rather than the temporally sensitive representations required for robot control. Training robot models from scratch is also undesirable due to the limited scale and high collection cost of robotics data, as well as the substantial computational burden of pre-training. In this paper, we propose SPARK (Simple Post-training for Adapting pRetrained Knowledge), a post-training method that adapts foundation models to robot control. SPARK is built on two principles: temporal abstraction, which encourages the encoder to derive compact features that preserve information essential for understanding temporal changes and action-relevant scene structure, and knowledge preservation, which aligns patch-level representations with those of the original foundation model to retain useful pretrained semantics. These objectives yield compact visual state representations that remain semantically meaningful while preserving useful prior knowledge. Experiments across multiple robotics benchmarks show that SPARK consistently improves success rates and generalization over vanilla foundation models, and further demonstrate that these gains transfer to real-world robot manipulation.",
       "paper_url": "https://arxiv.org/abs/2611.12102",
       "pdf_url": "https://arxiv.org/pdf/2611.12102v1",
-      "doi": "",
+      "doi": "https://doi.org/10.48550/arxiv.2611.12102",
       "journal_ref": "",
       "categories": [
         "cs.RO",
@@ -2325,7 +2560,7 @@
       "source": "arXiv",
       "source_type": "primary",
       "status": "preprint",
-      "venue": "Preprint",
+      "venue": "arXiv (Cornell University)",
       "primary_bin": "learning",
       "secondary_bins": [
         "data",
@@ -2340,8 +2575,9 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-10",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "sources_seen": [
+        "OpenAlex discovery",
         "arXiv"
       ]
     },
@@ -2379,7 +2615,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-10",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "sources_seen": [
         "arXiv"
       ]
@@ -2416,7 +2652,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-11",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "sources_seen": [
         "arXiv"
       ]
@@ -2453,7 +2689,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-11",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "sources_seen": [
         "arXiv"
       ]
@@ -2487,7 +2723,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-11",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "sources_seen": [
         "OpenAlex discovery"
       ]
@@ -2526,7 +2762,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-10",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "sources_seen": [
         "arXiv"
       ]
@@ -2564,7 +2800,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-10",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "sources_seen": [
         "arXiv"
       ]
@@ -2600,7 +2836,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-11",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "sources_seen": [
         "OpenAlex discovery"
       ]
@@ -2639,7 +2875,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-11",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "sources_seen": [
         "arXiv"
       ]
@@ -2680,7 +2916,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-10",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "sources_seen": [
         "arXiv"
       ]
@@ -2714,7 +2950,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-11",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "sources_seen": [
         "OpenAlex discovery"
       ]
@@ -2752,7 +2988,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-10",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "sources_seen": [
         "arXiv"
       ]
@@ -2791,7 +3027,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-10",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "sources_seen": [
         "arXiv"
       ]
@@ -2806,7 +3042,7 @@
       "abstract": "While imitation learning has made substantial progress toward generalizable robot manipulation through scaling, viewpoint robustness remains a major bottleneck. Visuomotor policies rely heavily on visual inputs, yet images provide an inherently ambiguous signal under viewpoint change: similar scenes may appear markedly different across viewpoints, while distinct states may share certain visual overlaps. A policy must therefore infer not only the task-relevant state, but also how it is visually projected under a particular camera configuration. This entanglement of viewpoint-dependent appearance and task-relevant state can make learning inefficient and limit generalization to unseen viewpoints. Recent work has begun to address this challenge through camera-ray conditioning and representation learning using geometric cues to induce invariance. However, providing camera information as additional context does not by itself ground visual representations in how the task scene is visually projected, while geometric alignment without camera context can introduce spurious correspondences by ignoring viewpoint-dependent projection. We propose PAIR, a contrastive learning framework that aligns joint image-ray representations using robot proprioception. PAIR encourages observations with similar robot states to remain close in representation space across viewpoints, providing a structured grounding signal for learning viewpoint-robust features. PAIR is a highly adaptable framework: it can be used to train Diffusion Policy (DP) or post-train vision-language-action (VLA) models. In simulated and real-world manipulation benchmarks with camera variation, PAIR consistently outperforms the behavior cloning baseline without ray conditioning by 12.7% and 26.7% points, respectively, demonstrating stronger generalization to unseen viewpoints. Project website: PAIRrobot.github.io.",
       "paper_url": "https://arxiv.org/abs/2611.11798",
       "pdf_url": "https://arxiv.org/pdf/2611.11798v1",
-      "doi": "",
+      "doi": "https://doi.org/10.48550/arxiv.2611.11798",
       "journal_ref": "",
       "categories": [
         "cs.RO"
@@ -2814,7 +3050,7 @@
       "source": "arXiv",
       "source_type": "primary",
       "status": "preprint",
-      "venue": "Preprint",
+      "venue": "arXiv (Cornell University)",
       "primary_bin": "vla",
       "secondary_bins": [
         "embodiment",
@@ -2832,8 +3068,9 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-10",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "sources_seen": [
+        "OpenAlex discovery",
         "arXiv"
       ]
     },
@@ -2870,7 +3107,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-11",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "sources_seen": [
         "arXiv"
       ]
@@ -2910,7 +3147,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-10",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "sources_seen": [
         "arXiv"
       ]
@@ -2925,7 +3162,7 @@
       "abstract": "A robot that works among people must judge what it cannot see: whether an object is still where it was last seen, and whether a pull on a door or drawer is worth its risk. Maps that track object change hold nothing about force, maps of physical properties answer a risk question at a fixed risk level, and vision-language-action models keep no explicit estimate of hidden physics. We propose Motion Belief Action (MBA), a decision layer on the scene map. From how often people move an object and how much force it needs, how much load it holds and whether it is blocked, MBA chooses under a force limit to look again, nudge, open, brace or decline, with its risk set by the task's costs. On real activity in 9 kitchens, it predicts whether an object is still in place better than FreMEn and Perpetua, and decides when to look again at lower cost than these and the persistence filter, because about a quarter of placements end in a pick-up within 30 s. On real pulls of doors and drawers in 17 locations, made by a person with a force-sensing gripper, the map's force estimates decide better than a part-type average. Setting the risk from the costs also beats a published risk rule at its fixed level. In simulation, with the force limit at the training parts' median force, MBA raises SmolVLA's and Octo's scores by declining pulls; most declined door pulls would fail, but on drawers more would have opened, and a part-type average gets about half of this gain. In both, a published risk rule set to the risk these costs imply is MBA's rule for a single pull and decides as well in the main settings. A link between opening and holding force, a probing nudge and an action prior for camera tracking do not help in the main settings, and over the real-pull sweep the nudge costs a little.",
       "paper_url": "https://arxiv.org/abs/2611.12113",
       "pdf_url": "https://arxiv.org/pdf/2611.12113v1",
-      "doi": "",
+      "doi": "https://doi.org/10.48550/arxiv.2611.12113",
       "journal_ref": "",
       "categories": [
         "cs.RO"
@@ -2933,7 +3170,7 @@
       "source": "arXiv",
       "source_type": "primary",
       "status": "preprint",
-      "venue": "Preprint",
+      "venue": "arXiv (Cornell University)",
       "primary_bin": "vla",
       "secondary_bins": [
         "embodiment",
@@ -2948,8 +3185,9 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-10",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "sources_seen": [
+        "OpenAlex discovery",
         "arXiv"
       ]
     },
@@ -2988,7 +3226,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "https://github.com/charbelyah/MoSTE",
       "added_at": "2026-11-10",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "sources_seen": [
         "arXiv"
       ]
@@ -3030,7 +3268,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-10",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "sources_seen": [
         "arXiv"
       ]
@@ -3068,7 +3306,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "https://github.com/VectorInstitute/mars",
       "added_at": "2026-11-10",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "sources_seen": [
         "arXiv"
       ]
@@ -3107,7 +3345,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-10",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "sources_seen": [
         "arXiv"
       ]
@@ -3122,7 +3360,7 @@
       "abstract": "Tactile sensing is an indispensable modality for contact-rich dexterous manipulation, a capability that hints at the ultimate frontiers of embodied intelligence. However, commercially available tactile sensors are still at a relatively early stage of development, with each type of sensor offering irreplaceable strengths alongside its own drawbacks. A key challenge is thus to free tactile understanding from sensor-specific physics, so that embodied models can effectively leverage heterogeneous tactile data. To this end, we develop LingBot-Touch, a tactile foundation model characterized by the following properties. (i) Our model yields a unified representation across different tactile sensors (i.e., piezoresistive, magnetic, and visuotactile sensors), and is easily extensible to new sensor types. (ii) The resulting tactile tokens are plug-and-play: they can be seamlessly integrated into policy models across paradigms, from diffusion policy to vision-language-action (VLA) models such as $π_{0.5}$ and LingBot-VLA, consistently enhancing manipulation dexterity. (iii) Extensive experiments, spanning simulation and real-robot deployments across multiple hardware platforms, demonstrate that our tactile representation substantially benefits complex manipulation tasks while maintaining strong computational efficiency. We believe the findings in this work demonstrate the potential of leveraging cross-sensor data to scale tactile learning, and offer encouraging insights for the design of future hardware and embodied models.",
       "paper_url": "https://arxiv.org/abs/2611.12806",
       "pdf_url": "https://arxiv.org/pdf/2611.12806v1",
-      "doi": "",
+      "doi": "https://doi.org/10.48550/arxiv.2611.12806",
       "journal_ref": "",
       "categories": [
         "cs.RO"
@@ -3130,7 +3368,7 @@
       "source": "arXiv",
       "source_type": "primary",
       "status": "preprint",
-      "venue": "Preprint",
+      "venue": "arXiv (Cornell University)",
       "primary_bin": "vla",
       "secondary_bins": [
         "embodiment",
@@ -3147,8 +3385,9 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-10",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "sources_seen": [
+        "OpenAlex discovery",
         "arXiv"
       ]
     },
@@ -3185,7 +3424,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-10",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "sources_seen": [
         "arXiv"
       ]
@@ -3224,7 +3463,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-11",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "sources_seen": [
         "arXiv"
       ]
@@ -3265,7 +3504,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-10",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "sources_seen": [
         "arXiv"
       ]
@@ -3305,7 +3544,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-11",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "sources_seen": [
         "arXiv"
       ]
@@ -3345,7 +3584,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "https://github.com/sereact/lerobot_knn",
       "added_at": "2026-11-11",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "sources_seen": [
         "arXiv"
       ]
@@ -3385,7 +3624,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-10",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "sources_seen": [
         "arXiv"
       ]
@@ -3428,7 +3667,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-10",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "sources_seen": [
         "arXiv"
       ]
@@ -3468,7 +3707,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-10",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "sources_seen": [
         "arXiv"
       ]
@@ -3509,7 +3748,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-10",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "sources_seen": [
         "arXiv"
       ]
@@ -3545,7 +3784,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-11",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "sources_seen": [
         "OpenAlex discovery"
       ]
@@ -3586,7 +3825,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-11",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "sources_seen": [
         "arXiv"
       ]
@@ -3625,7 +3864,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-10",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "sources_seen": [
         "arXiv"
       ]
@@ -3666,7 +3905,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-10",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "sources_seen": [
         "arXiv"
       ]
@@ -3702,7 +3941,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-10",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "sources_seen": [
         "arXiv"
       ]
@@ -3742,9 +3981,41 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "https://github.com/Notfound-JH/GEOMIND-benchmark.git",
       "added_at": "2026-11-10",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "sources_seen": [
         "arXiv"
+      ]
+    },
+    {
+      "id": "https://doi.org/10.1111/pcn.70159",
+      "title": "Generative AI chatbots and mental health: A critical narrative review of benefits, risks, and clinical implications",
+      "authors": "Bruno da Silva Santos, Arthur Dolberth, Giovanni Gonçalves De Toni, Carlos Eduardo Freitas Dantas, Matheus de Lima Ruffini, Flávio Pereira Kapczinski, Jaime E. C. Hallak, Ives Cavalcante Passos",
+      "first_published": "2026-11-09",
+      "year": 2026,
+      "abstract": "The rapid diffusion of generative artificial intelligence chatbots has repositioned these systems from productivity tools to interlocutors used for emotional support, companionship, and mental health guidance. This critical narrative review has three aims: to give mental health professionals a concise technical account of large language models; to separate the evidence and risks attached to four distinct system classes, protocolized therapeutic chatbots, clinically bounded generative systems, general-purpose large language models used as informal therapy, and companion platforms; and to examine clinical, ethical, and regulatory implications. Literature was identified through non-systematic, iterative database and preprint-server searches between March and July 2026, supplemented by citation tracking and policy documents. No prespecified eligibility or screening protocol was used; the comparative claims are therefore provisional. Protocolized and clinically bounded systems carry the strongest evidence, including a meta-analysis of generative and hybrid chatbots reporting modest short-term symptom reduction and a randomized trial of an expert-fine-tuned therapeutic chatbot; these trials are brief, predominantly waitlist-controlled, and reliant on self-report. General-purpose models and companion platforms may deliver immediate validation and temporary reductions in loneliness, but that evidence is largely observational, qualitative, or short-term experimental and does not establish sustained benefit. Concerns include emotional dependence, social substitution, sycophantic reinforcement, unsafe responses to suicidal or psychotic content, commercial manipulation, and delusional beliefs temporally associated with sustained use. These systems are not a single intervention class. Their effects appear contingent on clinical structure, relational design, user vulnerability, duration and centrality of use, commercial incentives, and safeguards.",
+      "paper_url": "https://doi.org/10.1111/pcn.70159",
+      "doi": "https://doi.org/10.1111/pcn.70159",
+      "source": "OpenAlex discovery",
+      "source_type": "aggregator_discovery",
+      "status": "needs_verification",
+      "venue": "Psychiatry and Clinical Neurosciences",
+      "notes": "Discovery record only. Verify title, date, venue and claims at the publisher/preprint source before treating as confirmed.",
+      "primary_bin": "learning",
+      "secondary_bins": [
+        "embodiment"
+      ],
+      "tags": [
+        "auto-classified"
+      ],
+      "limitations": "Not extracted automatically. Read the full paper before drawing conclusions.",
+      "datasets": [],
+      "embodiments": [],
+      "real_robot": "Not established; verify full text.",
+      "code_url": "",
+      "added_at": "2026-11-12",
+      "last_seen": "2026-11-12",
+      "sources_seen": [
+        "OpenAlex discovery"
       ]
     },
     {
@@ -3779,7 +4050,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-10",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "sources_seen": [
         "arXiv"
       ]
@@ -3818,7 +4089,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-10",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "sources_seen": [
         "arXiv"
       ]
@@ -3854,7 +4125,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-11",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "sources_seen": [
         "arXiv"
       ]
@@ -3889,7 +4160,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-10",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "sources_seen": [
         "arXiv"
       ]
@@ -3923,7 +4194,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-11",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "sources_seen": [
         "OpenAlex discovery"
       ]
@@ -3962,7 +4233,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-10",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "sources_seen": [
         "arXiv"
       ]
@@ -4000,9 +4271,42 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-10",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "sources_seen": [
         "arXiv"
+      ]
+    },
+    {
+      "id": "https://doi.org/10.21203/rs.3.rs-11344222/v1",
+      "title": "Empowering Internet of Vehicles with Embodied Intelligence: A Survey of Technologies, Evaluation, and Outlook",
+      "authors": "Qiang Yu, Kebing Jin, Jianhang Tang, Xuanyu Wu, Yang Zhang, Celimuge Wu, Yixiong Feng",
+      "first_published": "2026-11-09",
+      "year": 2026,
+      "abstract": "Abstract The Internet of Vehicles (IoV) advances intelligent transportation by allowing vehicles, roadside infrastructure, pedestrian devices, and edge and cloud resources to share observations, computing resources, and traffic information. However, the traditional IoV systems often process perception, scene understanding, driving decisions, and vehicle control sequentially without continuously using feedback from vehicle motion execution to update later understanding and decisions, allowing state estimation and decision errors to persist across driving cycles and resulting in outdated vehicle states, decisions inconsistent with traffic conditions, and infeasible or unsafe maneuvers. Embodied intelligence forms a closed-loop in which vehicles perceive traffic conditions, understand scene changes, make decisions, execute control actions, and use environmental feedback to update later perception and decisions. This closed-loop reduces error accumulation, aligns traffic understanding with current road conditions, and improves vehicle action feasibility and adaptability. Existing surveys have reviewed embodied intelligence and related autonomous driving technologies. However, the closed-loop relationships among vehicle-to-everything (V2X) observations, traffic understanding, driving decision-making, vehicle execution, and environmental feedback have not been systematically examined. This survey organizes relevant studies around intelligent vehicle perception, traffic scene understanding, driving policy generation, and vehicle motion control, and clarifies the closed-loop process in which vehicles integrate multi-source observations collected by sensors to understand the current traffic scene, generate driving policies, control vehicle motion, and incorporate vehicle motion feedback into the next cycle of perception and decision making. The survey also summarizes representative datasets, metrics, challenges, and future directions for connected vehicles.",
+      "paper_url": "https://doi.org/10.21203/rs.3.rs-11344222/v1",
+      "doi": "https://doi.org/10.21203/rs.3.rs-11344222/v1",
+      "source": "OpenAlex discovery",
+      "source_type": "aggregator_discovery",
+      "status": "needs_verification",
+      "venue": "Research Square",
+      "notes": "Discovery record only. Verify title, date, venue and claims at the publisher/preprint source before treating as confirmed.",
+      "primary_bin": "perception",
+      "secondary_bins": [
+        "data",
+        "evaluation"
+      ],
+      "tags": [
+        "auto-classified"
+      ],
+      "limitations": "Not extracted automatically. Read the full paper before drawing conclusions.",
+      "datasets": [],
+      "embodiments": [],
+      "real_robot": "Not established; verify full text.",
+      "code_url": "",
+      "added_at": "2026-11-12",
+      "last_seen": "2026-11-12",
+      "sources_seen": [
+        "OpenAlex discovery"
       ]
     },
     {
@@ -4040,9 +4344,71 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-10",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "sources_seen": [
         "arXiv"
+      ]
+    },
+    {
+      "id": "https://doi.org/10.3389/frobt.2026.1988670",
+      "title": "Effects of observing a robot expressing approach-avoidance conflict on observers’ self-evaluations of personal courage",
+      "authors": "Yuki Shimizu, Midori Ban, Hideyuki Takahashi, Hiroshi Ishiguro",
+      "first_published": "2026-11-09",
+      "year": 2026,
+      "abstract": "Courage involves pursuing a valued action despite fear, hesitation, or competing motives. However, the pre-action conflict relevant to judging an act as courageous is difficult to observe directly and manipulate systematically when another human serves as the model. Robots provide a means of representing such otherwise covert motives in a controlled and reproducible form. We therefore examined how a robot’s expression of approach-avoidance conflict is perceived and how it relates to observers’ immediate self-evaluations of personal courage. Speech bubbles were projected near the head of a cylindrical robot to present approach and avoidance motives in a scenario in which the robot encountered a person littering in a park. Study 1 compared conflict and no-conflict conditions and sequential and simultaneous presentation methods to determine whether a robot expressing approach-avoidance conflict was perceived as courageous. Study 2 varied whether the robot expressed one motive direction or both approach and avoidance motives and whether it admonished the litterer, and examined whether post-stimulus courage self-evaluations differed according to observers’ preexisting courage tendency. In Study 1, the conflict condition yielded higher courage and conflict ratings than the no-conflict condition. In Study 2, the predicted three-way interaction was not supported. Instead, we observed an interaction between preexisting courage tendency group and conflict expression that was not specified in the primary hypothesis, with self-evaluations in the conflict condition tending to be higher in the low-courage group and lower in the high-courage group. Although neither group’s conflict contrast was significant after correction for multiple comparisons, this contrasting pattern is an exploratory finding suggesting that robot-expressed conflict may be received differently depending on observers’ preexisting courage tendency. The study provides a controlled HRI paradigm for examining how robot-expressed motives are perceived and raises the possibility that user characteristics may be relevant when designing robots that display cues to internal processes.",
+      "paper_url": "https://doi.org/10.3389/frobt.2026.1988670",
+      "doi": "https://doi.org/10.3389/frobt.2026.1988670",
+      "source": "OpenAlex discovery",
+      "source_type": "aggregator_discovery",
+      "status": "needs_verification",
+      "venue": "Frontiers in Robotics and AI",
+      "notes": "Discovery record only. Verify title, date, venue and claims at the publisher/preprint source before treating as confirmed.",
+      "primary_bin": "evaluation",
+      "secondary_bins": [],
+      "tags": [
+        "auto-classified"
+      ],
+      "limitations": "Not extracted automatically. Read the full paper before drawing conclusions.",
+      "datasets": [],
+      "embodiments": [],
+      "real_robot": "Not established; verify full text.",
+      "code_url": "",
+      "added_at": "2026-11-12",
+      "last_seen": "2026-11-12",
+      "sources_seen": [
+        "OpenAlex discovery"
+      ]
+    },
+    {
+      "id": "https://doi.org/10.1002/ail2.70057",
+      "title": "Echoes of Intelligence: What AI Could Learn From Bats",
+      "authors": "Rolf Müller",
+      "first_published": "2026-11-09",
+      "year": 2026,
+      "abstract": "ABSTRACT The rapid progress of deep learning has been driven in part by general principles of biological information processing, yet current AI systems still fall short of biological intelligence in critical ways such as integration of the computational and physical domains, i.e., embodied AI, and achieving autonomy in complex environments. This perspective argues that bat biosonar offers a particularly valuable model system for advancing embodied AI and autonomy in complex environments beyond the currently dominating vision‐centered and data‐intensive paradigms. Bats navigate dense and dynamic environments based on sparse trains of clutter echoes with random waveforms. These capabilities suggest alternative computational principles for perception and action: exploiting statistical rather than deterministic signal structure, extracting task‐relevant information from low‐bandwidth streams, and integrating morphology, actuation, and neural processing into closed‐loop embodied intelligence. This perspective reviews how bat biosonar differs from engineered sonar, identifies desirable capabilities that could inspire next‐generation autonomous systems, and outlines future research directions for deciphering and reproducing bat‐like intelligence through multimodal biological data, machine learning, neuromorphic processing, and biomimetic robotic platforms. By framing bat biosonar as a model for dynamic embodied intelligence, this perspective highlights a path toward AI systems that are more robust, parsimonious, and highly capable in real‐world environments.",
+      "paper_url": "https://doi.org/10.1002/ail2.70057",
+      "doi": "https://doi.org/10.1002/ail2.70057",
+      "source": "OpenAlex discovery",
+      "source_type": "aggregator_discovery",
+      "status": "needs_verification",
+      "venue": "Applied AI Letters",
+      "notes": "Discovery record only. Verify title, date, venue and claims at the publisher/preprint source before treating as confirmed.",
+      "primary_bin": "perception",
+      "secondary_bins": [
+        "learning"
+      ],
+      "tags": [
+        "auto-classified"
+      ],
+      "limitations": "Not extracted automatically. Read the full paper before drawing conclusions.",
+      "datasets": [],
+      "embodiments": [],
+      "real_robot": "Not established; verify full text.",
+      "code_url": "",
+      "added_at": "2026-11-12",
+      "last_seen": "2026-11-12",
+      "sources_seen": [
+        "OpenAlex discovery"
       ]
     },
     {
@@ -4080,9 +4446,39 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-10",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "sources_seen": [
         "arXiv"
+      ]
+    },
+    {
+      "id": "https://doi.org/10.1007/s10516-026-09822-4",
+      "title": "Does Total Knowledge Mute Emotion? A Thought Experiment using Large Language Models",
+      "authors": "M. Z. Naser",
+      "first_published": "2026-11-09",
+      "year": 2026,
+      "abstract": "Abstract This paper examines whether comprehensive knowledge acquisition attenuates emotional experience through a thought experiment that uses large language models (LLMs). We propose that LLMs, which possess extensive propositional knowledge yet lack phenomenal consciousness, serve as philosophical instruments for isolating the knowledge variable from other cognitive attributes. Our analysis develops two competing theoretical frameworks: the epistemic saturation hypothesis (ESH), which predicts emotional dampening via reduced prediction error, and the information hazard hypothesis (IHH), which anticipates emotional intensification via heightened awareness of negative states. We introduce a value uncertainty matrix that maps entities along the dimensions of knowledge completeness and embodied value schemas, thereby positioning hypothetical total knowledge agents (TKAs), LLMs, and humans within this conceptual space. Our synthesis suggests that total knowledge transforms rather than eliminates emotion and, therefore, shifts affective experience from uncertainty-driven volatility toward knowledge-dependent sublime states. This thought experiment reveals three insights: (1) vast propositional knowledge alone generates no intrinsic valence; (2) emotional experience requires embodied value computation; and (3) human cognitive enhancement toward total knowledge would likely preserve complex emotions while attenuating basic reactive effects. In parallel, the same thought experiment demonstrates how computational systems lacking consciousness can shed some light on fundamental questions about knowledge, emotion, and the nature of human experience.",
+      "paper_url": "https://doi.org/10.1007/s10516-026-09822-4",
+      "doi": "https://doi.org/10.1007/s10516-026-09822-4",
+      "source": "OpenAlex discovery",
+      "source_type": "aggregator_discovery",
+      "status": "needs_verification",
+      "venue": "Global Philosophy",
+      "notes": "Discovery record only. Verify title, date, venue and claims at the publisher/preprint source before treating as confirmed.",
+      "primary_bin": "embodiment",
+      "secondary_bins": [],
+      "tags": [
+        "auto-classified"
+      ],
+      "limitations": "Not extracted automatically. Read the full paper before drawing conclusions.",
+      "datasets": [],
+      "embodiments": [],
+      "real_robot": "Not established; verify full text.",
+      "code_url": "",
+      "added_at": "2026-11-12",
+      "last_seen": "2026-11-12",
+      "sources_seen": [
+        "OpenAlex discovery"
       ]
     },
     {
@@ -4116,7 +4512,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-11",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "sources_seen": [
         "arXiv"
       ]
@@ -4131,7 +4527,7 @@
       "abstract": "Generalist robot policies often fail at one step of a task they can otherwise perform. We ask whether such a failure can be repaired by editing the policy's weights directly, without gradients, training data, or a change to the instruction. Told to put the cube then the banana in the bowl, a zero-shot $π_{0.5}$ vision-language-action policy in RoboLab releases the cube before it reaches the bowl. Replaying 21 of these decisions under rewordings shows that it binds \"in the bowl\" to the wrong object. Closed-form instruction distillation copies the per-layer effect of an explicit rewording into the language model's MLP weights. On 128 held-out seeds, success rises from 27 to 106 episodes, with 81 fixed and 2 broken ($p=7\\times10^{-22}$), while an update of the same size in random directions leaves success unchanged. The edit also lifts two other tasks without detectable harm on the remaining 13, and a variant that stores 0.16% of the parameter count keeps most of its effect. Placed in the action expert or action head instead, the same distillation helps less or not at all. Our released tool reproduced the fix end to end on new held-out seeds, from 8/64 to 36/64. Edits aimed at perception, a missing grasp, contact physics, or the gripper threshold did not help, and of seven blind Claude Opus editors, only the one given the misread instruction produced an edit that passed held-out scoring. These results suggest that weight edits work best when a known-good input already exists to distil. Because reruns with unchanged weights flip about a third of paired outcomes, evaluations should pair seeds, rerun the unedited policy, and confirm gains on held-out seeds.",
       "paper_url": "https://arxiv.org/abs/2611.11894",
       "pdf_url": "https://arxiv.org/pdf/2611.11894v1",
-      "doi": "",
+      "doi": "https://doi.org/10.48550/arxiv.2611.11894",
       "journal_ref": "",
       "categories": [
         "cs.RO",
@@ -4141,7 +4537,7 @@
       "source": "arXiv",
       "source_type": "primary",
       "status": "preprint",
-      "venue": "Preprint",
+      "venue": "arXiv (Cornell University)",
       "primary_bin": "vla",
       "secondary_bins": [
         "evaluation",
@@ -4156,8 +4552,9 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-10",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "sources_seen": [
+        "OpenAlex discovery",
         "arXiv"
       ]
     },
@@ -4196,7 +4593,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-11",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "sources_seen": [
         "arXiv"
       ]
@@ -4228,7 +4625,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-11",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "sources_seen": [
         "OpenAlex discovery"
       ]
@@ -4265,7 +4662,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-10",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "sources_seen": [
         "arXiv"
       ]
@@ -4306,7 +4703,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-10",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "sources_seen": [
         "arXiv"
       ]
@@ -4321,7 +4718,7 @@
       "abstract": "Vision-language-action (VLA) models pair a vision-language backbone with an action head, but in closed-loop control the backbone sits on the control-critical path: while it computes, the robot keeps moving, so each executed action is conditioned on an increasingly stale observation. A larger backbone therefore directly blocks reactivity, especially in humanoid dexterous manipulation. We present DASH, a Decoupled Asynchronous System for Humanoids that removes this coupling. DASH splits the policy into a slow vision-language model (System 2) and a fast flow-matching action head (System 1) that run as concurrent processes over the LCM communication protocol, so the control rate is set by the action head alone, independent of backbone size. The action head fuses stale semantics from a frozen backbone with fresh vision from its own ResNet encoder, desynchronized training exposes it to the staleness it meets at deployment, and an adaptive temporal aggregator aligns overlapping action chunks under variable inference latency. On an asynchronous RoboTwin benchmark that charges inference latency in simulated time, DASH holds 20 Hz control rate from 0.8B to 8B backbones while the synchronous rate falls from 9.7 to 4.1 Hz, with higher success at every size. On a real humanoid with dexterous hands, DASH achieves clearly higher pick-and-place success than the synchronous pipeline.",
       "paper_url": "https://arxiv.org/abs/2611.11854",
       "pdf_url": "https://arxiv.org/pdf/2611.11854v1",
-      "doi": "",
+      "doi": "https://doi.org/10.48550/arxiv.2611.11854",
       "journal_ref": "",
       "categories": [
         "cs.RO",
@@ -4330,7 +4727,7 @@
       "source": "arXiv",
       "source_type": "primary",
       "status": "preprint",
-      "venue": "Preprint",
+      "venue": "arXiv (Cornell University)",
       "primary_bin": "vla",
       "secondary_bins": [
         "embodiment",
@@ -4348,8 +4745,9 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-10",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "sources_seen": [
+        "OpenAlex discovery",
         "arXiv"
       ]
     },
@@ -4389,7 +4787,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-10",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "sources_seen": [
         "arXiv"
       ]
@@ -4421,7 +4819,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-11",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "sources_seen": [
         "OpenAlex discovery"
       ]
@@ -4457,9 +4855,39 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-11",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "sources_seen": [
         "arXiv"
+      ]
+    },
+    {
+      "id": "https://doi.org/10.12688/f1000research.191978.1",
+      "title": "Cultivating Resilience: Urban Agriculture and Vertical Farming for Food, Health, and Environment – A Systematic Review",
+      "authors": "Nur Aziizah Darwis, Sigit Bayu Cahyanto, Anggistina Wulansari, Syukur Rahmat Gulo, Ahmad Tohirin, Gunawan Gunawan, Taofik Krisdiyanto, Maria Virgine Lilyana Manumanas",
+      "first_published": "2026-11-09",
+      "year": 2026,
+      "abstract": "Background Urbanization and climate change pressure urban food systems. Urban agriculture and vertical farming integrate biological systems, smart technologies, architectural design, food engineering, and environmental management to enhance food security, public health, and environmental sustainability. However, the literature remains fragmented, and no synthesis has examined how these domains interact within a food, health, and environment nexus. Methods This systematic review followed PRISMA 2020. Scopus was searched using a four-block string covering urban agriculture, smart technologies, architecture and biology, and food, health, and environment. From 1,207 documents, after filtering (2016–2026, research articles, English, open access) and screening, 38 studies were included. Data extraction used a standardized form. Quality was assessed with MMAT, JBI, CASP, and ISO 14040/14044. Thematic synthesis addressed eight research questions. Results The 38 studies spanned Architecture (n = 14), IT/Computational Science (n = 8), PSDAL (n = 14), Breeding (n = 7), Biology (n = 7), Public Health (n = 5), and Food Science (n = 4). Quality assessment: 27 low risk, 11 moderate, none high. Key findings: 156% food self-sufficiency; 13.5–20.2% energy savings; 57.14% water savings; 14.1% CO2 reduction; 28.1% VOC reduction; 20.9% PM2.5 reduction; 7.8°C PET reduction; GWP 0.86 kg CO2-eq/MJ; NER 3.7. CRISPR crops, arbuscular mycorrhizal fungi, and microalgae improved crop architecture, nutrient uptake, and resource recovery. IoT, AI, digital twins, and robotics enabled precision monitoring and control. Green façades, BIPV, agrivoltaics, and green roofs created multifunctional envelopes. Conclusions Urban agriculture and vertical farming yield synergistic benefits across food, health, and environment. Evidence supports integration into sustainable urban development. Gaps remain: multi-climate validation, economic analysis, policy fragmentation, data standardisation, and social acceptance. Future research should prioritise multi-site validation, economic assessment, regulatory frameworks, data interoperability, and AI-driven optimisation. Cultivating resilience requires integrated, evidence-based approaches aligning biological potential, technological capability, and architectural design.",
+      "paper_url": "https://doi.org/10.12688/f1000research.191978.1",
+      "doi": "https://doi.org/10.12688/f1000research.191978.1",
+      "source": "OpenAlex discovery",
+      "source_type": "aggregator_discovery",
+      "status": "needs_verification",
+      "venue": "F1000Research",
+      "notes": "Discovery record only. Verify title, date, venue and claims at the publisher/preprint source before treating as confirmed.",
+      "primary_bin": "embodiment",
+      "secondary_bins": [],
+      "tags": [
+        "auto-classified"
+      ],
+      "limitations": "Not extracted automatically. Read the full paper before drawing conclusions.",
+      "datasets": [],
+      "embodiments": [],
+      "real_robot": "Not established; verify full text.",
+      "code_url": "",
+      "added_at": "2026-11-12",
+      "last_seen": "2026-11-12",
+      "sources_seen": [
+        "OpenAlex discovery"
       ]
     },
     {
@@ -4494,7 +4922,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-10",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "sources_seen": [
         "arXiv"
       ]
@@ -4509,7 +4937,7 @@
       "abstract": "Embodied navigation requires agents to achieve persistent spatial awareness and long-horizon execution stability in open-world environments. However, existing navigation architectures struggle to sustain both capabilities, remaining effective only over a handful of recent frames. We present Compass 1, the first embodied navigation foundation model to unify language understanding and video generation while enabling memory backtracking through nearly 2mins of visual history. Without altering the underlying architecture, we introduce History Representation, which integrates sparse visual keyframes with an explicit History Representation Map to preserve long-term spatiotemporal context. To effectively leverage this history, we further introduce History Utilization, a structured VQA supervision protocol comprising three categories: task-stage grounding, exploration consistency, and spatiotemporal target retrieval, enabling map-grounded reasoning and stable persistent long-horizon navigation. To fuel this system, we establish a complete annotation pipeline for monocular RGB videos and open-source a massive dataset featuring over 500 hours of high-quality real-world interactions and over 2,000 hours of annotated web videos. Trained mainly on the distribution of 1m height camera, Compass 1 generalizes seamlessly across diverse embodiments and scenarios, ranging from indoor environments to pedestrian-dense streets, spanning wheeled robot at 0.35m, quadruped dog at 0.5m, humanoid at 0.85m, and aerial drone at 1.5m. Compass 1achieves a dominant overall success rate of 79.4% across open-world evaluations, compared to 17.8% for the strongest baseline. It demonstrates exceptional zero-shot execution exceeding 90% on foundational tasks, a 250% boost in exploration, and an unparalleled leap from 0% to 58% in challenging persistent history backtracking.",
       "paper_url": "https://arxiv.org/abs/2611.12087",
       "pdf_url": "https://arxiv.org/pdf/2611.12087v1",
-      "doi": "",
+      "doi": "https://doi.org/10.48550/arxiv.2611.12087",
       "journal_ref": "",
       "categories": [
         "cs.CV",
@@ -4518,7 +4946,7 @@
       "source": "arXiv",
       "source_type": "primary",
       "status": "preprint",
-      "venue": "Preprint",
+      "venue": "arXiv (Cornell University)",
       "primary_bin": "reasoning",
       "secondary_bins": [
         "data",
@@ -4536,8 +4964,9 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-10",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "sources_seen": [
+        "OpenAlex discovery",
         "arXiv"
       ]
     },
@@ -4576,7 +5005,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-10",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "sources_seen": [
         "arXiv"
       ]
@@ -4616,7 +5045,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-11",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "sources_seen": [
         "arXiv"
       ]
@@ -4657,7 +5086,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-10",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "sources_seen": [
         "arXiv"
       ]
@@ -4698,7 +5127,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-11",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "sources_seen": [
         "arXiv"
       ]
@@ -4739,7 +5168,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-10",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "sources_seen": [
         "arXiv"
       ]
@@ -4754,7 +5183,7 @@
       "abstract": "Robots are increasingly expected to execute natural-language manipulation tasks in real-world environments. This is particularly relevant in household assistance and logistics, where clutter requires reasoning about both task objectives and execution feasibility. This challenge becomes even more pronounced for bimanual humanoid platforms, where coordinating two manipulators introduces additional interaction and kinematic constraints. We present a zero-shot vision-language framework for execution-aware bimanual manipulation that jointly reasons about task objectives and physical feasibility. Planning is grounded in a structured scene representation that combines semantic object relations with execution constraints, enabling the selection of obstacle relocations and execution choices while preserving task semantics. Compatible actions are organised into parallel bimanual stages with explicit pre- and post-conditions. A hierarchical validator evaluates these conditions under perceptual uncertainty and uses stage-level execution history to support local recovery or targeted replanning. Experiments on the CENTAURO hybrid wheeled-legged humanoid robot across nine language-conditioned manipulation scenarios show higher task success than a non-execution-aware baseline. In dedicated failure scenarios, hierarchical validation recovers from execution failures with fewer model queries than always replanning. These results demonstrate the benefits of combining execution reasoning directly into task planning. Videos and additional material are available on the Project Webpage: https://advrhumanoids.github.io/bridging-planning-execution/.",
       "paper_url": "https://arxiv.org/abs/2611.12409",
       "pdf_url": "https://arxiv.org/pdf/2611.12409v1",
-      "doi": "",
+      "doi": "https://doi.org/10.48550/arxiv.2611.12409",
       "journal_ref": "",
       "categories": [
         "cs.RO",
@@ -4763,7 +5192,7 @@
       "source": "arXiv",
       "source_type": "primary",
       "status": "preprint",
-      "venue": "Preprint",
+      "venue": "arXiv (Cornell University)",
       "primary_bin": "reasoning",
       "secondary_bins": [
         "embodiment",
@@ -4779,8 +5208,9 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-10",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "sources_seen": [
+        "OpenAlex discovery",
         "arXiv"
       ]
     },
@@ -4815,9 +5245,42 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-10",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "sources_seen": [
         "arXiv"
+      ]
+    },
+    {
+      "id": "https://doi.org/10.1002/rob.70381",
+      "title": "BiCLAW‐VC: A Leg‐Wheel Robot With Four Wheels Integrating Symmetric Claws Following Variable Cycloidal Trajectories",
+      "authors": "Zhong Wei, 谷玉权, Sheng Xiang, Yang Yang, Yu Ding, Aiguo Song",
+      "first_published": "2026-11-09",
+      "year": 2026,
+      "abstract": "ABSTRACT To overcome the limitations of existing leg‐wheel robots, which require frequent locomotion mode switching according to terrain conditions and exhibit direction‐dependent obstacle‐crossing capability, this paper proposes a leg‐wheel robot with symmetric variable cycloidal claw locomotion mechanisms to improve terrain adaptability. The robot has four identical claw‐wheel mechanisms, each driven by two motors mounted on the body. One motor drives the rotation of the wheel, while the other adjusts the claw configuration relative to the wheel, thereby regulating the spatial orientation of the claw‐tip trajectory. The roots of each pair of claws are symmetrically mounted on the wheel through revolute joints, and the middle sections of the claws are connected by links to the output shaft of the claw configuration adjustment motor. The claws move along a cycloidal trajectory driven by wheel rotation. Through coordinated control of the two motors, the claw wheel can realize three locomotion modes: claw‐assisted rolling, wheel, and spoke‐wheel modes. Owing to its symmetric design, the robot exhibits identical locomotion modes and performance in both forward and backward directions, thereby achieving isotropic locomotion. This paper presents the robot design method in detail, establishes a dynamic model, and analyzes the step‐climbing capability and stability during stair climbing. A robot prototype was fabricated using three‐dimensional printing and machining, and experiments were conducted on locomotion in different modes, including step and stair climbing, pit escape, and locomotion over complex terrain. The experimental results demonstrate that the robot can stably and efficiently traverse complex environments using the three locomotion modes, climb steps up to 2.38 times the wheel radius and stairs with common daily‐life dimensions, and shows broad potential for applications such as inspection and post‐disaster search and rescue.",
+      "paper_url": "https://doi.org/10.1002/rob.70381",
+      "doi": "https://doi.org/10.1002/rob.70381",
+      "source": "OpenAlex discovery",
+      "source_type": "aggregator_discovery",
+      "status": "needs_verification",
+      "venue": "Journal of Field Robotics",
+      "notes": "Discovery record only. Verify title, date, venue and claims at the publisher/preprint source before treating as confirmed.",
+      "primary_bin": "systems",
+      "secondary_bins": [
+        "embodiment",
+        "spatial"
+      ],
+      "tags": [
+        "auto-classified"
+      ],
+      "limitations": "Not extracted automatically. Read the full paper before drawing conclusions.",
+      "datasets": [],
+      "embodiments": [],
+      "real_robot": "Not established; verify full text.",
+      "code_url": "",
+      "added_at": "2026-11-12",
+      "last_seen": "2026-11-12",
+      "sources_seen": [
+        "OpenAlex discovery"
       ]
     },
     {
@@ -4854,7 +5317,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-10",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "sources_seen": [
         "arXiv"
       ]
@@ -4869,7 +5332,7 @@
       "abstract": "Robots operating in the real world are inherently subject to partial observability, particularly in multi-robot collaboration, where individual observations may be insufficient for effective task execution. A key challenge is leveraging complementary observations from partner robots to support collaborative decision-making. We argue that information sharing should go beyond passively transmitting raw observations or generic visual features. Instead, robots should selectively encode task-relevant information according to task objectives and execution progress. To this end, we propose a task-oriented active context sharing framework that transforms robot observations into compact representations, preserving critical information under constrained communication budgets. The framework adopts a two-stage training paradigm. In the first stage, onboard observations and task instructions are jointly encoded into compact context representations. Task-oriented future prediction and soft task-progress correspondence learning guide this collaboration-agnostic compression, preserving information about task objectives and execution progress. In the second stage, the learned representations are integrated into a pretrained Vision-Language-Action (VLA) policy, enabling bidirectional context exchange. Each robot combines complementary partner information with local observations to guide action generation. Action supervision jointly refines the context representations and policy, aligning information sharing with collaborative decision-making. Controlled experiments demonstrate substantial performance gains under constrained communication budgets, while three real-world experiments validate the framework in complex dual-robot tasks. These results highlight a shift from passive visual transmission toward active, task-oriented context sharing that directly supports collaborative decision-making.",
       "paper_url": "https://arxiv.org/abs/2611.12295",
       "pdf_url": "https://arxiv.org/pdf/2611.12295v1",
-      "doi": "",
+      "doi": "https://doi.org/10.48550/arxiv.2611.12295",
       "journal_ref": "",
       "categories": [
         "cs.RO",
@@ -4878,7 +5341,7 @@
       "source": "arXiv",
       "source_type": "primary",
       "status": "preprint",
-      "venue": "Preprint",
+      "venue": "arXiv (Cornell University)",
       "primary_bin": "vla",
       "secondary_bins": [
         "learning",
@@ -4894,8 +5357,9 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-10",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "sources_seen": [
+        "OpenAlex discovery",
         "arXiv"
       ]
     },
@@ -4933,9 +5397,39 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "https://github.com/ShivaTeam/AutoVLA-D",
       "added_at": "2026-11-10",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "sources_seen": [
         "arXiv"
+      ]
+    },
+    {
+      "id": "https://doi.org/10.21203/rs.3.rs-11571811/v1",
+      "title": "An insect-scale quadruped robot with a mechanically coupled transmission for confined environments",
+      "authors": "Yide Liu, Rui Chen, Bian Gan, Bo Feng, Shaoxing Qu",
+      "first_published": "2026-11-09",
+      "year": 2026,
+      "abstract": "Abstract Insect-scale robots hold promise for exploration and rescue in confined environments, yet achieving simultaneous fast locomotion, high payload capacity, and long endurance under severe mass and volume constraints remains a fundamental challenge. Here, we present a 20.9 g, 6 cm insect-scale quadruped robot enabled by a mechanically coupled single-degree-of-freedom transmission. By tuning the transmission ratio, we engineered two distinct configurations. The high-torque variant utilizes a three-stage gearbox to transport up to 250 g—12 times its own weight—and sustains a 12 N quasi-static load, while the standard configuration achieves a forward speed of 36.9 cm/s. Operating untethered with wireless control, the robot completes more than 400 m of continuous locomotion. Furthermore, it successfully executes teleoperated pickup-and-return tasks within physically confined spaces. These results establish a mechanically coordinated design strategy that links high agility, load-bearing capacity and task-level integration at insect scale.",
+      "paper_url": "https://doi.org/10.21203/rs.3.rs-11571811/v1",
+      "doi": "https://doi.org/10.21203/rs.3.rs-11571811/v1",
+      "source": "OpenAlex discovery",
+      "source_type": "aggregator_discovery",
+      "status": "needs_verification",
+      "venue": "Research Square",
+      "notes": "Discovery record only. Verify title, date, venue and claims at the publisher/preprint source before treating as confirmed.",
+      "primary_bin": "embodiment",
+      "secondary_bins": [],
+      "tags": [
+        "auto-classified"
+      ],
+      "limitations": "Not extracted automatically. Read the full paper before drawing conclusions.",
+      "datasets": [],
+      "embodiments": [],
+      "real_robot": "Not established; verify full text.",
+      "code_url": "",
+      "added_at": "2026-11-12",
+      "last_seen": "2026-11-12",
+      "sources_seen": [
+        "OpenAlex discovery"
       ]
     },
     {
@@ -4975,7 +5469,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-10",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "sources_seen": [
         "arXiv"
       ]
@@ -5015,7 +5509,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-10",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "sources_seen": [
         "arXiv"
       ]
@@ -5056,7 +5550,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-10",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "sources_seen": [
         "arXiv"
       ]
@@ -5095,7 +5589,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-11",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "sources_seen": [
         "arXiv"
       ]
@@ -5136,7 +5630,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-11",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "sources_seen": [
         "arXiv"
       ]
@@ -5174,7 +5668,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-11",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "sources_seen": [
         "arXiv"
       ]
@@ -5216,7 +5710,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-10",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "sources_seen": [
         "arXiv"
       ]
@@ -5231,7 +5725,7 @@
       "abstract": "World models have increasingly been applied as a model-based control method for robotics tasks such as manipulation and locomotion. While early world model architectures relied on decoders to prevent mode collapse and learn a predictable latent space, recent works on world models, such as Joint Embedding Predictive Architecture or LeWorldModel, increasingly aim to learn embeddings without a grounding decoder, utilising only a latent forward dynamics predictor and a stabilising entropy term. In this paper, we set out to demonstrate that the further introduction of two additional latent losses to LeWorldModel, a backward dynamics predictor and an inverse dynamics action predictor, enforces further structure on the latent embedding, leading to further gains in both performance and planning efficiency. These are critical properties for improving the applicability of such methods to real-time model-based control of real-world robots. We demonstrate these gains on standard world model benchmarks and two simulated robot manipulation tasks.",
       "paper_url": "https://arxiv.org/abs/2611.12732",
       "pdf_url": "https://arxiv.org/pdf/2611.12732v1",
-      "doi": "",
+      "doi": "https://doi.org/10.48550/arxiv.2611.12732",
       "journal_ref": "",
       "categories": [
         "cs.LG",
@@ -5241,7 +5735,7 @@
       "source": "arXiv",
       "source_type": "primary",
       "status": "preprint",
-      "venue": "Preprint",
+      "venue": "arXiv (Cornell University)",
       "primary_bin": "embodiment",
       "secondary_bins": [
         "evaluation",
@@ -5259,8 +5753,9 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-10",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "sources_seen": [
+        "OpenAlex discovery",
         "arXiv"
       ]
     },
@@ -5301,7 +5796,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-10",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "sources_seen": [
         "arXiv"
       ]
@@ -5341,7 +5836,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-10",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "sources_seen": [
         "arXiv"
       ]
@@ -5376,7 +5871,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-10",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "sources_seen": [
         "arXiv"
       ]
@@ -5391,7 +5886,7 @@
       "abstract": "Understanding 3D scene dynamics in minimally invasive surgery (MIS) is a fundamental step toward physically intelligent and autonomous surgical systems. However, existing public datasets offer limited scalability and diversity in real-world clinical scenarios. Moreover, annotations typically focus on either tissue or instruments alone, overlooking tool-tissue interactions. This gap limits applications such as augmented reality guidance and autonomous surgery driven by vision-language-action (VLA) models or world models, which demand large-scale, high-quality 3D supervision. In this work, we construct SurgTAP-3D, a large-scale in-vivo pseudo-3D surgical motion tracking dataset and benchmark, comprising 520K frames, 4,549 action clips, and 1.4M 2D/3D point trajectories from diverse robotic and manual procedures under unified action categories. To make annotation scalable, we design a unified framework for surgical 3D point tracking that converts uncalibrated monocular surgical videos into structured 4D annotations through contact-region prompting, active-tool segmentation, dynamic bundle adjustment, and global 4D refinement. This pipeline adapts foundation priors to surgical videos and produces temporally consistent trajectories, pseudo-scale geometry, camera poses, and instrument masks. The dataset captures realistic challenges inherent to surgical environments, including occlusions, smoke, bleeding, and rapid instrument motion. We establish a comprehensive benchmark on SurgPose, SurgT, and STIR, covering both instrument and tissue tracking. We demonstrate instrument displacement estimation, deformable surface reconstruction, and foundation-model fine-tuning. Extensive experiments and analysis demonstrate the effectiveness of our dataset and annotation framework for 3D surgical point tracking, reconstruction, and surgical action understanding. Homepage: https://wrld.github.io/surgtap-3d/",
       "paper_url": "https://arxiv.org/abs/2611.11697",
       "pdf_url": "https://arxiv.org/pdf/2611.11697v1",
-      "doi": "",
+      "doi": "https://doi.org/10.48550/arxiv.2611.11697",
       "journal_ref": "",
       "categories": [
         "cs.CV",
@@ -5400,7 +5895,7 @@
       "source": "arXiv",
       "source_type": "primary",
       "status": "preprint",
-      "venue": "Preprint",
+      "venue": "arXiv (Cornell University)",
       "primary_bin": "spatial",
       "secondary_bins": [
         "evaluation",
@@ -5418,8 +5913,9 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-10",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "sources_seen": [
+        "OpenAlex discovery",
         "arXiv"
       ]
     },
@@ -5433,7 +5929,7 @@
       "abstract": "Failure monitors for vision-language-action (VLA) policies are trained offline and then frozen. After deployment, lighting, objects and cameras drift, and the policy itself is updated or moved to new tasks. On recorded real-robot runs, after a switch of task or policy version, a frozen monitor fit on the old task ranks failures little better than chance. We present Streaming Failure Forecasting (SFF), a monitor that keeps learning from the one label every episode provides: whether it succeeded. SFF keeps the offline monitor's network fixed and refits only its last linear layer after each episode, at 2.18 ms per policy call on a Jetson CPU core. Its alarm threshold moves only after successes, which in simulation kept false alarms near target except when two drifts came at once. With every setting locked before testing, SFF ranks failures better than the same monitor kept frozen on 4 of 5 simulated test suites under unannounced drift, and above resetting on detected drift on every suite. Carried with its locked learner settings to 434 recorded runs of four VLAs on real SO-101 arms, replayed across unannounced switches of task or policy version, it ranks failures better than the frozen monitor for every VLA and, in an exploratory comparison, above a full reset at the true switch. A deployed failure monitor need not stay frozen: refitting its readout from outcomes is cheap and helps after the changes we tested.",
       "paper_url": "https://arxiv.org/abs/2611.11688",
       "pdf_url": "https://arxiv.org/pdf/2611.11688v1",
-      "doi": "",
+      "doi": "https://doi.org/10.48550/arxiv.2611.11688",
       "journal_ref": "",
       "categories": [
         "cs.RO",
@@ -5442,7 +5938,7 @@
       "source": "arXiv",
       "source_type": "primary",
       "status": "preprint",
-      "venue": "Preprint",
+      "venue": "arXiv (Cornell University)",
       "primary_bin": "vla",
       "secondary_bins": [
         "perception"
@@ -5456,8 +5952,9 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-10",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "sources_seen": [
+        "OpenAlex discovery",
         "arXiv"
       ]
     },
@@ -5495,7 +5992,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-10",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "sources_seen": [
         "arXiv"
       ]
@@ -5533,7 +6030,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-10",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "sources_seen": [
         "arXiv"
       ]
@@ -5574,7 +6071,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "https://github.com/WANGSHUAIzzzz/ScanDreamer",
       "added_at": "2026-11-10",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "sources_seen": [
         "arXiv"
       ]
@@ -5614,7 +6111,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-10",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "sources_seen": [
         "arXiv"
       ]
@@ -5654,7 +6151,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-10",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "sources_seen": [
         "arXiv"
       ]
@@ -5697,7 +6194,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-11",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "sources_seen": [
         "arXiv"
       ]
@@ -5736,7 +6233,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-10",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "sources_seen": [
         "arXiv"
       ]
@@ -5751,7 +6248,7 @@
       "abstract": "Generative world modeling from large-scale visual data offers a promising path toward scalable robot manipulation. This calls for an intermediate representation that can be supervised at scale and remains actionable for downstream control. We propose 3D full-object flow, an object-centric motion representation that assigns dense 3D trajectories to points across the complete surface of a target object, including its occluded regions. By extending visible-surface object flow to the full object geometry, this representation makes complete object motion explicit and applies uniformly to both rigid and deformable objects. To realize the potential of this representation at scale, we introduce a 1210-hour full-object flow dataset that addresses the scarcity of large-scale supervision for complete 3D object motion. The dataset integrates diverse real-world videos and physical simulations, with a scalable annotation pipeline for recovering full-object motion from real-world observations and quality metrics for systematically assessing annotation quality. We then train a world model that takes an image and a task description as input and predicts dense full-object flow over the reconstructed object geometry. Experiments show reliable annotation quality, data-scalable flow prediction, and effective downstream manipulation across novel scenes and robot embodiments. Project website with additional results and videos: https://nus-lins-lab.github.io/ObjectWorld/.",
       "paper_url": "https://arxiv.org/abs/2611.11085",
       "pdf_url": "https://arxiv.org/pdf/2611.11085v1",
-      "doi": "",
+      "doi": "https://doi.org/10.48550/arxiv.2611.11085",
       "journal_ref": "",
       "categories": [
         "cs.RO"
@@ -5759,7 +6256,7 @@
       "source": "arXiv",
       "source_type": "primary",
       "status": "preprint",
-      "venue": "Preprint",
+      "venue": "arXiv (Cornell University)",
       "primary_bin": "world",
       "secondary_bins": [
         "data",
@@ -5775,8 +6272,9 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-10",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "sources_seen": [
+        "OpenAlex discovery",
         "arXiv"
       ]
     },
@@ -5805,7 +6303,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-11",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "sources_seen": [
         "OpenAlex discovery"
       ]
@@ -5846,7 +6344,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-10",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "sources_seen": [
         "arXiv"
       ]
@@ -5885,7 +6383,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-10",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "sources_seen": [
         "arXiv"
       ]
@@ -5923,7 +6421,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-10",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "sources_seen": [
         "arXiv"
       ]
@@ -5938,7 +6436,7 @@
       "abstract": "Humanoid loco-manipulation requires continuous coordination of high-dimensional whole-body motion to realize task objectives. While vision-language-action models and world action models transfer semantic and visual-dynamics priors to robot control, these priors do not necessarily capture the structure of robot motion. We introduce Kinematic Action Models (KAMs), a paradigm that treats whole-body motion as a direct pretraining target and uses a pretrained motion generator as the primary action-generation backbone. KAMs ground learned temporal and cross-body coordination priors through task conditioning, visual observations, and execution feedback. We present Kimodo-Policy as an initial instantiation, combining a frozen Kimodo text-to-motion backbone with lightweight ControlNet-based visual conditioning. A root-body-hand hierarchy coordinates locomotion and manipulation, while motion-history conditioning and repeated action-chunk prediction bridge motion synthesis and closed-loop control. Following large-scale loco-manipulation pretraining, the policy achieves the highest overall success among compared policies on multi-task HumanoidArena (72.14%), competitive performance on SIMPLE, and 60% mean success across eight real-world tasks, with 678M parameters (92M trainable). Ablations support the contribution of the pretrained motion backbone. Together, these results provide initial evidence for motion generation as a complementary foundation for humanoid action learning.",
       "paper_url": "https://arxiv.org/abs/2611.11554",
       "pdf_url": "https://arxiv.org/pdf/2611.11554v1",
-      "doi": "",
+      "doi": "https://doi.org/10.48550/arxiv.2611.11554",
       "journal_ref": "",
       "categories": [
         "cs.RO",
@@ -5948,7 +6446,7 @@
       "source": "arXiv",
       "source_type": "primary",
       "status": "preprint",
-      "venue": "Preprint",
+      "venue": "arXiv (Cornell University)",
       "primary_bin": "embodiment",
       "secondary_bins": [
         "data",
@@ -5965,8 +6463,9 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-10",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "sources_seen": [
+        "OpenAlex discovery",
         "arXiv"
       ]
     },
@@ -6008,7 +6507,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-10",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "sources_seen": [
         "arXiv"
       ]
@@ -6047,7 +6546,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-10",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "sources_seen": [
         "arXiv"
       ]
@@ -6062,7 +6561,7 @@
       "abstract": "Recent robot manipulation benchmarks have enabled systematic evaluation of general-purpose robot policies across diverse objects, scenes, instructions, and embodiments. However, most existing benchmarks still assume that the robot is the only active agent and that task semantics are determined primarily by the instruction and object state. This assumption overlooks a common source of real-world variation: humans actively sharing the workspace. In such settings, humans may reveal an implicit goal, complete part of the task, temporarily change object availability, or constrain safe robot motion while working nearby. We introduce HARP-Bench, a benchmark for evaluating robot manipulation policies in workspaces shared with active humans. HARP-Bench treats human activity as part of the manipulation problem, rather than as background scene variation. It organizes human-present manipulation into four conditions: Cueing, Contribution, Interruption, and Co-presence. These conditions are instantiated through everyday manipulation tasks, including paired human-present variants for controlled comparison with standard manipulation. HARP-Bench also provides a demonstration-generation pipeline for dynamic human-present settings. We evaluate VLA models, imitation-learning methods, and heuristic policies on HARP-Bench. Human-present variations challenge current policies, and higher task success does not consistently improve safety. Quantitative failure analysis identifies manipulation and recovery as the dominant remaining challenges. Training with HARP-Bench demonstrations improves human-present performance in simulation. A real-world study on one task family shows improved performance under human contribution, but not interruption, providing initial evidence of the data's utility and identifying limits of transfer. Code is available at https://github.com/UMass-Embodied-AGI/harp.",
       "paper_url": "https://arxiv.org/abs/2611.11123",
       "pdf_url": "https://arxiv.org/pdf/2611.11123v1",
-      "doi": "",
+      "doi": "https://doi.org/10.48550/arxiv.2611.11123",
       "journal_ref": "",
       "categories": [
         "cs.RO",
@@ -6071,7 +6570,7 @@
       "source": "arXiv",
       "source_type": "primary",
       "status": "preprint",
-      "venue": "Preprint",
+      "venue": "arXiv (Cornell University)",
       "primary_bin": "evaluation",
       "secondary_bins": [
         "learning",
@@ -6086,8 +6585,9 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "https://github.com/UMass-Embodied-AGI/harp",
       "added_at": "2026-11-10",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "sources_seen": [
+        "OpenAlex discovery",
         "arXiv"
       ]
     },
@@ -6126,7 +6626,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-10",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "sources_seen": [
         "arXiv"
       ]
@@ -6164,7 +6664,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-10",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "sources_seen": [
         "arXiv"
       ]
@@ -6179,7 +6679,7 @@
       "abstract": "Robotic manipulation requires representations that capture both scene geometry and its evolution during interaction. Existing approaches have largely treated these two aspects separately. World action models capture such dynamics by coupling action prediction with future video generation, but their reliance on iterative diffusion or rectified-flow inference leads to high computational cost, while their representations lack explicit spatial structure. Explicitly modeling scene geometry typically requires auxiliary modules that increase both parameter count and computational cost. Conversely, geometry-centric policies primarily recover observed spatial structure and often lack explicit supervision for anticipating future geometric changes during interaction. To address these limitations, we introduce ForeAct, which repurposes a pretrained video world model as a single-pass representation backbone for low-latency control. ForeAct directly processes the clean latent of the current observation in one forward pass, eliminating future-frame synthesis and iterative denoising while retaining the backbone's pretrained spatiotemporal priors. Rather than introducing a separate geometry backbone, ForeAct uses learnable tokens supervised by next-frame relative depth to shape the shared video representation through bidirectional self-attention. This compact interface turns the spatial knowledge already encoded in the backbone into a future-aware representation for action generation, with little parameter overhead. The lightweight geometry readout is used only during training and removed at deployment, enabling low-latency, geometry-aware control without depth input or an external geometry backbone. Without additional large-scale pretraining, ForeAct achieves 96.6% average success on LIBERO, 63.5% on SimplerEnv-Bridge, and a 74.4% success rate across 90 real-world rollouts.",
       "paper_url": "https://arxiv.org/abs/2611.11500",
       "pdf_url": "https://arxiv.org/pdf/2611.11500v1",
-      "doi": "",
+      "doi": "https://doi.org/10.48550/arxiv.2611.11500",
       "journal_ref": "",
       "categories": [
         "cs.CV",
@@ -6188,7 +6688,7 @@
       "source": "arXiv",
       "source_type": "primary",
       "status": "preprint",
-      "venue": "Preprint",
+      "venue": "arXiv (Cornell University)",
       "primary_bin": "systems",
       "secondary_bins": [
         "data",
@@ -6205,8 +6705,9 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-10",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "sources_seen": [
+        "OpenAlex discovery",
         "arXiv"
       ]
     },
@@ -6242,7 +6743,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-10",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "sources_seen": [
         "arXiv"
       ]
@@ -6277,7 +6778,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-10",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "sources_seen": [
         "arXiv"
       ]
@@ -6292,7 +6793,7 @@
       "abstract": "Vision-language-action (VLA) models enable robots to understand and execute complex instructions, but their autoregressive (AR) action generation introduces significant latency on resource-constrained robotic platforms. Speculative decoding can accelerate AR-based inference by parallelizing action generation and verification; however, existing approaches rely on costly draft models, which are inefficient on edge platforms. In this paper, we propose Zora, a hardware-software co-design framework for accelerating AR-based VLA inference. Specifically, Zora introduces a lightweight retrieval-augmented generation (RAG)-based draft model that exploits robotic dynamics without additional neural draft models. We further reduce batch verification overhead through a kinematics-guided action-acceptance strategy and a KV-cache-sharing attention mechanism. To address the retrieval overhead introduced by RAG-based drafting, we co-design dedicated hardware support, Zora core, to address the memory irregularity in RAG-based drafting. We evaluate Zora on four VLA models with the LIBERO benchmark. Zora retains comparable accuracy while achieving up to 3.4$\\times$ speedup with software-only optimization and up to 7.6$\\times$ speedup with hardware support over GPUs.",
       "paper_url": "https://arxiv.org/abs/2611.11098",
       "pdf_url": "https://arxiv.org/pdf/2611.11098v1",
-      "doi": "",
+      "doi": "https://doi.org/10.48550/arxiv.2611.11098",
       "journal_ref": "",
       "categories": [
         "cs.AR",
@@ -6301,7 +6802,7 @@
       "source": "arXiv",
       "source_type": "primary",
       "status": "preprint",
-      "venue": "Preprint",
+      "venue": "arXiv (Cornell University)",
       "primary_bin": "systems",
       "secondary_bins": [
         "evaluation",
@@ -6318,8 +6819,9 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-10",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "sources_seen": [
+        "OpenAlex discovery",
         "arXiv"
       ]
     },
@@ -6333,7 +6835,7 @@
       "abstract": "Dexterous manipulation requires rich spatial foresight over both the surrounding scene and the robot hand. Existing world-action models often acquire such predictive knowledge through explicit future prediction. We introduce DexForesight, a framework that learns spatial foresight implicitly by injecting dynamics-aware world representations into the latent space of a dexterous policy. During training, DexForesight learns an action-conditioned spatial world model from offline scene depth, kinematic hand geometry, and demonstration trajectories. The world model predicts 3D hand-point motion and visual feature changes, capturing both articulated hand dynamics and scene changes under demonstrated actions, including the motion of fingers occluded from the cameras. We then freeze the world model and align policy queries with its predictive world queries, transferring the learned spatial dynamics into policy latents and using them to condition action generation. At deployment, only the policy is retained, operating on RGB observations, language, and robot state without depth input or explicit future prediction. On 11 DexJoCo simulation tasks, DexForesight improves the overall success rate of the base policy from 49.4% to 60.5%. On three real-robot dexterous manipulation tasks, DexForesight achieves 58.3% success, compared with 50.0% for the strongest baseline.Project page https://dexforesight.github.io/",
       "paper_url": "https://arxiv.org/abs/2611.11166",
       "pdf_url": "https://arxiv.org/pdf/2611.11166v1",
-      "doi": "",
+      "doi": "https://doi.org/10.48550/arxiv.2611.11166",
       "journal_ref": "",
       "categories": [
         "cs.RO"
@@ -6341,7 +6843,7 @@
       "source": "arXiv",
       "source_type": "primary",
       "status": "preprint",
-      "venue": "Preprint",
+      "venue": "arXiv (Cornell University)",
       "primary_bin": "spatial",
       "secondary_bins": [
         "embodiment",
@@ -6358,8 +6860,9 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-10",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "sources_seen": [
+        "OpenAlex discovery",
         "arXiv"
       ]
     },
@@ -6395,7 +6898,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-10",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "sources_seen": [
         "arXiv"
       ]
@@ -6429,7 +6932,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-10",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "sources_seen": [
         "OpenAlex discovery"
       ]
@@ -6444,7 +6947,7 @@
       "abstract": "Vision-based control policies, including vision-language-action models, have enabled robots to perform increasingly complex tasks. However, their execution speed is often limited by the high computational cost of action inference. In this work, we investigate what can be achieved at the control level without modifying the underlying policy learning process. We introduce an asynchronous inference and control framework that enables fast task execution while maintaining smooth and stable robot motions. By formulating the generation of continuous target positions from discontinuous model predictions as a tracking control problem, our method makes asynchronous inference practical for real robots. We further accelerate execution through adaptive action skipping based on the variance of predicted positions. Experiments with Action Chunking Transformer and OpenVLA-OFT on a bimanual robot demonstrate substantial speedups while preserving high task success rates.",
       "paper_url": "https://arxiv.org/abs/2611.11089",
       "pdf_url": "https://arxiv.org/pdf/2611.11089v1",
-      "doi": "",
+      "doi": "https://doi.org/10.48550/arxiv.2611.11089",
       "journal_ref": "",
       "categories": [
         "cs.RO"
@@ -6452,7 +6955,7 @@
       "source": "arXiv",
       "source_type": "primary",
       "status": "preprint",
-      "venue": "Preprint",
+      "venue": "arXiv (Cornell University)",
       "primary_bin": "vla",
       "secondary_bins": [
         "learning",
@@ -6468,8 +6971,9 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-10",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "sources_seen": [
+        "OpenAlex discovery",
         "arXiv"
       ]
     },
@@ -6508,7 +7012,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-10",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "sources_seen": [
         "arXiv"
       ]
@@ -6546,7 +7050,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-10",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "sources_seen": [
         "arXiv"
       ]
@@ -6583,7 +7087,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-11",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "sources_seen": [
         "arXiv"
       ]
@@ -6622,7 +7126,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-10",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "sources_seen": [
         "arXiv"
       ]
@@ -6660,7 +7164,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-10",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "sources_seen": [
         "arXiv"
       ]
@@ -6698,7 +7202,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-10",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "sources_seen": [
         "arXiv"
       ]
@@ -6732,7 +7236,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "https://github.com/Robotics-BUT/BUT",
       "added_at": "2026-11-10",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "sources_seen": [
         "OpenAlex discovery"
       ]
@@ -6770,7 +7274,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-10",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "sources_seen": [
         "arXiv"
       ]
@@ -6785,7 +7289,7 @@
       "abstract": "Pre-training large parametric \"Vision-Language-Action\" (VLA) models on large demonstration datasets has recently yielded promising results for general-purpose manipulation. However, these models still struggle under even small domain shifts relative to the training data, such as changes in camera viewpoint, background, object identity, or robot morphology. Motivated by the success of Retrieval-Augmented Generation (RAG) in language models, we pursue retrieval to boost VLA performance. Specifically, we seek to leverage retrieval from domain-mismatched, \"in-the-wild\" demonstration datasets like DROID to guide a VLA's behavior in a new target domain. To achieve this, we introduce RAGu, which overcomes robotics-specific challenges for RAG: (1) It incorporates simple geometric calibration to transform source demonstrations into the target setup and reduce cross-domain differences. (2) It uses a coarse-to-fine retrieval strategy that selects, from a large pool of pre-warped candidates, the trajectory most compatible with the base VLA. (3) It guides the VLA's flow-matching inference procedure rather than seeking to retrain the base model or expand its limited context window. We evaluate RAGu across real-world, simulation, sim-to-real transfer, and cross-embodiment humanoid manipulation. We find it improves real-world VLA success rates from 20% to 80% and outperforms the closest-related baselines in sim. Project website: raguvla.github.io",
       "paper_url": "https://arxiv.org/abs/2611.10894",
       "pdf_url": "https://arxiv.org/pdf/2611.10894v1",
-      "doi": "",
+      "doi": "https://doi.org/10.48550/arxiv.2611.10894",
       "journal_ref": "",
       "categories": [
         "cs.RO",
@@ -6795,7 +7299,7 @@
       "source": "arXiv",
       "source_type": "primary",
       "status": "preprint",
-      "venue": "Preprint",
+      "venue": "arXiv (Cornell University)",
       "primary_bin": "vla",
       "secondary_bins": [
         "data",
@@ -6813,8 +7317,9 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-10",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "sources_seen": [
+        "OpenAlex discovery",
         "arXiv"
       ]
     },
@@ -6854,7 +7359,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-10",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "sources_seen": [
         "arXiv"
       ]
@@ -6889,7 +7394,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-10",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "sources_seen": [
         "arXiv"
       ]
@@ -6904,7 +7409,7 @@
       "abstract": "Embodied intelligence systems rely on fast and reliable inference to enable real-time perception, reasoning, and control. Recent advances in large-scale artificial intelligence (AI) models, including Large Language Models (LLMs) and Vision-Language-Action (VLA) models, have significantly enhanced the capabilities of embodied agents in complex environments. However, deploying these models remains challenging due to the limited computational resources and energy budgets of robotic platforms. A fundamental question is where inference should be executed. Collaborative inference, which partitions models across end devices, edge servers, and the cloud, has emerged as a promising solution. Yet determining the optimal partitioning point remains an open problem, as it depends on wireless network conditions, model structure, and privacy requirements. This article reviews the state of the art in collaborative inference for embodied intelligence and proposes an edge-centric framework in which the edge coordinates model partitioning and execution. Through both simulation and real-world experiments over WiFi and 5G networks, we demonstrate that the optimal partitioning strategy varies with network conditions and model structure. We further identify latency-minimizing partition points for ResNet-101, Qwen2.5-VL-7B, and OpenVLA-7B in collaborative inference between NVIDIA Jetson Nano or AGX Xavier devices and an AGX Thor edge server under varying wireless conditions. Finally, we discuss the future directions for collaborative inference in 6G-empowered embodied intelligence systems.",
       "paper_url": "https://arxiv.org/abs/2611.11023",
       "pdf_url": "https://arxiv.org/pdf/2611.11023v1",
-      "doi": "",
+      "doi": "https://doi.org/10.48550/arxiv.2611.11023",
       "journal_ref": "",
       "categories": [
         "cs.LG",
@@ -6913,7 +7418,7 @@
       "source": "arXiv",
       "source_type": "primary",
       "status": "preprint",
-      "venue": "Preprint",
+      "venue": "arXiv (Cornell University)",
       "primary_bin": "systems",
       "secondary_bins": [
         "learning",
@@ -6930,8 +7435,9 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-10",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "sources_seen": [
+        "OpenAlex discovery",
         "arXiv"
       ]
     },
@@ -6960,7 +7466,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-09",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "sources_seen": [
         "OpenAlex discovery"
       ]
@@ -6990,7 +7496,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-09",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "sources_seen": [
         "OpenAlex discovery"
       ]
@@ -7022,7 +7528,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-09",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "sources_seen": [
         "OpenAlex discovery"
       ]
@@ -7063,7 +7569,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-10",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "sources_seen": [
         "arXiv"
       ]
@@ -7101,7 +7607,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-10",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "sources_seen": [
         "arXiv"
       ]
@@ -7139,7 +7645,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-10",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "sources_seen": [
         "arXiv"
       ]
@@ -7179,7 +7685,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "https://github.com/park-jungin/spark-vla",
       "added_at": "2026-11-10",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "sources_seen": [
         "arXiv"
       ]
@@ -7211,7 +7717,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-09",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "sources_seen": [
         "OpenAlex discovery"
       ]
@@ -7249,7 +7755,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-10",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "sources_seen": [
         "arXiv"
       ]
@@ -7292,7 +7798,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "https://github.com/minhngh/Tiger",
       "added_at": "2026-11-10",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "sources_seen": [
         "arXiv"
       ]
@@ -7333,7 +7839,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-10",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "sources_seen": [
         "arXiv"
       ]
@@ -7372,7 +7878,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "https://github.com/Jaewoo97/SRA",
       "added_at": "2026-11-10",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "sources_seen": [
         "arXiv"
       ]
@@ -7412,7 +7918,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-10",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "sources_seen": [
         "arXiv"
       ]
@@ -7452,7 +7958,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-10",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "sources_seen": [
         "arXiv"
       ]
@@ -7467,7 +7973,7 @@
       "abstract": "Self-improvement on compositional manipulation tasks requires deciding what to reuse, where to improve, and which changes to retain. We present ReSkill, a selective self-improvement framework that concentrates revision on capability gaps. A coding agent constructs an object-centric task graph from an instruction and a skill library, then uses node-level execution records to locate failures. At the task level, it revises stage organization, hand-off conditions, and recovery routes; at the skill level, it strengthens perception, motion, manipulation, and verification capabilities that repeatedly fail. Candidate revisions undergo full-task evaluation and paired comparisons before adoption, allowing local changes to accumulate into validated skills and an independently executable policy. The agent participates only during development; the deployed policy calls the retained skills without invoking the agent at run time. On the same development set, average success across ten RoboDojo tasks rises from 30.0% for the initial versions to 86.2% for the final adopted programs; retained programs achieve 83.6% in recorded robustness and model-selection evaluations. Across eight real-world tasks, ReSkill succeeds in 72 of 80 rebuilt-simulation trials and 62 of 80 real-robot trials (77.5%). The median revision changes only three functions, approximately 0.5% of a program, while 39% of task-specific functions in later-added tasks directly reuse existing implementations. These results show how locating local deficiencies, validating candidate changes, and accumulating reusable skills can improve execution of compositional manipulation tasks.",
       "paper_url": "https://arxiv.org/abs/2611.10510",
       "pdf_url": "https://arxiv.org/pdf/2611.10510v1",
-      "doi": "",
+      "doi": "https://doi.org/10.48550/arxiv.2611.10510",
       "journal_ref": "",
       "categories": [
         "cs.RO"
@@ -7475,7 +7981,7 @@
       "source": "arXiv",
       "source_type": "primary",
       "status": "preprint",
-      "venue": "Preprint",
+      "venue": "arXiv (Cornell University)",
       "primary_bin": "evaluation",
       "secondary_bins": [
         "learning",
@@ -7490,8 +7996,9 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-10",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "sources_seen": [
+        "OpenAlex discovery",
         "arXiv"
       ]
     },
@@ -7520,7 +8027,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-09",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "sources_seen": [
         "OpenAlex discovery"
       ]
@@ -7553,7 +8060,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-10",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "sources_seen": [
         "OpenAlex discovery"
       ]
@@ -7589,7 +8096,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-10",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "sources_seen": [
         "arXiv"
       ]
@@ -7628,7 +8135,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "https://github.com/k-harikumar/PLS-GS",
       "added_at": "2026-11-10",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "sources_seen": [
         "arXiv"
       ]
@@ -7668,7 +8175,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-10",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "sources_seen": [
         "arXiv"
       ]
@@ -7707,7 +8214,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-10",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "sources_seen": [
         "arXiv"
       ]
@@ -7746,7 +8253,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-10",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "sources_seen": [
         "arXiv"
       ]
@@ -7783,7 +8290,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-10",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "sources_seen": [
         "arXiv"
       ]
@@ -7822,7 +8329,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-10",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "sources_seen": [
         "arXiv"
       ]
@@ -7837,7 +8344,7 @@
       "abstract": "Search allows a robotic policy to evaluate candidate futures before committing to an action. Motivated by test-time planning for vision-language action (VLA) models, we study selective search over action chunks in PushT using a frozen Action Chunking with Transformers (ACT) policy. Beam search generates perturbed alternatives around the policy prediction and scores them through rollouts from cloned simulator states. Across 50 evaluation episodes, beam search raises task success from 0% to 18% and increases average cumulative reward from 39.44 to 103.2. We introduce One Step Ahead (OSA), a gate that simulates the nominal policy chunk and invokes full search only when its predicted coverage drop exceeds a threshold. In the reported ablations, OSA preserves or improves success while reducing runtime by approximately 3x relative to full beam search. Ablations over tree depth, branching factor, beam width, and replanning frequency show that larger search budgets do not consistently improve performance. The results support selective test-time search for action-chunking policies; evaluation on language-conditioned VLAs and physical robots remains future work.",
       "paper_url": "https://arxiv.org/abs/2611.10769",
       "pdf_url": "https://arxiv.org/pdf/2611.10769v1",
-      "doi": "",
+      "doi": "https://doi.org/10.48550/arxiv.2611.10769",
       "journal_ref": "",
       "categories": [
         "cs.AI"
@@ -7845,7 +8352,7 @@
       "source": "arXiv",
       "source_type": "primary",
       "status": "preprint",
-      "venue": "Preprint",
+      "venue": "arXiv (Cornell University)",
       "primary_bin": "vla",
       "secondary_bins": [
         "evaluation",
@@ -7861,8 +8368,9 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-10",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "sources_seen": [
+        "OpenAlex discovery",
         "arXiv"
       ]
     },
@@ -7901,7 +8409,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-10",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "sources_seen": [
         "arXiv"
       ]
@@ -7940,7 +8448,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-10",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "sources_seen": [
         "arXiv"
       ]
@@ -7981,7 +8489,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-10",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "sources_seen": [
         "arXiv"
       ]
@@ -8021,7 +8529,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-10",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "sources_seen": [
         "arXiv"
       ]
@@ -8058,7 +8566,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-10",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "sources_seen": [
         "arXiv"
       ]
@@ -8097,7 +8605,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-10",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "sources_seen": [
         "arXiv"
       ]
@@ -8139,7 +8647,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-10",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "sources_seen": [
         "arXiv"
       ]
@@ -8174,7 +8682,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-11",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "sources_seen": [
         "arXiv"
       ]
@@ -8215,7 +8723,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-10",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "sources_seen": [
         "arXiv"
       ]
@@ -8230,7 +8738,7 @@
       "abstract": "Training vision-language-action (VLA) policies typically depends on substantial robot demonstration data, making human teleoperation a costly and cumbersome bottleneck, particularly for whole-body humanoid interaction. Reinforcement learning in simulation offers an alternative for scaling this data, but designing task-specific rewards remains challenging. To address this, we propose DreamVLA, which uses generated motion trajectories to guide reinforcement learning (RL) in simulation, converting them into reliable task execution trajectories. These trajectories train VLA models in simulation without new task-specific teleoperation data. Our central contribution is a reference-conditioned DAgger distillation procedure: after a failed learner rollout, we restart the RL expert from a sampled learner state with the same reference suffix and aggregate successful corrective trajectories, addressing the distribution shift left by offline imitation. We evaluate picking from a platform, opening a drawer, pressing a button, and walking and picking from a platform, with ablations of DAgger iterations, residual RL, and generated dataset scale. Project website: ember-center-berkeley.github.io/DreamVLA.",
       "paper_url": "https://arxiv.org/abs/2611.10872",
       "pdf_url": "https://arxiv.org/pdf/2611.10872v1",
-      "doi": "",
+      "doi": "https://doi.org/10.48550/arxiv.2611.10872",
       "journal_ref": "",
       "categories": [
         "cs.RO"
@@ -8238,7 +8746,7 @@
       "source": "arXiv",
       "source_type": "primary",
       "status": "preprint",
-      "venue": "Preprint",
+      "venue": "arXiv (Cornell University)",
       "primary_bin": "vla",
       "secondary_bins": [
         "data",
@@ -8255,8 +8763,9 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-10",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "sources_seen": [
+        "OpenAlex discovery",
         "arXiv"
       ]
     },
@@ -8290,7 +8799,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-10",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "sources_seen": [
         "arXiv"
       ]
@@ -8324,7 +8833,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-10",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "sources_seen": [
         "OpenAlex discovery"
       ]
@@ -8339,7 +8848,7 @@
       "abstract": "Directing a robot to locate a target object in unseen environments remains a central challenge in embodied AI. Vision-Language Model (VLM)-based methods provide rich semantic reasoning but often produce uncalibrated and overconfident action decisions. We introduce CPNav, a navigation framework that combines collision-aware planning with statistically calibrated VLM action scoring for map-free object-goal navigation. From RGB-D input, CPNav constructs a navigability map, generates collision-free motion primitives, and queries two VLMs for goal detection and action scoring. The resulting scores are calibrated offline via conformal prediction (CP) using oracle actions obtained through a tree-structured exploration procedure with backtracking, providing finite-sample guarantees at a user-specified risk level. The CP layer is model-agnostic and can wrap any VLM policy. Online, calibrated VLM scores guide action selection, while a tree-structured exploration history records alternative actions and allows backtracking. We evaluate CPNav in both simulation and real-world hardware settings. In AI Habitat simulation, compared with the uncalibrated baseline method, CPNav achieves relative SR and SPL improvements of 6.2% and 11.4% on HM3D v0.2, and 12.4% and 8.8% on MP3D, respectively. In real-world deployment on a modified Hiwonder MentorPi robot, the corresponding improvements in SR and SPL are 24.9% and 15.2%, respectively. Code is available at https://github.com/practice-lab-ucla/CPnav.",
       "paper_url": "https://arxiv.org/abs/2611.10366",
       "pdf_url": "https://arxiv.org/pdf/2611.10366v1",
-      "doi": "",
+      "doi": "https://doi.org/10.48550/arxiv.2611.10366",
       "journal_ref": "",
       "categories": [
         "cs.RO",
@@ -8348,7 +8857,7 @@
       "source": "arXiv",
       "source_type": "primary",
       "status": "preprint",
-      "venue": "Preprint",
+      "venue": "arXiv (Cornell University)",
       "primary_bin": "reasoning",
       "secondary_bins": [
         "embodiment",
@@ -8366,8 +8875,9 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "https://github.com/practice-lab-ucla/CPnav",
       "added_at": "2026-11-10",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "sources_seen": [
+        "OpenAlex discovery",
         "arXiv"
       ]
     },
@@ -8404,7 +8914,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-10",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "sources_seen": [
         "arXiv"
       ]
@@ -8446,7 +8956,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-10",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "sources_seen": [
         "arXiv"
       ]
@@ -8461,7 +8971,7 @@
       "abstract": "Dexterous manipulation with world action models (WAMs) relies on hand configuration and contact information, yet joint-state and whole-hand tactile observations may be partially or entirely missing. RGB images provide scene context and hand-object geometry but are insufficient to reliably recover these missing modalities. We further observe a correlation between hand state and tactile information. Motivated by this observation, we introduce BAT-WAM, a framework that bridges visual, joint-state, and tactile representations for WAMs. BAT-WAM learns separate codebooks and decoders for the tactile and action streams. An RGB-conditioned continuous latent bridge connects the two streams for bidirectional learning, while visual information serves as continuous context. Under the HTBench evaluation protocol, BAT-WAM reduces the root mean squared error (RMSE) of tactile reconstruction by 34.73% under fully masked conditions and 38.84% under partially masked conditions, relative to an image-conditioned HandTouch checkpoint. For future tactile prediction conditioned on target-time RGB and historical actions, it reduces mean RMSE by 85.56% relative to OpenWAM with HandTouch. Real-robot experiments further show that BAT-WAM consistently outperforms related WAM baselines in dexterous manipulation. Generalization experiments on unseen objects and scenes also demonstrate substantial improvements over baseline models. These findings support joint modeling of visual context, hand state, and touch as a representation approach for multimodal WAMs.",
       "paper_url": "https://arxiv.org/abs/2611.10967",
       "pdf_url": "https://arxiv.org/pdf/2611.10967v1",
-      "doi": "",
+      "doi": "https://doi.org/10.48550/arxiv.2611.10967",
       "journal_ref": "",
       "categories": [
         "cs.RO"
@@ -8469,7 +8979,7 @@
       "source": "arXiv",
       "source_type": "primary",
       "status": "preprint",
-      "venue": "Preprint",
+      "venue": "arXiv (Cornell University)",
       "primary_bin": "wam",
       "secondary_bins": [
         "embodiment",
@@ -8487,8 +8997,9 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-10",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "sources_seen": [
+        "OpenAlex discovery",
         "arXiv"
       ]
     },
@@ -8523,7 +9034,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-09",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "sources_seen": [
         "OpenAlex discovery"
       ]
@@ -8597,7 +9108,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-10",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "sources_seen": [
         "arXiv"
       ]
@@ -8632,7 +9143,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-09",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "sources_seen": [
         "arXiv"
       ]
@@ -8672,7 +9183,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-09",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "sources_seen": [
         "arXiv"
       ]
@@ -8707,7 +9218,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-09",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "sources_seen": [
         "arXiv"
       ]
@@ -8783,7 +9294,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-09",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "sources_seen": [
         "arXiv"
       ]
@@ -8822,7 +9333,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-10",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "sources_seen": [
         "arXiv"
       ]
@@ -8858,7 +9369,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-08",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "sources_seen": [
         "OpenAlex discovery"
       ]
@@ -8899,7 +9410,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-09",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "sources_seen": [
         "OpenAlex discovery",
         "arXiv"
@@ -8940,7 +9451,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-09",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "sources_seen": [
         "arXiv"
       ]
@@ -8982,7 +9493,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-09",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "sources_seen": [
         "arXiv"
       ]
@@ -9025,7 +9536,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-10",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "sources_seen": [
         "arXiv"
       ]
@@ -9060,7 +9571,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-08",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "sources_seen": [
         "OpenAlex discovery"
       ]
@@ -9098,7 +9609,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-09",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "sources_seen": [
         "arXiv"
       ]
@@ -9133,7 +9644,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-08",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "sources_seen": [
         "OpenAlex discovery"
       ]
@@ -9202,7 +9713,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-08",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "sources_seen": [
         "OpenAlex discovery"
       ]
@@ -9235,7 +9746,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-08",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "sources_seen": [
         "OpenAlex discovery"
       ]
@@ -9276,7 +9787,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-09",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "sources_seen": [
         "arXiv"
       ]
@@ -9311,7 +9822,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-08",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "sources_seen": [
         "OpenAlex discovery"
       ]
@@ -9348,7 +9859,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-09",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "sources_seen": [
         "arXiv"
       ]
@@ -9387,7 +9898,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-09",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "sources_seen": [
         "arXiv"
       ]
@@ -9428,7 +9939,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-09",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "sources_seen": [
         "arXiv"
       ]
@@ -9467,7 +9978,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-09",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "sources_seen": [
         "arXiv"
       ]
@@ -9506,7 +10017,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-09",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "sources_seen": [
         "arXiv"
       ]
@@ -9543,7 +10054,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-09",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "sources_seen": [
         "arXiv"
       ]
@@ -9612,7 +10123,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-08",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "sources_seen": [
         "OpenAlex discovery"
       ]
@@ -9684,7 +10195,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-08",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "sources_seen": [
         "OpenAlex discovery"
       ]
@@ -9722,7 +10233,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-10",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "sources_seen": [
         "arXiv"
       ]
@@ -9760,7 +10271,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-09",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "sources_seen": [
         "arXiv"
       ]
@@ -9794,7 +10305,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-08",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "sources_seen": [
         "OpenAlex discovery"
       ]
@@ -9830,7 +10341,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-09",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "sources_seen": [
         "arXiv"
       ]
@@ -9868,7 +10379,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-09",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "sources_seen": [
         "arXiv"
       ]
@@ -9902,7 +10413,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-08",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "sources_seen": [
         "OpenAlex discovery"
       ]
@@ -9932,7 +10443,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-09",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "sources_seen": [
         "OpenAlex discovery"
       ]
@@ -9967,7 +10478,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "https://github.com/nenhang/PhyEdit",
       "added_at": "2026-11-08",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "sources_seen": [
         "OpenAlex discovery"
       ]
@@ -10007,7 +10518,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-09",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "sources_seen": [
         "arXiv"
       ]
@@ -10042,7 +10553,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "https://github.com/edsad122/SV-VLA",
       "added_at": "2026-11-08",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "sources_seen": [
         "OpenAlex discovery"
       ]
@@ -10086,7 +10597,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-09",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "sources_seen": [
         "arXiv"
       ]
@@ -10126,7 +10637,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-10",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "sources_seen": [
         "arXiv"
       ]
@@ -10198,7 +10709,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-09",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "sources_seen": [
         "arXiv"
       ]
@@ -10234,7 +10745,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-08",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "sources_seen": [
         "OpenAlex discovery"
       ]
@@ -10303,7 +10814,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-10",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "sources_seen": [
         "arXiv"
       ]
@@ -10339,7 +10850,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "https://github.com/perfectlxy7/MetaNav",
       "added_at": "2026-11-08",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "sources_seen": [
         "OpenAlex discovery"
       ]
@@ -10376,7 +10887,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-09",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "sources_seen": [
         "arXiv"
       ]
@@ -10417,7 +10928,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-11",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "sources_seen": [
         "arXiv"
       ]
@@ -10455,7 +10966,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-09",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "sources_seen": [
         "arXiv"
       ]
@@ -10488,7 +10999,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-08",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "sources_seen": [
         "OpenAlex discovery"
       ]
@@ -10526,7 +11037,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "https://github.com/martius-lab/lodos",
       "added_at": "2026-11-09",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "sources_seen": [
         "arXiv"
       ]
@@ -10564,7 +11075,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-09",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "sources_seen": [
         "arXiv"
       ]
@@ -10602,7 +11113,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-09",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "sources_seen": [
         "arXiv"
       ]
@@ -10642,7 +11153,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-09",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "sources_seen": [
         "arXiv"
       ]
@@ -10678,7 +11189,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "https://github.com/yukki555/Latent-WAM",
       "added_at": "2026-11-08",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "sources_seen": [
         "OpenAlex discovery"
       ]
@@ -10716,7 +11227,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-09",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "sources_seen": [
         "arXiv"
       ]
@@ -10756,7 +11267,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-09",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "sources_seen": [
         "arXiv"
       ]
@@ -10794,7 +11305,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "https://github.com/Naturalpad-studio/InstantHMR",
       "added_at": "2026-11-09",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "sources_seen": [
         "arXiv"
       ]
@@ -10831,7 +11342,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-09",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "sources_seen": [
         "arXiv"
       ]
@@ -10871,7 +11382,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-09",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "sources_seen": [
         "OpenAlex discovery",
         "arXiv"
@@ -10914,7 +11425,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-09",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "sources_seen": [
         "arXiv"
       ]
@@ -10951,7 +11462,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-09",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "sources_seen": [
         "arXiv"
       ]
@@ -10992,7 +11503,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-09",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "sources_seen": [
         "arXiv"
       ]
@@ -11022,7 +11533,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-11",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "sources_seen": [
         "OpenAlex discovery"
       ]
@@ -11063,7 +11574,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-09",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "sources_seen": [
         "arXiv"
       ]
@@ -11103,7 +11614,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-09",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "sources_seen": [
         "arXiv"
       ]
@@ -11139,7 +11650,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "https://github.com/ZhaofengSHI/Exo2EgoPose",
       "added_at": "2026-11-08",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "sources_seen": [
         "OpenAlex discovery"
       ]
@@ -11171,7 +11682,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-09",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "sources_seen": [
         "OpenAlex discovery"
       ]
@@ -11214,7 +11725,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-09",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "sources_seen": [
         "arXiv"
       ]
@@ -11249,7 +11760,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-08",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "sources_seen": [
         "OpenAlex discovery"
       ]
@@ -11284,7 +11795,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-09",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "sources_seen": [
         "arXiv"
       ]
@@ -11319,7 +11830,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-08",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "sources_seen": [
         "OpenAlex discovery"
       ]
@@ -11358,7 +11869,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-09",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "sources_seen": [
         "arXiv"
       ]
@@ -11393,7 +11904,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-08",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "sources_seen": [
         "OpenAlex discovery"
       ]
@@ -11460,7 +11971,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-08",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "sources_seen": [
         "OpenAlex discovery"
       ]
@@ -11495,7 +12006,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "https://github.com/ZebinX/DriveVLA-M0",
       "added_at": "2026-11-08",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "sources_seen": [
         "OpenAlex discovery"
       ]
@@ -11529,7 +12040,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "https://github.com/LYFCLOUDFAN/Dream-Tac",
       "added_at": "2026-11-08",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "sources_seen": [
         "OpenAlex discovery"
       ]
@@ -11583,7 +12094,7 @@
       "source": "arXiv",
       "source_type": "primary",
       "status": "preprint",
-      "venue": "arXiv (Cornell University)",
+      "venue": "Preprint",
       "primary_bin": "vla",
       "secondary_bins": [
         "data",
@@ -11601,7 +12112,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "https://github.com/Dobot-Team/dobot_track",
       "added_at": "2026-11-09",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "sources_seen": [
         "OpenAlex discovery",
         "arXiv"
@@ -11642,7 +12153,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-09",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "sources_seen": [
         "arXiv"
       ]
@@ -11712,7 +12223,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-09",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "sources_seen": [
         "arXiv"
       ]
@@ -11784,7 +12295,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-09",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "sources_seen": [
         "arXiv"
       ]
@@ -11820,7 +12331,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-08",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "sources_seen": [
         "OpenAlex discovery"
       ]
@@ -11857,7 +12368,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-10",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "sources_seen": [
         "arXiv"
       ]
@@ -11896,7 +12407,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-09",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "sources_seen": [
         "arXiv"
       ]
@@ -11997,7 +12508,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-08",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "sources_seen": [
         "OpenAlex discovery"
       ]
@@ -12037,7 +12548,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-10",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "sources_seen": [
         "arXiv"
       ]
@@ -12077,7 +12588,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-10",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "sources_seen": [
         "arXiv"
       ]
@@ -12116,7 +12627,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-09",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "sources_seen": [
         "arXiv"
       ]
@@ -12156,7 +12667,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-09",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "sources_seen": [
         "arXiv"
       ]
@@ -12195,7 +12706,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-10",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "sources_seen": [
         "arXiv"
       ]
@@ -12231,7 +12742,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-10",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "sources_seen": [
         "OpenAlex discovery"
       ]
@@ -12270,6 +12781,39 @@
       ]
     },
     {
+      "id": "https://doi.org/10.1126/sciadv.aeh1001",
+      "title": "Adaptive dual-programming magnetic soft robot with lifelike behavior",
+      "authors": "Yanchen Ye, Can Xu, Sen Wang, Weijia Li, Rongye Wu, Hao Wu, Neng Xia, TianYe Yang",
+      "first_published": "2026-11-06",
+      "year": 2026,
+      "abstract": "Magnetic soft robots with embodied intelligence of multimodal motions, environmental perception, and functional decoupling depend on ingenious material arrangement and programmable morphing information introduction. While some efforts have been made, achieving lifelike behaviors for soft robots in system-level strategy remains a notable challenge. Here, we present dual-programming hydrogel-based soft robots (DHSRs) that couple magnetic and anisotropic programming through the spatial arrangement of patterned magnetic skeletons into responsive and structural hydrogel bodies. These DHSRs exhibit programmable exquisite and multicurved structures in three-dimensional (3D) space, environment-adaptive deformation behaviors proved by switching from random jumping on land to regular swimming in water of a fish-like soft robot, and further locomotion-function decoupling capabilities of region-selective cargo delivery in an integrated \"locomotion-perception-action\" workflow. Our strategy in biomedical potential is exemplified by a ring-like pH-responsive DHSR for gastric ulcer therapy, which integrates multimodal locomotion (rolling, tumbling, and rotating), adaptive matching, and microneedle-mediated penetration. By collaborating with a capsule endoscopy system, we explore the possibility of a wireless and painless diagnostic-therapeutic platform in a pig model. This strategy endows the robot with perception and multitask execution capabilities, highlighting a promising route for the intelligent evolution of soft robots across diverse application domains.",
+      "paper_url": "https://doi.org/10.1126/sciadv.aeh1001",
+      "doi": "https://doi.org/10.1126/sciadv.aeh1001",
+      "source": "OpenAlex discovery",
+      "source_type": "aggregator_discovery",
+      "status": "needs_verification",
+      "venue": "Science Advances",
+      "notes": "Discovery record only. Verify title, date, venue and claims at the publisher/preprint source before treating as confirmed.",
+      "primary_bin": "spatial",
+      "secondary_bins": [
+        "embodiment",
+        "perception"
+      ],
+      "tags": [
+        "auto-classified"
+      ],
+      "limitations": "Not extracted automatically. Read the full paper before drawing conclusions.",
+      "datasets": [],
+      "embodiments": [],
+      "real_robot": "Not established; verify full text.",
+      "code_url": "",
+      "added_at": "2026-11-12",
+      "last_seen": "2026-11-12",
+      "sources_seen": [
+        "OpenAlex discovery"
+      ]
+    },
+    {
       "id": "2611.08827",
       "title": "ActPrune: Action-Grounded Visual Token Pruning for Efficient Vision-Language-Action Models",
       "authors": "Sungwon Moon, Minji Kim, Hyemin Boo, Daeun Song, Jiyoung Lee",
@@ -12302,7 +12846,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-09",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "sources_seen": [
         "arXiv"
       ]
@@ -12337,7 +12881,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-08",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "sources_seen": [
         "OpenAlex discovery"
       ]
@@ -12376,7 +12920,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "https://github.com/TimJaspers0801/ATLAS",
       "added_at": "2026-11-10",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "sources_seen": [
         "arXiv"
       ]
@@ -12410,7 +12954,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-08",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "sources_seen": [
         "OpenAlex discovery"
       ]
@@ -12446,7 +12990,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-09",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "sources_seen": [
         "OpenAlex discovery"
       ]
@@ -12549,7 +13093,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-09",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "sources_seen": [
         "arXiv"
       ]
@@ -12590,7 +13134,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-09",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "sources_seen": [
         "arXiv"
       ]
@@ -12662,7 +13206,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-10",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "sources_seen": [
         "arXiv"
       ]
@@ -12695,7 +13239,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-09",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "sources_seen": [
         "OpenAlex discovery"
       ]
@@ -12731,7 +13275,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-10",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "sources_seen": [
         "OpenAlex discovery"
       ]
@@ -12802,7 +13346,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-09",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "sources_seen": [
         "arXiv"
       ]

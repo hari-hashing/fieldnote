@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-11T09:24:17.477098+00:00",
+  "generated_at": "2026-11-12T09:49:55.543034+00:00",
   "method": "Rule-based intersection scoring using paper coverage in primary and secondary taxonomy bins. Scores indicate underrepresentation in this local index, not verified novelty.",
   "opportunities": [
     {
@@ -14,7 +14,7 @@
       "score": 40,
       "gap_score": 8,
       "feasibility": 78,
-      "coverage_count": 223,
+      "coverage_count": 226,
       "problem": "Video-centric WAMs can predict visually plausible futures while missing contact, friction, slip and force transitions. This makes imagined outcomes unreliable precisely when manipulation becomes contact-rich.",
       "hypothesis": "A compact tactile-conditioned latent transition model, trained alongside visual future prediction, can detect when a candidate action is likely to produce an unsafe or unsuccessful contact state before execution.",
       "minimal_experiment": "Start with a single-arm peg insertion or object sliding task in Isaac Lab/MuJoCo. Train a visual-only latent world model and a vision+tactile variant. Predict short-horizon end-effector/object state and slip/contact events; evaluate action selection under friction, mass and viewpoint shifts. Add a small real tactile validation set only after simulation baselines are stable.",
@@ -44,7 +44,7 @@
       "score": 44,
       "gap_score": 8,
       "feasibility": 88,
-      "coverage_count": 443,
+      "coverage_count": 447,
       "problem": "Failure detectors can identify risky trajectories, and correction methods can learn interventions, but they are often separate components. A robot needs to decide when to continue, observe again, ask for help or execute a correction.",
       "hypothesis": "A calibrated latent uncertainty monitor can gate a small library of corrective skills, and only invoke expensive VLM/WAM deliberation when confidence is low or failure probability crosses a calibrated threshold.",
       "minimal_experiment": "Use a frozen OpenVLA/Octo checkpoint on LIBERO-Plus. Inject controlled perturbations (object pose, camera, distractors, gripper slip proxies). Train a lightweight failure predictor on latent states; compare fixed-threshold, calibrated and uncertainty-conditioned recovery. Measure success, false interventions, recovery time and inference overhead.",
@@ -135,7 +135,7 @@
       "score": 38,
       "gap_score": 8,
       "feasibility": 75,
-      "coverage_count": 207,
+      "coverage_count": 209,
       "problem": "World-model benchmarks often emphasize prediction quality or downstream success, but can miss whether the model correctly distinguishes safe and unsafe counterfactual actions in the same scene.",
       "hypothesis": "A paired counterfactual benchmark can expose action-insensitive or physically inconsistent world models by comparing predictions for near-identical scenes under safe and unsafe interventions.",
       "minimal_experiment": "Build 8–10 controlled manipulation scenarios with paired actions that differ in force, approach direction or timing. Record physical outcomes in simulation, test video/latent world models on future state, collision, contact and task completion, then measure whether action ranking matches actual outcomes under distribution shift.",
@@ -165,7 +165,7 @@
       "score": 36,
       "gap_score": 8,
       "feasibility": 70,
-      "coverage_count": 438,
+      "coverage_count": 442,
       "problem": "Robots collect sensitive household and workplace observations. Continual adaptation risks retaining identifiable visual information or leaking past interaction examples.",
       "hypothesis": "A replay-light adaptation pipeline using privacy-filtered latent summaries, selective gradient updates and membership-risk auditing can improve task performance without retaining raw video indefinitely.",
       "minimal_experiment": "Fine-tune a small policy adapter on a sequence of simulated tasks and user-like scenes. Compare raw replay, feature replay and DP/noised adapter updates. Measure retention, forgetting, task success, privacy attack success and inference overhead.",
