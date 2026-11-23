@@ -1,13 +1,274 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-22T09:45:27.932362+00:00",
-  "last_ingestion": "2026-11-22T09:45:27.932362+00:00",
+  "generated_at": "2026-11-23T10:47:17.150521+00:00",
+  "last_ingestion": "2026-11-23T10:47:17.150521+00:00",
   "sources": {
-    "arxiv": 689,
+    "arxiv": 0,
     "openreview": 0,
-    "openalex_discovery": 154
+    "openalex_discovery": 163
   },
   "papers": [
+    {
+      "id": "https://doi.org/10.1007/978-3-032-36098-4_114",
+      "title": "Scenario Synthetic Dataset Creation for Smart Mobility: Seamless Coverage of Normal and Critical Conditions",
+      "authors": "Liron Ahmeti, Klara Dolos, Conrad Meyer, Andreas Attenberger, Rudolf Hackenberg",
+      "first_published": "2026-11-22",
+      "year": 2026,
+      "abstract": "This work introduces a configurable, CARLA-based testbench that generates synchronized vehicle dynamics, multi-sensor feeds, and CAN traffic for forensic analysis of autonomous driving incidents. By overlaying layered YAML configurations, it supports blue-team data collection of nominal scenarios, red-team fault injections (e.g., sensor dropouts or CAN replay), and flexible accident replays with environmental and control disturbances. Physics-informed noise models simulate rain, snow, and fog effects on LiDAR and radar sensors, while a virtual CAN network implements SecOC authentication and TimeSync. The resulting synthetic dataset—including time-aligned point clouds, images, Controller Area Network traces, and Event Data Recorder dumps—enables systematic evaluation of intrusion-detection systems and kinematic reconstructions without real-world risks.",
+      "paper_url": "https://doi.org/10.1007/978-3-032-36098-4_114",
+      "doi": "https://doi.org/10.1007/978-3-032-36098-4_114",
+      "source": "OpenAlex discovery",
+      "source_type": "aggregator_discovery",
+      "status": "needs_verification",
+      "venue": "Lecture notes in mobility",
+      "notes": "Discovery record only. Verify title, date, venue and claims at the publisher/preprint source before treating as confirmed.",
+      "primary_bin": "data",
+      "secondary_bins": [
+        "evaluation",
+        "learning",
+        "spatial"
+      ],
+      "tags": [
+        "auto-classified"
+      ],
+      "limitations": "Not extracted automatically. Read the full paper before drawing conclusions.",
+      "datasets": [],
+      "embodiments": [],
+      "real_robot": "Not established; verify full text.",
+      "code_url": "",
+      "added_at": "2026-11-23",
+      "last_seen": "2026-11-23",
+      "sources_seen": [
+        "OpenAlex discovery"
+      ]
+    },
+    {
+      "id": "https://doi.org/10.1007/978-981-92-1702-1_8",
+      "title": "The Omani Way: Muscat’s Navigation of Iran–Israel Rivalry",
+      "authors": "Giorgio Cafiero",
+      "first_published": "2026-11-21",
+      "year": 2026,
+      "abstract": "This paper examines Oman’s foreign policy amid the escalating US-Israel-Iran conflict. Traditionally a neutral diplomatic mediator, Oman faces unprecedented challenges as Tehran’s aggression targets Duqm, Salalah, and Sohar—ports central to the Sultanate’s Vision 2040 economic diversification strategy. The analysis explores how Oman balances its long-standing relationship with Iran against its security partnership with the United States, while navigating domestic societal dynamics marked by rising anti-Western sentiment and support for the Palestinian cause. The paper argues that despite heightened threat perceptions and frustration with Washington’s regional policies, Oman will continue pursuing a pragmatic, balanced foreign policy. Muscat seeks to preserve its unique role as a diplomatic bridge between adversaries, maintain stable ties with both Tehran and Western allies, and protect its economic development agenda. However, Iran’s direct strikes on Omani infrastructure and the fundamental shifts in Gulf security architecture pose serious tests to the sustainability of Oman’s traditional approach to regional diplomacy.",
+      "paper_url": "https://doi.org/10.1007/978-981-92-1702-1_8",
+      "doi": "https://doi.org/10.1007/978-981-92-1702-1_8",
+      "source": "OpenAlex discovery",
+      "source_type": "aggregator_discovery",
+      "status": "needs_verification",
+      "venue": "Contemporary Gulf studies",
+      "notes": "Discovery record only. Verify title, date, venue and claims at the publisher/preprint source before treating as confirmed.",
+      "primary_bin": "perception",
+      "secondary_bins": [
+        "embodiment"
+      ],
+      "tags": [
+        "auto-classified"
+      ],
+      "limitations": "Not extracted automatically. Read the full paper before drawing conclusions.",
+      "datasets": [],
+      "embodiments": [],
+      "real_robot": "Not established; verify full text.",
+      "code_url": "",
+      "added_at": "2026-11-23",
+      "last_seen": "2026-11-23",
+      "sources_seen": [
+        "OpenAlex discovery"
+      ]
+    },
+    {
+      "id": "https://doi.org/10.1177/02783649261505482",
+      "title": "Recent advances in multi-agent human trajectory prediction: A comprehensive review",
+      "authors": "Céline Finet, Stephane Da Silva Martins, Jean-Bernard Hayet, Ioannis Karamouzas, Sylvie Le Hégarat‐Mascle, Julien Pettré, Emanuel Aldea",
+      "first_published": "2026-11-21",
+      "year": 2026,
+      "abstract": "With the emergence of powerful data-driven methods in human trajectory prediction (HTP), gaining a finer understanding of multi-agent interactions lies within hand’s reach, with important implications in areas such as social robot navigation, autonomous driving, and crowd modeling. This survey reviews some of the most recent advancements in deep learning-based multi-agent trajectory prediction, focusing on studies published between 2020 and 2025. We categorize the existing methods based on their architectural design, their input representations, and their overall prediction strategies. Furthermore, we highlight key challenges and future research directions in multi-agent HTP.",
+      "paper_url": "https://doi.org/10.1177/02783649261505482",
+      "doi": "https://doi.org/10.1177/02783649261505482",
+      "source": "OpenAlex discovery",
+      "source_type": "aggregator_discovery",
+      "status": "needs_verification",
+      "venue": "The International Journal of Robotics Research",
+      "notes": "Discovery record only. Verify title, date, venue and claims at the publisher/preprint source before treating as confirmed.",
+      "primary_bin": "embodiment",
+      "secondary_bins": [],
+      "tags": [
+        "auto-classified"
+      ],
+      "limitations": "Not extracted automatically. Read the full paper before drawing conclusions.",
+      "datasets": [],
+      "embodiments": [],
+      "real_robot": "Not established; verify full text.",
+      "code_url": "",
+      "added_at": "2026-11-23",
+      "last_seen": "2026-11-23",
+      "sources_seen": [
+        "OpenAlex discovery"
+      ]
+    },
+    {
+      "id": "https://doi.org/10.46632/cset/4/4/3",
+      "title": "Performance Evaluation of Space and Underwater Robots using the WSM Method",
+      "authors": "Chandraseka Raja",
+      "first_published": "2026-11-21",
+      "year": 2026,
+      "abstract": "Space and underwater robots explore environments that are difficult or dangerous for humans to access. Space systems, including planetary rovers and robotic manipulators, support surface investigations, space-station activities, and satellite maintenance. Underwater platforms, such as autonomous underwater vehicles (AUVs) and remotely operated vehicles (ROVs), enable deep-ocean exploration, seabed mapping, environmental monitoring, inspection, and construction. Examples include Bluefin-21, HUGIN 4500, CR-2, REMUS 6000, and Qianlong-1. This study examines the design, operation, and applications of these systems, focusing on shape and general arrangement, power supplies, underwater communication, and navigation and positioning technologies. Although they operate in different environments, both types face harsh conditions, communication limitations or delays, and navigation challenges. Advances in artificial intelligence, sensors, autonomous control, and machine learning can improve their reliability, efficiency, and decision-making. The research combines theoretical modeling, computer simulation, and experimental testing. Robotic designs and algorithms are evaluated under simulated extreme conditions and validated through controlled trials, including underwater test sites and space-analogue missions. Collected data are analyzed to improve autonomy, communication, navigation, and overall performance through iterative testing. The findings aim to support safer future robotic missions and expand scientific understanding of remote environments. In the comparative table, Hash Table ranks first, whereas Graph ranks last.",
+      "paper_url": "https://doi.org/10.46632/cset/4/4/3",
+      "doi": "https://doi.org/10.46632/cset/4/4/3",
+      "source": "OpenAlex discovery",
+      "source_type": "aggregator_discovery",
+      "status": "needs_verification",
+      "venue": "Computer Science Engineering and Technology",
+      "notes": "Discovery record only. Verify title, date, venue and claims at the publisher/preprint source before treating as confirmed.",
+      "primary_bin": "evaluation",
+      "secondary_bins": [
+        "embodiment"
+      ],
+      "tags": [
+        "auto-classified"
+      ],
+      "limitations": "Not extracted automatically. Read the full paper before drawing conclusions.",
+      "datasets": [],
+      "embodiments": [],
+      "real_robot": "Not established; verify full text.",
+      "code_url": "",
+      "added_at": "2026-11-23",
+      "last_seen": "2026-11-23",
+      "sources_seen": [
+        "OpenAlex discovery"
+      ]
+    },
+    {
+      "id": "https://doi.org/10.1145/3871070",
+      "title": "Intent Representation and Human Distraction Modulate the Effects of Legible Robot Motion in Hallway Navigation",
+      "authors": "Pranav Goyal, Andrew Stratton, Christoforos Mavrogiannis",
+      "first_published": "2026-11-21",
+      "year": 2026,
+      "abstract": "Legibility in human-robot interaction (HRI) is often described as the property of robot motion that enables an observer to confidently and quickly infer the robot’s intent. Mature frameworks exist for generating legible motion in front of static observers, typically by making the robot’s destination apparent as early as possible. Social robot navigation in public spaces, however, presents a different challenge: pedestrians are themselves in motion, often with divided attention, and must coordinate with the robot in real time. In such encounters, where the robot is ultimately headed may matter less to a pedestrian than how it intends to pass them. This raises two questions: which aspect of intent should legible motion convey, and does legibility remain beneficial when pedestrians are not fully attentive to the robot? We address these questions in the ubiquitous and demanding scenario of hallway navigation, through two controlled user studies comparing multiple legibility formulations implemented within a shared model predictive control framework. Study 1 ( N = 45) compares destination-based and passing-side intent representations, showing that the latter, particularly when adaptively updated, allows for smoother human motion and is perceived as more competent and less mentally and physically demanding than the former. Study 2 ( N = 45) examines the effect of pedestrian attention, demonstrating that legible motion supports smooth human motion even under distraction, although this benefit is not consistently reflected in subjective ratings. Together, these findings suggest that effective legible motion in social robot navigation benefits from interaction-level intent representations that support coordination, with some effects persisting even when human attention is divided. Code is available at https://github.com/fluentrobotics/Legible_MPPI and footage from our experiments at https://www.youtube.com/watch?v=P5O5BwfcUCo .",
+      "paper_url": "https://doi.org/10.1145/3871070",
+      "doi": "https://doi.org/10.1145/3871070",
+      "source": "OpenAlex discovery",
+      "source_type": "aggregator_discovery",
+      "status": "needs_verification",
+      "venue": "ACM Transactions on Human-Robot Interaction",
+      "notes": "Discovery record only. Verify title, date, venue and claims at the publisher/preprint source before treating as confirmed.",
+      "primary_bin": "learning",
+      "secondary_bins": [
+        "embodiment"
+      ],
+      "tags": [
+        "auto-classified"
+      ],
+      "limitations": "Not extracted automatically. Read the full paper before drawing conclusions.",
+      "datasets": [],
+      "embodiments": [],
+      "real_robot": "Not established; verify full text.",
+      "code_url": "https://github.com/fluentrobotics/Legible_MPPI",
+      "added_at": "2026-11-23",
+      "last_seen": "2026-11-23",
+      "sources_seen": [
+        "OpenAlex discovery"
+      ]
+    },
+    {
+      "id": "https://doi.org/10.1002/smb2.70081",
+      "title": "Human Centric Embodied Intelligence for Soft Wearable Robotics",
+      "authors": "Rainier F. Natividad, Chen‐Hua Yeow",
+      "first_published": "2026-11-21",
+      "year": 2026,
+      "abstract": "Soft wearable robots have evolved rapidly from proof‐of‐concept devices into promising platforms for rehabilitation, occupational assistance, and human augmentation. As the field matures, its central challenge extends beyond developing softer materials and more capable actuators to integrating sensing, intelligence, and human adaptation into systems that users can wear comfortably, trust, and benefit from over long periods. This transition motivates the concept of human centric embodied intelligence (HCEI). In HCEI, intelligence emerges from the coupled human–robot system, through the interaction of morphology, multimodal sensing, adaptive cognition, compliant actuation, and the wearer's own physiological and behavioral adaptation. To organize this perspective, we introduce the perception–cognition–actuation–augmentation (PCAA) framework. It proposes that design start from the augmentation objective, the change sought in the wearer's function, and that the requirements on perception, cognition, and actuation be derived from that objective rather than from the actuating mechanism. Using this framework, we review advances in soft materials, wearable sensing, artificial intelligence, actuation, human–robot interaction, digital twins, clinical translation, manufacturing, regulation, and ethics, and trace how these interdependent components together shape long‐term personalization and real‐world deployment. The review aims to guide future research, encourage interdisciplinary collaboration, and speed the translation of soft wearable robots toward personalized, predictive, and human‐centric wearable intelligence.",
+      "paper_url": "https://doi.org/10.1002/smb2.70081",
+      "doi": "https://doi.org/10.1002/smb2.70081",
+      "source": "OpenAlex discovery",
+      "source_type": "aggregator_discovery",
+      "status": "needs_verification",
+      "venue": "SmartBot",
+      "notes": "Discovery record only. Verify title, date, venue and claims at the publisher/preprint source before treating as confirmed.",
+      "primary_bin": "perception",
+      "secondary_bins": [
+        "learning"
+      ],
+      "tags": [
+        "auto-classified"
+      ],
+      "limitations": "Not extracted automatically. Read the full paper before drawing conclusions.",
+      "datasets": [],
+      "embodiments": [],
+      "real_robot": "Not established; verify full text.",
+      "code_url": "",
+      "added_at": "2026-11-23",
+      "last_seen": "2026-11-23",
+      "sources_seen": [
+        "OpenAlex discovery"
+      ]
+    },
+    {
+      "id": "https://doi.org/10.6084/m9.figshare.35083633",
+      "title": "Agentic Robotics: Redefining Robot Perception, Planning, Control, and Multi-Agent Autonomy through Agentic Super Intelligence",
+      "authors": "Ranjan Sapkota, Manoj Karkee, Seyedali Mirjalili",
+      "first_published": "2026-11-21",
+      "year": 2026,
+      "abstract": "Agentic Artificial Intelligence (Agentic AI) is emerging as a system-level paradigm that reorganizes robotic autonomy beyond conventional perception-planning-control pipelines. This report traces the evolution from autonomy to agency and introduces a layered capability model connecting machine learning, generative AI, embodied foundation models, AI agents, and coordinated multi-agent systems. We define \"Agentic AI in robotics\" at the system level and synthesize an architecture integrating persistent perceive-reason-act-verify reflect loops, structured memory, tool invocation, and safety gates. Furthermore, this study examines agentic perception through goal-conditioned sensing and Vision-Language-Action alignment; agentic planning through goal decomposition, multimodal world modeling, and reflective replanning; and agentic control through semantic-to-physical translation, adaptive execution, verification, recovery, and multi-robot coordination. Existing robotics benchmarks are reframed using metrics for task competence, persistence, recovery, generalization, continual learning, coordination, latency, and deployability. Key limitations include hallucinated reasoning, memory drift, sim-to-real gaps, computational overhead, integration debt, and governance risks. Future agentic robotics will increasingly combine neuro-symbolic reasoning, physics-aware models, calibrated autonomy, formal verification, and governed multi-agent collaboration, enabling scalable, explainable, resilient, and trustworthy robotic systems.",
+      "paper_url": "https://doi.org/10.6084/m9.figshare.35083633",
+      "doi": "https://doi.org/10.6084/m9.figshare.35083633",
+      "source": "OpenAlex discovery",
+      "source_type": "aggregator_discovery",
+      "status": "needs_verification",
+      "venue": "Figshare",
+      "notes": "Discovery record only. Verify title, date, venue and claims at the publisher/preprint source before treating as confirmed.",
+      "primary_bin": "reasoning",
+      "secondary_bins": [
+        "evaluation",
+        "learning",
+        "perception",
+        "vla",
+        "world"
+      ],
+      "tags": [
+        "auto-classified"
+      ],
+      "limitations": "Not extracted automatically. Read the full paper before drawing conclusions.",
+      "datasets": [],
+      "embodiments": [],
+      "real_robot": "Not established; verify full text.",
+      "code_url": "",
+      "added_at": "2026-11-23",
+      "last_seen": "2026-11-23",
+      "sources_seen": [
+        "OpenAlex discovery"
+      ]
+    },
+    {
+      "id": "https://doi.org/10.26434/chemrxiv.15012533/v1",
+      "title": "What makes a laboratory self-driving? Mapping the SDL terminology landscape and introducing the FLEx categorization framework",
+      "authors": "Alexander Böser, Kjell Kochale, Patrick Courtney, Thorsten Teutenberg, Florian Boser, Guangqi Wu, Nikhil Deshpande, Christian P. Haas",
+      "first_published": "2026-11-20",
+      "year": 2026,
+      "abstract": "Self-driving laboratories (SDLs) are increasingly used to accelerate experimentation across chemistry, materials science, biotechnology, and related fields. Yet, the rapid development of autonomous experimentation has produced a fragmented terminology landscape in which overlapping terms, including autonomous laboratories, materials acceleration platforms, and robot scientists, are applied inconsistently. This complicates comparisons between systems and obscures what constitutes scientific autonomy. Here, we examine the definitions, historical development, disciplinary associations, and usage patterns of SDLs and related concepts. We further review existing approaches to categorizing autonomous laboratory systems and show that many rely on characteristics such as hardware complexity, system architecture, or human involvement that are difficult to apply consistently across disciplines and technologies. To provide a technology-independent alternative, we introduce the Feedback Loop Extent (FLEx) framework. FLEx classifies systems according to how far experimental feedback reaches into the scientific process, progressing from scripted execution without a scientific feedback loop to parameter optimization, autonomous experiment planning, hypothesis formulation, and scientific goal formulation. Applying FLEx to representative published systems shows that most contemporary SDLs autonomously plan experiments within human-defined objectives, whereas few demonstrably formulate hypotheses and none unambiguously reformulate broader scientific goals. FLEx provides a common language for distinguishing automation from different forms of autonomy and enables more transparent comparison and reporting of current and future SDLs.",
+      "paper_url": "https://doi.org/10.26434/chemrxiv.15012533/v1",
+      "doi": "https://doi.org/10.26434/chemrxiv.15012533/v1",
+      "source": "OpenAlex discovery",
+      "source_type": "aggregator_discovery",
+      "status": "needs_verification",
+      "venue": "ChemRxiv",
+      "notes": "Discovery record only. Verify title, date, venue and claims at the publisher/preprint source before treating as confirmed.",
+      "primary_bin": "systems",
+      "secondary_bins": [
+        "learning",
+        "reasoning"
+      ],
+      "tags": [
+        "auto-classified"
+      ],
+      "limitations": "Not extracted automatically. Read the full paper before drawing conclusions.",
+      "datasets": [],
+      "embodiments": [],
+      "real_robot": "Not established; verify full text.",
+      "code_url": "",
+      "added_at": "2026-11-23",
+      "last_seen": "2026-11-23",
+      "sources_seen": [
+        "OpenAlex discovery"
+      ]
+    },
     {
       "id": "https://doi.org/10.1016/b978-0-44-330062-2.00008-1",
       "title": "What is Tactile Intelligence",
@@ -33,7 +294,67 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-22",
-      "last_seen": "2026-11-22",
+      "last_seen": "2026-11-23",
+      "sources_seen": [
+        "OpenAlex discovery"
+      ]
+    },
+    {
+      "id": "https://doi.org/10.3389/frobt.2026.1999477",
+      "title": "User-initiated and system-prompted human feedback in human-robot collaboration: effects on trust in robots",
+      "authors": "Viktor Werbilo, Andreas Poppele, Andrea Vogt, Alexandra Coroiu, Carl Wedepohl, Ritu Ahmed, Sven Hallerbach",
+      "first_published": "2026-11-20",
+      "year": 2026,
+      "abstract": "Feedback is an important interaction channel in human–robot collaboration (HRC), yet feedback solicitation may affect users independently of whether their feedback changes robot behavior. This between-subjects study investigated how user-initiated and system-prompted feedback influence short-term trust development and perceived safety in a virtual industrial collaboration task. Forty-eight participants were assigned to either a system-prompted condition ( n = 23 ) , in which feedback was requested at predefined task milestones, or a user-initiated condition ( n = 25 ) , in which feedback could be provided at self-selected moments. Trust was assessed before and after the interaction, while perceived safety was measured afterward. A mixed ANCOVA revealed a significant time-by-condition interaction: trust increased in the system-prompted condition, compared to the user-initiated condition. Perceived safety did not differ between conditions. These findings suggest that feedback solicitation may function as an interaction-design feature that may shape short-term trust and feedback coverage under stable robot behavior.",
+      "paper_url": "https://doi.org/10.3389/frobt.2026.1999477",
+      "doi": "https://doi.org/10.3389/frobt.2026.1999477",
+      "source": "OpenAlex discovery",
+      "source_type": "aggregator_discovery",
+      "status": "needs_verification",
+      "venue": "Frontiers in Robotics and AI",
+      "notes": "Discovery record only. Verify title, date, venue and claims at the publisher/preprint source before treating as confirmed.",
+      "primary_bin": "evaluation",
+      "secondary_bins": [],
+      "tags": [
+        "auto-classified"
+      ],
+      "limitations": "Not extracted automatically. Read the full paper before drawing conclusions.",
+      "datasets": [],
+      "embodiments": [],
+      "real_robot": "Not established; verify full text.",
+      "code_url": "",
+      "added_at": "2026-11-23",
+      "last_seen": "2026-11-23",
+      "sources_seen": [
+        "OpenAlex discovery"
+      ]
+    },
+    {
+      "id": "https://doi.org/10.1016/j.chbr.2026.101411",
+      "title": "Thermal influences on interpersonal space: Effects of environmental and visually induced temperature",
+      "authors": "Laura Battistel, Zubin Choudhary, Gerd Bruder, Gregory F. Welch, Massimiliano Zampini, Riccardo Parin",
+      "first_published": "2026-11-20",
+      "year": 2026,
+      "abstract": "Interpersonal space (IPS), the distance people prefer to maintain from others, is a fundamental component of social behaviour. Here we tested whether ambient temperature, delivered as a physical manipulation or conveyed by visual cues in immersive virtual reality, modulates IPS. A total of 120 adults (39% female, age 32 ± 9 years) completed a standard comfort-distance task under a neutral baseline and additional thermal contexts. In the physical manipulation, participants were assigned to extreme conditions (8 °C - 38 °C) or mild conditions (18 °C - 28 °C). In the visual manipulation, participants completed the task at constant room temperature (21 °C) while immersed in either a virtual outdoor or indoor thermal scene. At the individual level, physical temperature significantly altered IPS in 70% of the physical sample, whereas visually conveyed temperature altered IPS in 20% of the visual sample, demonstrating that thermal context can reshape proxemic preferences for a substantial subset of individuals. At the group level, physical temperature produced gender-dependent shifts in mean IPS, with men increasing IPS in warmer conditions (warm vs neutral: p < 0.01, Cohen's f = 0.30), while women showed no consistent behaviour shifts. Visually conveyed thermal context produced smaller average shifts, matched the same directional pattern and emerged only in men as for the physical manipulation ( p < 0.01, Cohen's f = 0.30). Together, these findings highlight that thermal context should be taken into account in social settings to preserve interpersonal comfort, both in public spaces and in XR environments.",
+      "paper_url": "https://doi.org/10.1016/j.chbr.2026.101411",
+      "doi": "https://doi.org/10.1016/j.chbr.2026.101411",
+      "source": "OpenAlex discovery",
+      "source_type": "aggregator_discovery",
+      "status": "needs_verification",
+      "venue": "Computers in Human Behavior Reports",
+      "notes": "Discovery record only. Verify title, date, venue and claims at the publisher/preprint source before treating as confirmed.",
+      "primary_bin": "embodiment",
+      "secondary_bins": [],
+      "tags": [
+        "auto-classified"
+      ],
+      "limitations": "Not extracted automatically. Read the full paper before drawing conclusions.",
+      "datasets": [],
+      "embodiments": [],
+      "real_robot": "Not established; verify full text.",
+      "code_url": "",
+      "added_at": "2026-11-23",
+      "last_seen": "2026-11-23",
       "sources_seen": [
         "OpenAlex discovery"
       ]
@@ -63,7 +384,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-22",
-      "last_seen": "2026-11-22",
+      "last_seen": "2026-11-23",
       "sources_seen": [
         "OpenAlex discovery"
       ]
@@ -93,7 +414,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-22",
-      "last_seen": "2026-11-22",
+      "last_seen": "2026-11-23",
       "sources_seen": [
         "OpenAlex discovery"
       ]
@@ -123,7 +444,67 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-22",
-      "last_seen": "2026-11-22",
+      "last_seen": "2026-11-23",
+      "sources_seen": [
+        "OpenAlex discovery"
+      ]
+    },
+    {
+      "id": "https://doi.org/10.1145/3847401.3857165",
+      "title": "Sensing Together: A Transdisciplinary Co-Design Study of the VR Baby Experience",
+      "authors": "Heide Karen Lukosch, Ngaroma Williams, Tony Walls, Niki Newman, Rodrigo Dias-Takase, Elizabeth Jayne White",
+      "first_published": "2026-11-20",
+      "year": 2026,
+      "abstract": "This work reports on the ongoing co-design of an immersive learning environment that places student teachers and healthcare students in embodied encounters with a virtual infant. Drawing on autoethnographic engagement with a transdisciplinary design team, we examine how the process is shaped by whanaungatanga, the Māori relational principle of connection and reciprocity, as it meets Human-Computer Interaction (HCI) practice, early childhood pedagogy, and paediatric health expertise. We report early findings on three themes of designing presence, translating across knowledge worlds, and the design team as relational practice, and reflect critically on the limits of our current process, including its restricted end-user and Māori community involvement. We position this work as transdisciplinary co-design rather than end-user co-design in the canonical HCI sense, and outline planned user studies with healthcare and ECE communities as the next phase of this research.",
+      "paper_url": "https://doi.org/10.1145/3847401.3857165",
+      "doi": "https://doi.org/10.1145/3847401.3857165",
+      "source": "OpenAlex discovery",
+      "source_type": "aggregator_discovery",
+      "status": "needs_verification",
+      "venue": "Australian Conference on Human-Computer Interaction (OzCHI)",
+      "notes": "Discovery record only. Verify title, date, venue and claims at the publisher/preprint source before treating as confirmed.",
+      "primary_bin": "learning",
+      "secondary_bins": [],
+      "tags": [
+        "auto-classified"
+      ],
+      "limitations": "Not extracted automatically. Read the full paper before drawing conclusions.",
+      "datasets": [],
+      "embodiments": [],
+      "real_robot": "Not established; verify full text.",
+      "code_url": "",
+      "added_at": "2026-11-23",
+      "last_seen": "2026-11-23",
+      "sources_seen": [
+        "OpenAlex discovery"
+      ]
+    },
+    {
+      "id": "https://doi.org/10.1080/07853890.2026.2765171",
+      "title": "Robot-assisted versus laparoscopic-assisted radical right hemicolectomy: short-term and 5-year outcomes in 2057 cases",
+      "authors": "Taiyuan Li, Ruichen Zhou, Penghui He, Yahang Liang, Feng Xiao, Wenjun Hu, Dongning Liu",
+      "first_published": "2026-11-20",
+      "year": 2026,
+      "abstract": "Background With the increasing application of robotic surgical systems in the field of gastrointestinal surgery, their technical advantages in achieving precise dissection and stable manipulation have become increasingly evident in clinical practice. This study aims to compare the perioperative outcomes and long-term survival outcomes of robot-assisted radical right hemicolectomy (RA) and laparoscopic-assisted radical right hemicolectomy (LA) for colon cancer.Methods This study is a retrospective analysis; a total of 2057 patients with right-sided colon cancer were enrolled from the First Affiliated Hospital of Nanchang University between 2015 and 2020. No significant differences were observed in baseline characteristics between the two groups. The primary endpoints of this study were 5-year cancer-specific survival (CSS) and disease-free survival (DFS) after surgery, while the secondary endpoints were perioperative outcomes.Results The RA group was associated with significantly higher 5-year CSS and DFS than the LA group (CSS: 79.9% vs. 74.6%, p = 0.005; DFS: 74.2% vs. 67.3%, p = 0.001). Surgical approach was an independent prognostic factor for both CSS and DFS (CSS: hazard ratio (HR) = 0.75, p = 0.008; DFS: HR = 0.75, p = 0.002). For perioperative outcomes, the RA group was associated with less intraoperative blood loss, more lymph nodes harvested (both p < 0.001), and a lower complication rate (p = 0.001).Conclusions RA was associated with more favourable perioperative outcomes and better long-term survival than LA.",
+      "paper_url": "https://doi.org/10.1080/07853890.2026.2765171",
+      "doi": "https://doi.org/10.1080/07853890.2026.2765171",
+      "source": "OpenAlex discovery",
+      "source_type": "aggregator_discovery",
+      "status": "needs_verification",
+      "venue": "Annals of Medicine",
+      "notes": "Discovery record only. Verify title, date, venue and claims at the publisher/preprint source before treating as confirmed.",
+      "primary_bin": "embodiment",
+      "secondary_bins": [],
+      "tags": [
+        "auto-classified"
+      ],
+      "limitations": "Not extracted automatically. Read the full paper before drawing conclusions.",
+      "datasets": [],
+      "embodiments": [],
+      "real_robot": "Not established; verify full text.",
+      "code_url": "",
+      "added_at": "2026-11-23",
+      "last_seen": "2026-11-23",
       "sources_seen": [
         "OpenAlex discovery"
       ]
@@ -153,7 +534,37 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-22",
-      "last_seen": "2026-11-22",
+      "last_seen": "2026-11-23",
+      "sources_seen": [
+        "OpenAlex discovery"
+      ]
+    },
+    {
+      "id": "https://doi.org/10.1145/3847401.3857201",
+      "title": "Material Prompts: Exploring Human-AI Interaction in Emerging Robotic Fabrication Contexts",
+      "authors": "Anthony Franze, Wei Win Loy, Jimmy Vermeulen, Müge Belek Fıalho Teıxeıra, Glenda Amayo Caldwell, Yuan Liu, Vincent Moug",
+      "first_published": "2026-11-20",
+      "year": 2026,
+      "abstract": "Robotic 3D printing is emerging as a socio-technical scenario for exploring human-AI interactions because it brings people, machines and evolving material conditions into continuous negotiation. As deposited materials shift, sag, accumulate, or behave unexpectedly, designers may need to interpret changing conditions and decide whether, when, and how to intervene during fabrication. While some research has begun to explore AI support for additive manufacturing, less is known about how people should interact with AI during unfolding, materially consequential processes. This creates a need to explore interaction models that support situated judgement and negotiation among people, AI systems, machines, and materials. In this half-day workshop, we ask the OzCHI community: how might AI support human decision-making as robotic 3D printing processes unfold? Participants will explore this question through speculative activities that progress from hands-on collaborative making to simulated AI assistance and to a low-fidelity enactment of a robotic 3D-printing scenario. Rather than testing a working AI system, the session uses speculative role-play as a design probe to examine how people interpret, question, reject, and build on AI suggestions as material conditions evolve. Workshop insights will be synthesised into a preliminary vocabulary of interaction patterns and communication needs to inform the design of future AI-assisted fabrication interfaces and workflows.",
+      "paper_url": "https://doi.org/10.1145/3847401.3857201",
+      "doi": "https://doi.org/10.1145/3847401.3857201",
+      "source": "OpenAlex discovery",
+      "source_type": "aggregator_discovery",
+      "status": "needs_verification",
+      "venue": "Australian Conference on Human-Computer Interaction (OzCHI)",
+      "notes": "Discovery record only. Verify title, date, venue and claims at the publisher/preprint source before treating as confirmed.",
+      "primary_bin": "spatial",
+      "secondary_bins": [],
+      "tags": [
+        "auto-classified"
+      ],
+      "limitations": "Not extracted automatically. Read the full paper before drawing conclusions.",
+      "datasets": [],
+      "embodiments": [],
+      "real_robot": "Not established; verify full text.",
+      "code_url": "",
+      "added_at": "2026-11-23",
+      "last_seen": "2026-11-23",
       "sources_seen": [
         "OpenAlex discovery"
       ]
@@ -186,7 +597,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-22",
-      "last_seen": "2026-11-22",
+      "last_seen": "2026-11-23",
       "sources_seen": [
         "OpenAlex discovery"
       ]
@@ -218,7 +629,69 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-22",
-      "last_seen": "2026-11-22",
+      "last_seen": "2026-11-23",
+      "sources_seen": [
+        "OpenAlex discovery"
+      ]
+    },
+    {
+      "id": "https://doi.org/10.1145/3847401.3847427",
+      "title": "It’s in Our Hands: Comparing Tactile Physicalisation to Virtual Reality for Understanding Graphs",
+      "authors": "Adam Drogemuller, Andrew Cunningham, James A. Walsh, Ross Smith, Bruce Hunter Thomas",
+      "first_published": "2026-11-20",
+      "year": 2026,
+      "abstract": "This paper investigates the role of touch and embodiment in comprehending immersive 3D graph visualisations. We present a user study analysing performance and cognitive load comparing Virtual Reality (VR) to Data Physicalisation for low-level graph topology tasks. In addition, we analyse the gestures and physical interactions participants elicited across the study. We found that gestures and physical interactions, such as pointing and grabbing, increased significantly during tasks that participants perceived as more difficult. The data physicalisation conditions also exerted less self-reported cognitive load than VR conditions.",
+      "paper_url": "https://doi.org/10.1145/3847401.3847427",
+      "doi": "https://doi.org/10.1145/3847401.3847427",
+      "source": "OpenAlex discovery",
+      "source_type": "aggregator_discovery",
+      "status": "needs_verification",
+      "venue": "Australian Conference on Human-Computer Interaction (OzCHI)",
+      "notes": "Discovery record only. Verify title, date, venue and claims at the publisher/preprint source before treating as confirmed.",
+      "primary_bin": "spatial",
+      "secondary_bins": [
+        "embodiment"
+      ],
+      "tags": [
+        "auto-classified"
+      ],
+      "limitations": "Not extracted automatically. Read the full paper before drawing conclusions.",
+      "datasets": [],
+      "embodiments": [],
+      "real_robot": "Not established; verify full text.",
+      "code_url": "",
+      "added_at": "2026-11-23",
+      "last_seen": "2026-11-23",
+      "sources_seen": [
+        "OpenAlex discovery"
+      ]
+    },
+    {
+      "id": "https://doi.org/10.21203/rs.3.rs-11588570/v1",
+      "title": "Iontronic triboelectric tele-perception enabled by ion-relaxation engineering and a lightweight 1D-CNN decoder",
+      "authors": "Jiaxin Guo, Yan Du, Zhong Lin Wang, Di Wei",
+      "first_published": "2026-11-20",
+      "year": 2026,
+      "abstract": "Robots must recognize what is approaching before they touch it. Triboelectric tele-perception meets this need, but its responses stay pinned to the material permittivity (dielectric constant) of the target: the voltage waveform collapses to a scaled copy of the electrostatic coupling, and material identity must then be recovered from a handful of amplitudes. We show that ionic relaxation in an iontronic dielectric breaks this constraint. Dispersing room temperature ionic liquid of BMIMTFSI (10 wt%) in thermoplastic polyurethane (TPU) gives an iontronic triboelectric sensor (ITS) whose mobile ions relax on the time scale of an approach event, so that ionic polarization and electrostatic induction act as two independent contributions to the same voltage transient. The resulting waveforms differ in shape, not merely in height: the iontronic film retains 91.57% of its initial output after 10⁵ cycles and resolves four target materials as distinct polarity-amplitude classes at 70 mm. Because the discriminating information lies in the waveform morphology, a generic one-dimensional convolutional neural network (1D-CNN) fed with raw voltage traces classifies the four materials at 90.5% mean accuracy without hand-crafted features. We use this output to drive material-specific robot motions and a polarity-gated three-level warning display. Ionic relaxation thus supplies a design degree of freedom that is orthogonal to permittivity, and it turns an electrostatic proximity signal into a material fingerprint that a small decoder can read.",
+      "paper_url": "https://doi.org/10.21203/rs.3.rs-11588570/v1",
+      "doi": "https://doi.org/10.21203/rs.3.rs-11588570/v1",
+      "source": "OpenAlex discovery",
+      "source_type": "aggregator_discovery",
+      "status": "needs_verification",
+      "venue": "Research Square",
+      "notes": "Discovery record only. Verify title, date, venue and claims at the publisher/preprint source before treating as confirmed.",
+      "primary_bin": "perception",
+      "secondary_bins": [],
+      "tags": [
+        "auto-classified"
+      ],
+      "limitations": "Not extracted automatically. Read the full paper before drawing conclusions.",
+      "datasets": [],
+      "embodiments": [],
+      "real_robot": "Not established; verify full text.",
+      "code_url": "",
+      "added_at": "2026-11-23",
+      "last_seen": "2026-11-23",
       "sources_seen": [
         "OpenAlex discovery"
       ]
@@ -248,7 +721,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-22",
-      "last_seen": "2026-11-22",
+      "last_seen": "2026-11-23",
       "sources_seen": [
         "OpenAlex discovery"
       ]
@@ -278,7 +751,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-22",
-      "last_seen": "2026-11-22",
+      "last_seen": "2026-11-23",
       "sources_seen": [
         "OpenAlex discovery"
       ]
@@ -310,7 +783,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-22",
-      "last_seen": "2026-11-22",
+      "last_seen": "2026-11-23",
       "sources_seen": [
         "OpenAlex discovery"
       ]
@@ -345,7 +818,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-22",
-      "last_seen": "2026-11-22",
+      "last_seen": "2026-11-23",
       "sources_seen": [
         "OpenAlex discovery"
       ]
@@ -377,7 +850,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-22",
-      "last_seen": "2026-11-22",
+      "last_seen": "2026-11-23",
       "sources_seen": [
         "OpenAlex discovery"
       ]
@@ -411,7 +884,171 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-22",
-      "last_seen": "2026-11-22",
+      "last_seen": "2026-11-23",
+      "sources_seen": [
+        "OpenAlex discovery"
+      ]
+    },
+    {
+      "id": "https://doi.org/10.1145/3859315",
+      "title": "FlexiCAVE: A Dynamically Configurable High-Resolution Display Facility",
+      "authors": "Zainab Aamir, Saeed Boorboor, Ahamed Shoaib, Arie E. Kaufman",
+      "first_published": "2026-11-20",
+      "year": 2026,
+      "abstract": "Large high-resolution displays (LHRDs) are increasingly central to visualization and visual analytics, offering expansive visual space, simultaneous support for context and detail, and intuitive physical navigation. While advances in resolution and form factor have broadened their use, a persistent challenge remains: most LHRDs adopt static geometries, and even reconfigurable systems typically treat layout adjustment as a setup mechanism rather than as an interaction technique during active analysis. To address this, we introduce the FlexiCAVE, a dynamically reconfigurable LHRD environment featuring rotatable display columns that enable real-time adjustment of horizontal curvature. The system comprises forty high-pixel-density panels arranged across ten columns, providing active stereo visualization at approximately 83 million pixels. Each column rotates inward up to 90°, allowing the display to transform between flat and highly curved layouts during active use. A custom rendering engine synchronizes view perspectives with physical reconfiguration in real time. Through controlled studies and expert evaluations centered on 3D navigation, we found that dynamic reconfiguration reduced spatial judgment error by 51% compared to static flat layouts and by 26% compared to static curved layouts. It also enhanced users’ sense of direction, with participants reporting that the physical display structure provided directional anchoring absent in static systems. We further explored PIVoT (Physical Interaction to Virtual Transformation), mapping physical display rotation to visualization updates. Our findings reveal that physical reconfiguration is most effective when display geometry provides spatially meaningful correspondence to data operations. We derive design principles for reconfigurable display environments and discuss implications for next-generation large-scale visualization systems.",
+      "paper_url": "https://doi.org/10.1145/3859315",
+      "doi": "https://doi.org/10.1145/3859315",
+      "source": "OpenAlex discovery",
+      "source_type": "aggregator_discovery",
+      "status": "needs_verification",
+      "venue": "Proceedings of the ACM on Human-Computer Interaction",
+      "notes": "Discovery record only. Verify title, date, venue and claims at the publisher/preprint source before treating as confirmed.",
+      "primary_bin": "spatial",
+      "secondary_bins": [
+        "embodiment",
+        "evaluation",
+        "systems"
+      ],
+      "tags": [
+        "auto-classified"
+      ],
+      "limitations": "Not extracted automatically. Read the full paper before drawing conclusions.",
+      "datasets": [],
+      "embodiments": [],
+      "real_robot": "Not established; verify full text.",
+      "code_url": "",
+      "added_at": "2026-11-23",
+      "last_seen": "2026-11-23",
+      "sources_seen": [
+        "OpenAlex discovery"
+      ]
+    },
+    {
+      "id": "https://doi.org/10.21203/rs.3.rs-11533891/v1",
+      "title": "EfficientDexGrasp: Diverse and Physically Feasible Dexterous Grasping via Few-Step Diffusion Distillation",
+      "authors": "Hanyu Huang, Geying Chen, Wen Zhao",
+      "first_published": "2026-11-20",
+      "year": 2026,
+      "abstract": "Diffusion models dominate dexterous grasp generation, but their iterative sampling is too slow for latency-sensitive deployment. Distilling a multi-step diffusion teacher into a few-step student exposes two coupled failure modes: distinct grasp modes collapse into a single averaged pose that corresponds to no valid grasp, and the physical refinement the teacher performs at every denoising step is lost, so many student predictions drift into penetration or self-collision. We propose EfficientDexGrasp, a physics-guided distillation framework that addresses both. Contrastive energy distillation shapes an auxiliary energy landscape in which distinct grasp modes remain separate low-energy basins. Gated physics-guided consistency trajectory distillation scales correction with how much worse the student is than the teacher, so predictions at or beyond the teacher’s level receive progressively less. The two modules reinforce each other: correction stays on genuinely degraded predictions and leaves the multimodal structure intact. On DexGraspNet, MultiDex, RealDex, and DexGRAB, EfficientDexGrasp achieves 11×to 69× inference speedups and surpasses the strongest prior baselines by 3.8 to 5.8 points on the stringent Suc.6 metric in the 8-step setting. We further demonstrate deployability on a real robot.",
+      "paper_url": "https://doi.org/10.21203/rs.3.rs-11533891/v1",
+      "doi": "https://doi.org/10.21203/rs.3.rs-11533891/v1",
+      "source": "OpenAlex discovery",
+      "source_type": "aggregator_discovery",
+      "status": "needs_verification",
+      "venue": "Research Square",
+      "notes": "Discovery record only. Verify title, date, venue and claims at the publisher/preprint source before treating as confirmed.",
+      "primary_bin": "systems",
+      "secondary_bins": [
+        "embodiment",
+        "perception"
+      ],
+      "tags": [
+        "auto-classified"
+      ],
+      "limitations": "Not extracted automatically. Read the full paper before drawing conclusions.",
+      "datasets": [],
+      "embodiments": [],
+      "real_robot": "Not established; verify full text.",
+      "code_url": "",
+      "added_at": "2026-11-23",
+      "last_seen": "2026-11-23",
+      "sources_seen": [
+        "OpenAlex discovery"
+      ]
+    },
+    {
+      "id": "https://doi.org/10.1201/9781003642527",
+      "title": "Driving Intelligence: The Amber Book",
+      "authors": "Gabriel Seiberth, J. Mark Bishop",
+      "first_published": "2026-11-20",
+      "year": 2026,
+      "abstract": "Driving Intelligence examines artificial intelligence through the lens of autonomous driving, using driving as a real-world test case for intelligence. At a time when expectations of artificial general intelligence are rising, the book challenges how intelligence is defined and measured, arguing that current benchmarks saturate, leak, and can be gamed. The book develops a framework for understanding intelligence through the concept of real-world agency, with autonomous driving as its central case study. It argues that driving uniquely combines scale, open-ended environmental complexity, and continuous multi-agent interaction under uncertainty. Unlike most AI benchmarks, which are static or isolated, autonomous driving unfolds in a dynamic physical and social world that cannot be exhaustively specified in advance. The book analyzes failure modes in perception, prediction, planning, and interaction, showing how these limitations reveal a deeper gap between statistical learning from large-scale data and genuine agency. This volume, Amber, benchmarks today's autonomous driving systems against real-world performance data and tracks the shift from language-based AI toward Vision-Language-Action (VLA) systems in robotics. The book's central contribution is to reframe autonomous driving as a benchmark for intelligence grounded in real-world agency. It identifies systematic limitations in current AI approaches and clarifies what is missing for genuine autonomy, providing a concrete framework for evaluating progress in Real-World AI and Physical AI. The book will be essential reading for professionals, academics, and students working and researching AI and autonomous vehicles, as well as the interested general reader.",
+      "paper_url": "https://doi.org/10.1201/9781003642527",
+      "doi": "https://doi.org/10.1201/9781003642527",
+      "source": "OpenAlex discovery",
+      "source_type": "aggregator_discovery",
+      "status": "needs_verification",
+      "venue": "Routledge eBooks",
+      "notes": "Discovery record only. Verify title, date, venue and claims at the publisher/preprint source before treating as confirmed.",
+      "primary_bin": "vla",
+      "secondary_bins": [
+        "evaluation",
+        "learning",
+        "perception",
+        "reasoning"
+      ],
+      "tags": [
+        "auto-classified"
+      ],
+      "limitations": "Not extracted automatically. Read the full paper before drawing conclusions.",
+      "datasets": [],
+      "embodiments": [],
+      "real_robot": "Not established; verify full text.",
+      "code_url": "",
+      "added_at": "2026-11-23",
+      "last_seen": "2026-11-23",
+      "sources_seen": [
+        "OpenAlex discovery"
+      ]
+    },
+    {
+      "id": "https://doi.org/10.59277/rrst-ee.2026.4.13",
+      "title": "DESIGN AND IMPLEMENTATION OF AN INTEGRATED SURVEILLANCE SYSTEM FOR MARITIME ANTI-PIRACY",
+      "authors": "Sergiu Lupu, Ovidiu Cristea, CLARA-GEORGETA LIȚU, Andrei Pocora, NICOLAE-SILVIU POPA, CLAUDIA LAURENŢA POPESCU",
+      "first_published": "2026-11-20",
+      "year": 2026,
+      "abstract": "The phenomenon of piracy remains a critical priority for global maritime security. This article introduces an innovative concept for anti-piracy countermeasures, inspired by conventional methods but automated through an integrated surveillance system. The solution correlates and processes data from navigation devices and multiple sensors, eliminating the need for armed Vessel Protection Detachments or private security guards. The system used to simulate efficiency includes a Raspberry Pi 4 Model B, two cameras, proximity sensors, power actuators, and a laser for deterrence. On a real-life scale, the architecture is adaptable to each vessel, optimizing existing on-board hardware resources for autonomous and efficient protection.",
+      "paper_url": "https://doi.org/10.59277/rrst-ee.2026.4.13",
+      "doi": "https://doi.org/10.59277/rrst-ee.2026.4.13",
+      "source": "OpenAlex discovery",
+      "source_type": "aggregator_discovery",
+      "status": "needs_verification",
+      "venue": "REVUE ROUMAINE DES SCIENCES TECHNIQUES — SÉRIE ÉLECTROTECHNIQUE ET ÉNERGÉTIQUE",
+      "notes": "Discovery record only. Verify title, date, venue and claims at the publisher/preprint source before treating as confirmed.",
+      "primary_bin": "systems",
+      "secondary_bins": [
+        "embodiment"
+      ],
+      "tags": [
+        "auto-classified"
+      ],
+      "limitations": "Not extracted automatically. Read the full paper before drawing conclusions.",
+      "datasets": [],
+      "embodiments": [],
+      "real_robot": "Not established; verify full text.",
+      "code_url": "",
+      "added_at": "2026-11-23",
+      "last_seen": "2026-11-23",
+      "sources_seen": [
+        "OpenAlex discovery"
+      ]
+    },
+    {
+      "id": "https://doi.org/10.1145/3847401.3857179",
+      "title": "BronchoVR: An Immersive VR Simulation for Bronchoscopy and Fibreoptic Intubation Training",
+      "authors": "Muhammad Saad Khan, BRIAN J. ROBINSON, Stuart Marshall, Joaquim Armando Jorge, Craig Anslow",
+      "first_published": "2026-11-20",
+      "year": 2026,
+      "abstract": "Fibreoptic intubation (FOI) is an important airway-management skill that requires anaesthetists to navigate a flexible scope through patient-specific anatomy using an indirect, monitor-mediated view. Developing proficiency requires hands-on practice, yet opportunities for clinical training are limited. We present BronchoVR, an immersive VR training prototype developed through consultation with practising specialist anaesthetists and informed by the FOI literature. BronchoVR provides an operating-theatre environment and integrates a patient-specific airway model reconstructed from CT, monitor-mediated scope navigation, and a gamified precision task for practising scope-control skills. These features address requirements for anatomical realism, indirect visual guidance, and psychomotor training. BronchoVR supports rehearsal of FOI navigation and scope handling while preserving the monitor-mediated viewing and hand–eye coordination used during FOI.",
+      "paper_url": "https://doi.org/10.1145/3847401.3857179",
+      "doi": "https://doi.org/10.1145/3847401.3857179",
+      "source": "OpenAlex discovery",
+      "source_type": "aggregator_discovery",
+      "status": "needs_verification",
+      "venue": "Australian Conference on Human-Computer Interaction (OzCHI)",
+      "notes": "Discovery record only. Verify title, date, venue and claims at the publisher/preprint source before treating as confirmed.",
+      "primary_bin": "embodiment",
+      "secondary_bins": [],
+      "tags": [
+        "auto-classified"
+      ],
+      "limitations": "Not extracted automatically. Read the full paper before drawing conclusions.",
+      "datasets": [],
+      "embodiments": [],
+      "real_robot": "Not established; verify full text.",
+      "code_url": "",
+      "added_at": "2026-11-23",
+      "last_seen": "2026-11-23",
       "sources_seen": [
         "OpenAlex discovery"
       ]
@@ -441,7 +1078,72 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-22",
-      "last_seen": "2026-11-22",
+      "last_seen": "2026-11-23",
+      "sources_seen": [
+        "OpenAlex discovery"
+      ]
+    },
+    {
+      "id": "https://doi.org/10.1145/3859329",
+      "title": "Augmenting Data Physicalization Using Visuo-Tactile Illusions",
+      "authors": "Xiaojiao Du, Kadek Ananta Satriadi, Adam Drogemuller, James A. Walsh, Ross Smith, Andrew Cunningham",
+      "first_published": "2026-11-20",
+      "year": 2026,
+      "abstract": "Data physicalizations fabricated by 3D printers are limited in their ability to dynamically vary their form and tactile properties without refabrication, thereby hindering reusability. In particular, tactile properties on the surface of a physicalization (i.e., surface roughness ) cannot be dynamically adjusted as the data change. To address this limitation, we explore a novel method to increase the reusability of a data physicalization, namely perceived tactile modulation (PTM). Our method enables the perception of varying surface roughness levels on a static data physicalization through the use of virtual reality. By altering the visual roughness of the virtual model, we modulate the user’s perception of tactile roughness, thereby influencing how the physicalization is interpreted through touch and expanding the range of ordinal data values that can be encoded. We conducted two studies to design and evaluate this method. In the first study (N = 20), Just Noticeable Differences (JNDs) were established for perceivable visuo-tactile channels in virtual reality environments. The second study (N = 12) investigates the application of our method across two levels of interactive representation: static and interactive. Our findings show that PTM can reliably modulate perceived roughness in static physicalization, while its effectiveness for supporting dynamic, single-artifact updates (interactive encoding) requires further investigation. We present a series of recommendations for applying PTM techniques in data physicalization.",
+      "paper_url": "https://doi.org/10.1145/3859329",
+      "doi": "https://doi.org/10.1145/3859329",
+      "source": "OpenAlex discovery",
+      "source_type": "aggregator_discovery",
+      "status": "needs_verification",
+      "venue": "Proceedings of the ACM on Human-Computer Interaction",
+      "notes": "Discovery record only. Verify title, date, venue and claims at the publisher/preprint source before treating as confirmed.",
+      "primary_bin": "spatial",
+      "secondary_bins": [
+        "embodiment",
+        "perception"
+      ],
+      "tags": [
+        "auto-classified"
+      ],
+      "limitations": "Not extracted automatically. Read the full paper before drawing conclusions.",
+      "datasets": [],
+      "embodiments": [],
+      "real_robot": "Not established; verify full text.",
+      "code_url": "",
+      "added_at": "2026-11-23",
+      "last_seen": "2026-11-23",
+      "sources_seen": [
+        "OpenAlex discovery"
+      ]
+    },
+    {
+      "id": "https://doi.org/10.69760/lumin.2026004002",
+      "title": "Artificial Intelligence in Child Online Safety: A Dual Perspective on Opportunities and Challenges",
+      "authors": "Sabira S. Ojagverdiyeva",
+      "first_published": "2026-11-20",
+      "year": 2026,
+      "abstract": "Modern children are growing up in a digital world that offers immense potential, with many beginning to use technology from an early age. This digital environment presents countless opportunities for learning and development, but it also necessitates a balanced, thoughtful approach to raising children as informed, open-minded citizens. Industry 4.0, driven by artificial intelligence (AI), robotics, and the Internet of Things (IoT), is reshaping how children think, learn, and interact with the world. The integration of AI into children's lives is a complex issue, bringing both significant benefits and notable risks. On the positive side, AI can power educational tools, interactive games, and personalized learning experiences, fostering cognitive development and creativity. However, it also introduces serious concerns, such as exposure to cyber threats, potential manipulation, privacy violations through data collection, and increased access to harmful content. This study explores the dual impact of information technologies on children's digital development. It examines the primary cybersecurity challenges children face and assesses how AI can both enhance and jeopardize their well-being. By analyzing these multifaceted dynamics, the research aims to offer recommendations for maximizing the advantages of the digital age while ensuring a safer and more supportive online environment for children.",
+      "paper_url": "https://doi.org/10.69760/lumin.2026004002",
+      "doi": "https://doi.org/10.69760/lumin.2026004002",
+      "source": "OpenAlex discovery",
+      "source_type": "aggregator_discovery",
+      "status": "needs_verification",
+      "venue": "Luminis Applied Science and Engineering",
+      "notes": "Discovery record only. Verify title, date, venue and claims at the publisher/preprint source before treating as confirmed.",
+      "primary_bin": "learning",
+      "secondary_bins": [
+        "evaluation"
+      ],
+      "tags": [
+        "auto-classified"
+      ],
+      "limitations": "Not extracted automatically. Read the full paper before drawing conclusions.",
+      "datasets": [],
+      "embodiments": [],
+      "real_robot": "Not established; verify full text.",
+      "code_url": "",
+      "added_at": "2026-11-23",
+      "last_seen": "2026-11-23",
       "sources_seen": [
         "OpenAlex discovery"
       ]
@@ -471,7 +1173,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-22",
-      "last_seen": "2026-11-22",
+      "last_seen": "2026-11-23",
       "sources_seen": [
         "OpenAlex discovery"
       ]
@@ -709,7 +1411,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-20",
-      "last_seen": "2026-11-22",
+      "last_seen": "2026-11-23",
       "sources_seen": [
         "OpenAlex discovery",
         "arXiv"
@@ -817,7 +1519,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-22",
-      "last_seen": "2026-11-22",
+      "last_seen": "2026-11-23",
       "sources_seen": [
         "OpenAlex discovery"
       ]
@@ -856,7 +1558,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-20",
-      "last_seen": "2026-11-22",
+      "last_seen": "2026-11-23",
       "sources_seen": [
         "OpenAlex discovery",
         "arXiv"
@@ -872,7 +1574,7 @@
       "abstract": "Vision-Language-Action (VLA) models have recently been equipped with tactile sensing to perceive visually subtle contact events in contact-rich manipulation. However, adding tactile input yields inconsistent gains, and some visuo-tactile VLA models rely little on tactile input, because much of the tactile change, such as the gel deformation during gripper closure, is predictable from visual observations and executed actions. To address this problem, we introduce TacInno, which isolates the contact dynamics that vision and executed actions cannot explain, termed tactile innovation, and uses tactile innovation only as a training target. Specifically, the TacInno tokenizer, conditioned on visual observations and executed actions, compresses the future tactile change into a discrete code, and the policy, TacInno-VLA, learns to predict the code, adding no module for the code at deployment. TacInno-VLA achieves average success rates of 87.5% across six simulation tasks and 70.5% across four real-world tasks, outperforming the strongest visuo-tactile baseline by 10.7 and 9.0 percentage points, respectively. Ablation studies validate the contributions of visual and action conditioning, multi-frame encoding, and auxiliary code prediction. Together, these results demonstrate the effectiveness of tactile innovation as a supervision signal for contact-rich manipulation.",
       "paper_url": "https://arxiv.org/abs/2611.26405",
       "pdf_url": "https://arxiv.org/pdf/2611.26405v1",
-      "doi": "",
+      "doi": "https://doi.org/10.48550/arxiv.2611.26405",
       "journal_ref": "",
       "categories": [
         "cs.RO",
@@ -881,7 +1583,7 @@
       "source": "arXiv",
       "source_type": "primary",
       "status": "preprint",
-      "venue": "Preprint",
+      "venue": "arXiv (Cornell University)",
       "primary_bin": "vla",
       "secondary_bins": [
         "embodiment",
@@ -897,8 +1599,9 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-20",
-      "last_seen": "2026-11-22",
+      "last_seen": "2026-11-23",
       "sources_seen": [
+        "OpenAlex discovery",
         "arXiv"
       ]
     },
@@ -1046,7 +1749,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-22",
-      "last_seen": "2026-11-22",
+      "last_seen": "2026-11-23",
       "sources_seen": [
         "OpenAlex discovery"
       ]
@@ -1125,7 +1828,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-20",
-      "last_seen": "2026-11-22",
+      "last_seen": "2026-11-23",
       "sources_seen": [
         "OpenAlex discovery",
         "arXiv"
@@ -1280,7 +1983,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-20",
-      "last_seen": "2026-11-22",
+      "last_seen": "2026-11-23",
       "sources_seen": [
         "OpenAlex discovery",
         "arXiv"
@@ -1394,7 +2097,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-20",
-      "last_seen": "2026-11-22",
+      "last_seen": "2026-11-23",
       "sources_seen": [
         "OpenAlex discovery",
         "arXiv"
@@ -1436,7 +2139,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-20",
-      "last_seen": "2026-11-22",
+      "last_seen": "2026-11-23",
       "sources_seen": [
         "OpenAlex discovery",
         "arXiv"
@@ -1513,7 +2216,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-20",
-      "last_seen": "2026-11-22",
+      "last_seen": "2026-11-23",
       "sources_seen": [
         "OpenAlex discovery",
         "arXiv"
@@ -1556,7 +2259,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-20",
-      "last_seen": "2026-11-22",
+      "last_seen": "2026-11-23",
       "sources_seen": [
         "OpenAlex discovery",
         "arXiv"
@@ -1636,7 +2339,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-20",
-      "last_seen": "2026-11-22",
+      "last_seen": "2026-11-23",
       "sources_seen": [
         "OpenAlex discovery",
         "arXiv"
@@ -1679,7 +2382,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-20",
-      "last_seen": "2026-11-22",
+      "last_seen": "2026-11-23",
       "sources_seen": [
         "OpenAlex discovery",
         "arXiv"
@@ -1712,7 +2415,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-22",
-      "last_seen": "2026-11-22",
+      "last_seen": "2026-11-23",
       "sources_seen": [
         "OpenAlex discovery"
       ]
@@ -1750,7 +2453,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-20",
-      "last_seen": "2026-11-22",
+      "last_seen": "2026-11-23",
       "sources_seen": [
         "OpenAlex discovery",
         "arXiv"
@@ -1794,7 +2497,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-20",
-      "last_seen": "2026-11-22",
+      "last_seen": "2026-11-23",
       "sources_seen": [
         "OpenAlex discovery",
         "arXiv"
@@ -1888,7 +2591,7 @@
       "abstract": "World action models (WAMs) couple generative video modeling with robotic action prediction but typically require large video and action transformers, limiting deployment efficiency. We present LoopedWAM, a compact WAM that recurrently applies a shared six-block core in each expert, executing 30 transformer layers while storing only 12 blocks per expert. To account for their asymmetric inference costs, the video and action experts can operate at different depths: visual features are computed once per query, whereas action computation repeats at every sampling step. We further propose elastic self-distillation, which trains a single elastic checkpoint, LoopedWAM-E, across action-depth and sampling-step budgets. With only 0.58B policy parameters and no robot pretraining, LoopedWAM achieves 96.1% success on LIBERO, 91.9% on RoboTwin 2.0, and 52.2% on RoboCasaGR1, while using $7.4\\times$ less peak GPU memory than Fast-WAM under matched inference measurements. On LIBERO, LoopedWAM-E achieves 96.0% success in 27.6 ms or 95.2% in 24.7 ms on an H100, providing multiple accuracy-latency operating points from a single checkpoint; with two sampling steps and four action loops, it stays within 0.5 points of LoopedWAM on all three benchmarks. Ablations demonstrate that weight-shared depth preserves competitive performance, while aggressive action-depth reduction requires explicit budget-aware training. On a real AgileX PiPER arm, LoopedWAM succeeds in 71.3% of 80 trials across four tasks.",
       "paper_url": "https://arxiv.org/abs/2611.25595",
       "pdf_url": "https://arxiv.org/pdf/2611.25595v1",
-      "doi": "",
+      "doi": "https://doi.org/10.48550/arxiv.2611.25595",
       "journal_ref": "",
       "categories": [
         "cs.CV",
@@ -1897,7 +2600,7 @@
       "source": "arXiv",
       "source_type": "primary",
       "status": "preprint",
-      "venue": "Preprint",
+      "venue": "arXiv (Cornell University)",
       "primary_bin": "systems",
       "secondary_bins": [
         "data",
@@ -1915,8 +2618,9 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-20",
-      "last_seen": "2026-11-22",
+      "last_seen": "2026-11-23",
       "sources_seen": [
+        "OpenAlex discovery",
         "arXiv"
       ]
     },
@@ -1956,7 +2660,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-20",
-      "last_seen": "2026-11-22",
+      "last_seen": "2026-11-23",
       "sources_seen": [
         "OpenAlex discovery",
         "arXiv"
@@ -2066,7 +2770,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-21",
-      "last_seen": "2026-11-22",
+      "last_seen": "2026-11-23",
       "sources_seen": [
         "OpenAlex discovery"
       ]
@@ -2570,7 +3274,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-20",
-      "last_seen": "2026-11-22",
+      "last_seen": "2026-11-23",
       "sources_seen": [
         "OpenAlex discovery",
         "arXiv"
@@ -2628,7 +3332,7 @@
       "abstract": "Latent world models predict the outcomes of action sequences, but comparing candidate plans through recursive rollout remains expensive at test time. We introduce Fast-JEPA, a latent world model planning framework that advances the success-latency Pareto frontier of predictive search. Fast-JEPA reorganizes predictive computation to support effective action-sequence search at low planning cost. It constructs a goal-directed plan to guide search and directly predicts the outcomes of complete candidates for efficient comparison, avoiding recursive state rollout during refinement. Across PushT, Reacher, Cube, and TwoRoom, Fast-JEPA achieves 96.50% average success rate with 2.41x faster planning than INTACT. Search-budget sweeps show that its competitive success and low latency extend across candidate counts and refinement depths. We further introduce DynaGoal, a benchmark for evaluating world-model planning under dynamic out-of-distribution conditions, execution deadlines, and controlled response delays. Fast-JEPA achieves average success rates of 73.83% on DynaGoal-Shift and 87.67% on DynaGoal-Deadline, demonstrating the practical value of low-latency predictive planning under changing control conditions and execution-time constraints. Our code is available at https://github.com/Sofilyzia/Fast-JEPA.",
       "paper_url": "https://arxiv.org/abs/2611.25927",
       "pdf_url": "https://arxiv.org/pdf/2611.25927v1",
-      "doi": "",
+      "doi": "https://doi.org/10.48550/arxiv.2611.25927",
       "journal_ref": "",
       "categories": [
         "cs.RO",
@@ -2637,7 +3341,7 @@
       "source": "arXiv",
       "source_type": "primary",
       "status": "preprint",
-      "venue": "Preprint",
+      "venue": "arXiv (Cornell University)",
       "primary_bin": "world",
       "secondary_bins": [
         "evaluation",
@@ -2654,8 +3358,9 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "https://github.com/Sofilyzia/Fast-JEPA",
       "added_at": "2026-11-20",
-      "last_seen": "2026-11-22",
+      "last_seen": "2026-11-23",
       "sources_seen": [
+        "OpenAlex discovery",
         "arXiv"
       ]
     },
@@ -2766,7 +3471,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-22",
-      "last_seen": "2026-11-22",
+      "last_seen": "2026-11-23",
       "sources_seen": [
         "OpenAlex discovery"
       ]
@@ -2959,7 +3664,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-20",
-      "last_seen": "2026-11-22",
+      "last_seen": "2026-11-23",
       "sources_seen": [
         "OpenAlex discovery",
         "arXiv"
@@ -3033,7 +3738,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-22",
-      "last_seen": "2026-11-22",
+      "last_seen": "2026-11-23",
       "sources_seen": [
         "OpenAlex discovery"
       ]
@@ -3066,7 +3771,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-21",
-      "last_seen": "2026-11-22",
+      "last_seen": "2026-11-23",
       "sources_seen": [
         "OpenAlex discovery"
       ]
@@ -3139,7 +3844,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-21",
-      "last_seen": "2026-11-22",
+      "last_seen": "2026-11-23",
       "sources_seen": [
         "OpenAlex discovery"
       ]
@@ -3211,7 +3916,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-21",
-      "last_seen": "2026-11-22",
+      "last_seen": "2026-11-23",
       "sources_seen": [
         "OpenAlex discovery"
       ]
@@ -3367,7 +4072,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-20",
-      "last_seen": "2026-11-22",
+      "last_seen": "2026-11-23",
       "sources_seen": [
         "OpenAlex discovery",
         "arXiv"
@@ -3398,7 +4103,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-22",
-      "last_seen": "2026-11-22",
+      "last_seen": "2026-11-23",
       "sources_seen": [
         "OpenAlex discovery"
       ]
@@ -3509,7 +4214,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-22",
-      "last_seen": "2026-11-22",
+      "last_seen": "2026-11-23",
       "sources_seen": [
         "OpenAlex discovery"
       ]
@@ -3707,7 +4412,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-20",
-      "last_seen": "2026-11-22",
+      "last_seen": "2026-11-23",
       "sources_seen": [
         "OpenAlex discovery",
         "arXiv"
@@ -3738,7 +4443,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-22",
-      "last_seen": "2026-11-22",
+      "last_seen": "2026-11-23",
       "sources_seen": [
         "OpenAlex discovery"
       ]
@@ -3778,7 +4483,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-20",
-      "last_seen": "2026-11-22",
+      "last_seen": "2026-11-23",
       "sources_seen": [
         "OpenAlex discovery",
         "arXiv"
@@ -3936,7 +4641,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "https://github.com/LigphiDonk/ActMem",
       "added_at": "2026-11-20",
-      "last_seen": "2026-11-22",
+      "last_seen": "2026-11-23",
       "sources_seen": [
         "OpenAlex discovery",
         "arXiv"
@@ -4007,7 +4712,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-22",
-      "last_seen": "2026-11-22",
+      "last_seen": "2026-11-23",
       "sources_seen": [
         "OpenAlex discovery"
       ]
@@ -4049,7 +4754,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-20",
-      "last_seen": "2026-11-22",
+      "last_seen": "2026-11-23",
       "sources_seen": [
         "OpenAlex discovery",
         "arXiv"
@@ -4086,7 +4791,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-21",
-      "last_seen": "2026-11-22",
+      "last_seen": "2026-11-23",
       "sources_seen": [
         "OpenAlex discovery"
       ]
@@ -4116,7 +4821,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-22",
-      "last_seen": "2026-11-22",
+      "last_seen": "2026-11-23",
       "sources_seen": [
         "OpenAlex discovery"
       ]
@@ -4371,7 +5076,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-20",
-      "last_seen": "2026-11-22",
+      "last_seen": "2026-11-23",
       "sources_seen": [
         "OpenAlex discovery"
       ]
@@ -4845,7 +5550,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-21",
-      "last_seen": "2026-11-22",
+      "last_seen": "2026-11-23",
       "sources_seen": [
         "OpenAlex discovery"
       ]
@@ -4927,7 +5632,7 @@
       "abstract": "End-to-end autonomous driving systems have been shown to suffer from shortcut learning and causal confusion, limiting their ability to generalize robustly under distribution shift. To mitigate these limitations, recent works based on Vision-Language Models (VLMs) have explored incorporating linguistic reasoning capabilities into driving decision-making, reporting improvements in driving performance. In particular, counterfactual (CF) reasoning has been proposed to enable self-reflective, high-level causal understanding. However, it remains unclear whether the language-based reasoning mitigates shortcut learning or merely shifts it from visual representations to linguistic patterns, creating an illusion of causal understanding. Moreover, existing approaches often conflate intervention-based reasoning with CF reasoning, leaving the effects of genuine CF reasoning unexplored. In this work, we examine what CF reasoning actually induces in VLM-based autonomous driving and observe that it shifts the action distribution toward more conservative behaviors while increasing uncertainty in reasoning and decision-making. This effect persists under reinforcement fine-tuning, suggesting that it is not merely a transient artifact. Furthermore, visual attention analysis shows that CF reasoning does not alter visual grounding, while causal intervention experiments reveal that masking causally relevant and non-causal factors in accident scenarios results in comparable decision change rates. Overall, these results suggest that CF reasoning does not induce genuine causal reasoning grounded in visual evidence. Instead, it acts as a linguistic shortcut that reshapes the action distribution, teaching models what to say but not how to reason, highlighting a gap between language-based reasoning and causal understanding in autonomous driving.",
       "paper_url": "https://arxiv.org/abs/2611.24376",
       "pdf_url": "https://arxiv.org/pdf/2611.24376v1",
-      "doi": "",
+      "doi": "https://doi.org/10.48550/arxiv.2611.24376",
       "journal_ref": "",
       "categories": [
         "cs.RO"
@@ -4935,7 +5640,7 @@
       "source": "arXiv",
       "source_type": "primary",
       "status": "preprint",
-      "venue": "Preprint",
+      "venue": "arXiv (Cornell University)",
       "primary_bin": "perception",
       "secondary_bins": [
         "embodiment",
@@ -4950,8 +5655,9 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-19",
-      "last_seen": "2026-11-22",
+      "last_seen": "2026-11-23",
       "sources_seen": [
+        "OpenAlex discovery",
         "arXiv"
       ]
     },
@@ -5246,7 +5952,7 @@
       "source": "arXiv",
       "source_type": "primary",
       "status": "preprint",
-      "venue": "Preprint",
+      "venue": "arXiv (Cornell University)",
       "primary_bin": "vla",
       "secondary_bins": [
         "data",
@@ -5262,7 +5968,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-19",
-      "last_seen": "2026-11-22",
+      "last_seen": "2026-11-23",
       "sources_seen": [
         "OpenAlex discovery",
         "arXiv"
@@ -5540,7 +6246,7 @@
       "abstract": "Diffusion and flow-matching policies have become a standard choice for visuomotor imitation learning, owing to their ability to model multimodal action distributions. In memory-dependent manipulation, the robot must act on information that is no longer visible. Existing methods feed the observation history to the policy as an additional condition, while action generation still starts from Gaussian noise. However, the policy must then pick out the relevant target from a long and redundant history, leading to spurious correlations and unreliable decisions as the memory load grows. Additionally, the initial noise carries no information about what the robot has seen, leaving generation without guidance toward the remembered target. To address these issues, we propose RecallFlow, a flow-policy framework that builds the source distribution from episodic memory. Recall-Relocalization relates the memory to the current view through a few recall slots, so that the source reflects where the remembered targets are now. Recall Anchors then turns each slot into a Gaussian component of the source, enabling generation to start close to the intended action instead of from noise. The transport network then completes the action from the current observation alone, keeping inference nearly as cheap as a memoryless policy. We further build a suite of memory-dependent tasks grouped by memory load and compare all policies under a matched protocol. Extensive experiments show that RecallFlow achieves a state-of-the-art average success rate of 80.4% on the public MIKASA-Robo memory benchmark, and outperforms the strongest baseline by 20.3 points on our suite and by 18.8 points on four real-robot tasks.",
       "paper_url": "https://arxiv.org/abs/2611.23731",
       "pdf_url": "https://arxiv.org/pdf/2611.23731v1",
-      "doi": "",
+      "doi": "https://doi.org/10.48550/arxiv.2611.23731",
       "journal_ref": "",
       "categories": [
         "cs.RO"
@@ -5548,7 +6254,7 @@
       "source": "arXiv",
       "source_type": "primary",
       "status": "preprint",
-      "venue": "Preprint",
+      "venue": "arXiv (Cornell University)",
       "primary_bin": "learning",
       "secondary_bins": [
         "evaluation",
@@ -5565,8 +6271,9 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-19",
-      "last_seen": "2026-11-22",
+      "last_seen": "2026-11-23",
       "sources_seen": [
+        "OpenAlex discovery",
         "arXiv"
       ]
     },
@@ -5607,7 +6314,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-19",
-      "last_seen": "2026-11-22",
+      "last_seen": "2026-11-23",
       "sources_seen": [
         "OpenAlex discovery",
         "arXiv"
@@ -5725,7 +6432,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-19",
-      "last_seen": "2026-11-22",
+      "last_seen": "2026-11-23",
       "sources_seen": [
         "OpenAlex discovery",
         "arXiv"
@@ -5877,7 +6584,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-19",
-      "last_seen": "2026-11-22",
+      "last_seen": "2026-11-23",
       "sources_seen": [
         "OpenAlex discovery",
         "arXiv"
@@ -5911,7 +6618,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-21",
-      "last_seen": "2026-11-22",
+      "last_seen": "2026-11-23",
       "sources_seen": [
         "OpenAlex discovery"
       ]
@@ -6385,7 +7092,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-19",
-      "last_seen": "2026-11-22",
+      "last_seen": "2026-11-23",
       "sources_seen": [
         "OpenAlex discovery",
         "arXiv"
@@ -6521,7 +7228,7 @@
       "abstract": "Embodied robots increasingly rely on large language models (LLMs) to interpret user intent and coordinate with robot-specific action models for physical interaction. This multi-model pipeline creates a critical semantic boundary across mind, model collaboration, and motion: semantic consistency may break between what the large model understands, how the small action model translates that understanding into executable commands, and what physical actions the robot ultimately performs. As a security consequence, commercial robots may execute unintended physical actions even when user inputs contain no explicit action commands. To measure this problem, we develop TARS, a black-box framework that explores the command-reasoning-action pipeline and automatically discovers and validates unintended physical behaviors. We evaluate TARS on four commercial robots across 44 experimental settings, conducting 133,400 executions. TARS uncovers widespread cross-model action misalignment and achieves up to 94% verified action coverage.",
       "paper_url": "https://arxiv.org/abs/2611.24100",
       "pdf_url": "https://arxiv.org/pdf/2611.24100v1",
-      "doi": "",
+      "doi": "https://doi.org/10.48550/arxiv.2611.24100",
       "journal_ref": "",
       "categories": [
         "cs.RO"
@@ -6529,7 +7236,7 @@
       "source": "arXiv",
       "source_type": "primary",
       "status": "preprint",
-      "venue": "Preprint",
+      "venue": "arXiv (Cornell University)",
       "primary_bin": "reasoning",
       "secondary_bins": [],
       "tags": [
@@ -6541,8 +7248,9 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-19",
-      "last_seen": "2026-11-22",
+      "last_seen": "2026-11-23",
       "sources_seen": [
+        "OpenAlex discovery",
         "arXiv"
       ]
     },
@@ -6609,7 +7317,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-22",
-      "last_seen": "2026-11-22",
+      "last_seen": "2026-11-23",
       "sources_seen": [
         "OpenAlex discovery"
       ]
@@ -6650,7 +7358,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-19",
-      "last_seen": "2026-11-22",
+      "last_seen": "2026-11-23",
       "sources_seen": [
         "OpenAlex discovery",
         "arXiv"
@@ -6792,7 +7500,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-22",
-      "last_seen": "2026-11-22",
+      "last_seen": "2026-11-23",
       "sources_seen": [
         "OpenAlex discovery"
       ]
@@ -7046,7 +7754,7 @@
       "source": "arXiv",
       "source_type": "primary",
       "status": "preprint",
-      "venue": "Preprint",
+      "venue": "arXiv (Cornell University)",
       "primary_bin": "systems",
       "secondary_bins": [
         "evaluation",
@@ -7064,7 +7772,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-19",
-      "last_seen": "2026-11-22",
+      "last_seen": "2026-11-23",
       "sources_seen": [
         "OpenAlex discovery",
         "arXiv"
@@ -7080,7 +7788,7 @@
       "abstract": "Recent advances in world models are opening new possibilities for fine-grained embodied tasks, with hand-object interaction offering a particularly demanding setting. Modeling these interactions involves capturing how hand actions change objects and how the resulting states persist over time. Yet systematic evaluation tailored to these hand-centric capabilities remains underdeveloped. To address this gap, we introduce HandWorldBench, a unified benchmark that systematically evaluates hand-centric world models across human hands, simulated dexterous hands, and real dexterous hands along six dimensions: visual quality, hand fidelity, appearance consistency, instruction following, physical consistency, and temporal coherence. To construct the benchmark, we develop a data curation pipeline that extracts hand-object interaction clips and screens them for quality, yielding 20,500 high-quality egocentric clips from over 600 hours of footage. We then manually select 500 clips covering seven task families for evaluation. Benchmarking eleven models under a unified protocol reveals that stronger hand-pose control does not consistently translate into coherent object-state evolution and persistence or robust cross-embodiment performance, with several specialized hand-control models underperforming general-purpose text/image-to-video generators on dexterous-hand tasks.",
       "paper_url": "https://arxiv.org/abs/2611.24731",
       "pdf_url": "https://arxiv.org/pdf/2611.24731v1",
-      "doi": "",
+      "doi": "https://doi.org/10.48550/arxiv.2611.24731",
       "journal_ref": "",
       "categories": [
         "cs.CV"
@@ -7088,7 +7796,7 @@
       "source": "arXiv",
       "source_type": "primary",
       "status": "preprint",
-      "venue": "Preprint",
+      "venue": "arXiv (Cornell University)",
       "primary_bin": "evaluation",
       "secondary_bins": [
         "data",
@@ -7105,8 +7813,9 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-19",
-      "last_seen": "2026-11-22",
+      "last_seen": "2026-11-23",
       "sources_seen": [
+        "OpenAlex discovery",
         "arXiv"
       ]
     },
@@ -7182,7 +7891,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-19",
-      "last_seen": "2026-11-22",
+      "last_seen": "2026-11-23",
       "sources_seen": [
         "OpenAlex discovery",
         "arXiv"
@@ -7252,7 +7961,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-21",
-      "last_seen": "2026-11-22",
+      "last_seen": "2026-11-23",
       "sources_seen": [
         "OpenAlex discovery"
       ]
@@ -7314,7 +8023,7 @@
       "source": "arXiv",
       "source_type": "primary",
       "status": "preprint",
-      "venue": "Preprint",
+      "venue": "arXiv (Cornell University)",
       "primary_bin": "vla",
       "secondary_bins": [
         "evaluation",
@@ -7330,7 +8039,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-19",
-      "last_seen": "2026-11-22",
+      "last_seen": "2026-11-23",
       "sources_seen": [
         "OpenAlex discovery",
         "arXiv"
@@ -7500,7 +8209,7 @@
       "abstract": "Deployed world-action models (WAMs) can keep improving only if they make good use of their own experience. Existing methods supply retrieved rollouts or demonstrations to the policy as context, yet such experience often turns previously solved tasks into failures. What, then, makes good experience for a WAM? We show that experience is valuable only in use: its value depends not on whether the source rollout succeeded but on what is stored, when it is used, and where it enters the policy. We therefore propose F$^3$, which makes these three decisions with Form, Fit, and Fusion. Form compresses successful and failed rollouts alike into short, verified operation records; Fit teaches the policy to read a record and to predict when it helps; Fusion injects the record's images, text and actions into the policy as a prefix and an action prior. Trained once on only 200 examples and deployed with a growing experience library, the model achieves state-of-the-art results on MolmoSpaces and RoboLab without any training on RoboLab: over native Cosmos 3 Nano, it raises success by 12.0 pp and 10.8 pp, reduces steps to success by 12.2% and 11.3%, and cuts regressions by 57%.",
       "paper_url": "https://arxiv.org/abs/2611.24708",
       "pdf_url": "https://arxiv.org/pdf/2611.24708v1",
-      "doi": "",
+      "doi": "https://doi.org/10.48550/arxiv.2611.24708",
       "journal_ref": "",
       "categories": [
         "cs.AI"
@@ -7508,7 +8217,7 @@
       "source": "arXiv",
       "source_type": "primary",
       "status": "preprint",
-      "venue": "Preprint",
+      "venue": "arXiv (Cornell University)",
       "primary_bin": "wam",
       "secondary_bins": [
         "learning"
@@ -7522,8 +8231,9 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-19",
-      "last_seen": "2026-11-22",
+      "last_seen": "2026-11-23",
       "sources_seen": [
+        "OpenAlex discovery",
         "arXiv"
       ]
     },
@@ -7561,7 +8271,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-19",
-      "last_seen": "2026-11-22",
+      "last_seen": "2026-11-23",
       "sources_seen": [
         "OpenAlex discovery",
         "arXiv"
@@ -7615,7 +8325,7 @@
       "abstract": "Diverse, semantically synchronized, and low-latency facial expressions are essential for human-robot interaction. While large language models (LLMs) have endowed anthropomorphic robots with fluent speech, facial expression still struggles to follow the conversation. Motivated by this gap, we present Emo-H2A (hidden-to-actuation), a paradigm that drives a facial robot directly from LLM hidden states during autoregressive decoding. Without a separate emotion label, expression stays continuous and context-sensitive, and the face moves with the unfolding reply. We instantiate this paradigm as EmoManifold, a training-free method that extracts a valence-arousal-dominance (VAD) coordinate from each hidden state, projects it, and drives the face at token granularity. The readout is checked on six language models, and the same projection drives our 29-degree-of-freedom (DoF) facial robot. When driven by this projection, the face shifts its expression in the matching direction on 87.5% of within-reply valence transitions, whereas holding a single label for the whole reply leaves directional tracking near the 50% chance level, and first moves in 0.96s rather than waiting 10-26s for the reply to finish and a turn-level label to return.",
       "paper_url": "https://arxiv.org/abs/2611.23932",
       "pdf_url": "https://arxiv.org/pdf/2611.23932v1",
-      "doi": "",
+      "doi": "https://doi.org/10.48550/arxiv.2611.23932",
       "journal_ref": "",
       "categories": [
         "cs.RO"
@@ -7623,7 +8333,7 @@
       "source": "arXiv",
       "source_type": "primary",
       "status": "preprint",
-      "venue": "Preprint",
+      "venue": "arXiv (Cornell University)",
       "primary_bin": "systems",
       "secondary_bins": [],
       "tags": [
@@ -7635,8 +8345,9 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-19",
-      "last_seen": "2026-11-22",
+      "last_seen": "2026-11-23",
       "sources_seen": [
+        "OpenAlex discovery",
         "arXiv"
       ]
     },
@@ -7667,7 +8378,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-20",
-      "last_seen": "2026-11-22",
+      "last_seen": "2026-11-23",
       "sources_seen": [
         "OpenAlex discovery"
       ]
@@ -7682,7 +8393,7 @@
       "abstract": "Long-horizon tasks in embodied and web environments involve extended decision sequences and delayed feedback, making accurate planning crucial for success. World models tackle this by learning latent dynamics for imagination-based planning. However, existing approaches merely rely on dense pixel-level observations, which forces the model to absorb redundant information while overlooking relations among task-relevant entities. Consequently, small errors may accumulate over long imagined rollouts and gradually corrupt the predictions. In this paper, we explore world models that imagine over sparse state abstractions, which poses two key challenges: 1) how to remove redundant information and form a compact state abstraction; 2) how to incorporate the relational structure to learn reliable long-horizon dynamics. To address these challenges, we propose Embodied Graph, a relational state abstraction that supports structured dynamics modeling and long-horizon imagination, and the Relational World Model (RWM), which performs imagination directly over graph states. RWM consists of (i) a Task-Aware Embodied Graph Constructor that filters redundant details and maintains graph memory through online updates, and (ii) an Embodied Graph Recurrent State Space Model that learns node-wise latent dynamics while capturing inter-node dependencies. The imagined graph states provide predictions of action consequences to guide decision-making. Experiments on Minecraft and Crafter demonstrate the effectiveness of RWM in embodied environments. Notably, in Minecraft, RWM is the only method that obtains diamonds within the given budget. Experiments on web interaction further illustrate the applicability of relational state prediction to the decision making process of web agents.",
       "paper_url": "https://arxiv.org/abs/2611.24115",
       "pdf_url": "https://arxiv.org/pdf/2611.24115v1",
-      "doi": "",
+      "doi": "https://doi.org/10.48550/arxiv.2611.24115",
       "journal_ref": "",
       "categories": [
         "cs.AI"
@@ -7690,7 +8401,7 @@
       "source": "arXiv",
       "source_type": "primary",
       "status": "preprint",
-      "venue": "Preprint",
+      "venue": "arXiv (Cornell University)",
       "primary_bin": "world",
       "secondary_bins": [
         "embodiment",
@@ -7706,8 +8417,9 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-19",
-      "last_seen": "2026-11-22",
+      "last_seen": "2026-11-23",
       "sources_seen": [
+        "OpenAlex discovery",
         "arXiv"
       ]
     },
@@ -7802,7 +8514,7 @@
       "abstract": "In many robot telepresence interfaces, movement and viewing are managed through handheld inputs. This can divide attention between steering, looking, and inspection. We compared joystick versus omnidirectional treadmill locomotion and joystick-based versus head-guided camera control in a within-subject 2x2 study in which 17 participants used a virtual reality headset to guide a quadruped robot through a physical maze while locating marked wall symbols and capturing them as visual evidence. Mixed-effects analyses showed that head-guided camera control was associated with faster completion, lower wall-contact cost, lower workload, and more favorable presence, usability, technology acceptance, and flow than joystick-based camera control. The strongest overall objective performance was observed in the joystick locomotion plus head-guided camera condition, whereas the omnidirectional treadmill plus head-guided camera condition emerged as the strongest experiential compromise. Exploratory camera analyses showed that head-guided camera control reduced switching, increased reliance on the pan-tilt view, and supported a more stable viewing strategy across the maze. These strategy differences were consistent with the performance advantage, especially for wall-contact duration. Targets captured remained near ceiling and simulator sickness remained low across all conditions. Overall, the results indicate that viewpoint control was the stronger differentiator in this combined navigation and inspection task, while locomotion still shaped the objective and experiential tradeoff.",
       "paper_url": "https://arxiv.org/abs/2611.23939",
       "pdf_url": "https://arxiv.org/pdf/2611.23939v1",
-      "doi": "",
+      "doi": "https://doi.org/10.48550/arxiv.2611.23939",
       "journal_ref": "",
       "categories": [
         "cs.RO",
@@ -7811,7 +8523,7 @@
       "source": "arXiv",
       "source_type": "primary",
       "status": "preprint",
-      "venue": "Preprint",
+      "venue": "arXiv (Cornell University)",
       "primary_bin": "embodiment",
       "secondary_bins": [],
       "tags": [
@@ -7823,8 +8535,9 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-19",
-      "last_seen": "2026-11-22",
+      "last_seen": "2026-11-23",
       "sources_seen": [
+        "OpenAlex discovery",
         "arXiv"
       ]
     },
@@ -8022,6 +8735,40 @@
       "last_seen": "2026-11-22",
       "sources_seen": [
         "arXiv"
+      ]
+    },
+    {
+      "id": "https://doi.org/10.58088/xtsq-s848",
+      "title": "DOMAIN GENERALIZATION THROUGH LATENT DISENTANGLEMENT AND CROSS-DOMAIN DIFFUSION SYNTHESIS",
+      "authors": "Noaman Mehmood",
+      "first_published": "2026-11-18",
+      "year": 2026,
+      "abstract": "Deep learning models often suffer significant performance degradation when deployed in environments that differ from their training distribution, a phenomenon known as domain shift. This challenge remains a major obstacle to the development of reliable and transferable artificial intelligence systems. Domain Generalization (DG) seeks to address this problem by learning from multiple source domains and generalizing to unseen target domains without requiring access to target-domain data during training. Despite substantial progress, many existing DG methods focus primarily on reducing feature discrepancies across domains in a shared representation space, while overlooking the underlying entanglement between domain-invariant semantic information and domain-specific variations. This entanglement limits the robustness and transferability of learned representations. This dissertation addresses this limitation through three novel DG frameworks based on disentangled representation learning: Disentangled Embeddings Through Mutual Information (DETMI), Feature Orthogonalization via Contrastive Upper-bound Separation (FOCUS), and Disentangled Embeddings through Style Information (DETSI). DETMI and FOCUS aim to enforce disentanglement by leveraging domain-specific information while minimizing mutual dependence between domain-invariant and domain-specific representations. For mutual information estimation, DETMI uses a neural estimator (MINE) that provides a lower bound on mutual information via the Donsker–Varadhan representation of the KL divergence. In contrast, FOCUS utilizes the Contrastive Log-ratio Upper Bound (CLUB), which estimates an upper bound on mutual information by modeling conditional distributions. DETSI learns disentangled embeddings by introducing a style manipulation framework that explicitly extracts and perturbs domain-style information. This process encourages the model to focus on and preserve invariant structural features, further promoting generalization across unseen domains. In addition to representation-level disentanglement, this dissertation introduces another novel DG framework based on data augmentation, termed Cross-Domain Appearance Transfer (CDAT). Unlike the preceding methods, which improve the structure of the learned latent space, CDAT enhances generalization by enriching the diversity of the training data. Specifically, CDAT is a diffusion-driven augmentation framework that synthesizes semantically consistent yet stylistically diverse samples through cross-domain appearance transfer. By injecting visual attributes such as color, texture, and illumination from one domain into another while preserving semantic content, CDAT exposes the model to a broader range of appearance variations and thereby strengthens robustness to unseen domain shifts. To validate these frameworks, we conducted extensive experiments on four diverse and widely used DG benchmarks: PACS, Office-Home, VLCS, and Terra Incognita. Each benchmark is designed to evaluate robustness to different forms of domain shift. PACS comprises four domains (Photo, Art Painting, Cartoon, Sketch) with seven object categories, introducing strong stylistic shifts that test a model’s ability to generalize across artistic abstractions. Office-Home includes four domains (Art, Clipart, Product, Real-World) and 65 object classes, offering a challenging setting with large intra-class variability and subtle appearance changes across domains. VLCS integrates data from four datasets: VOC2007, LabelMe, Caltech, and SUN. It covers five semantic categories, and is designed to capture cross-dataset variations in viewpoint, background clutter, and scene composition. Finally, Terra Incognita comprises wildlife images captured across various geographic locations using camera traps, organized into 4 domains and 10 classes, and presents severe domain shifts due to changes in illumination, weather, and environmental context. Across all benchmarks, the results consistently demonstrate that DETMI, FOCUS, DETSI and CDAT outperform state-of-the-art DG methods, highlighting the effectiveness of explicitly disentangling semantic content from stylistic, environmental, and increasing data diversity through stylistically diverse yet label-consistent samples. These findings confirm that disentanglement-based modeling and diffusion-based synthesis of cross-domain samples leads to more stable, transferable, and domain-invariant representations.",
+      "paper_url": "https://udspace.udel.edu/handle/19716/37570",
+      "doi": "https://doi.org/10.58088/xtsq-s848",
+      "source": "OpenAlex discovery",
+      "source_type": "aggregator_discovery",
+      "status": "needs_verification",
+      "venue": "Library, Museums and Press - UDSpace (University of Delaware)",
+      "notes": "Discovery record only. Verify title, date, venue and claims at the publisher/preprint source before treating as confirmed.",
+      "primary_bin": "evaluation",
+      "secondary_bins": [
+        "data",
+        "embodiment",
+        "learning"
+      ],
+      "tags": [
+        "auto-classified"
+      ],
+      "limitations": "Not extracted automatically. Read the full paper before drawing conclusions.",
+      "datasets": [],
+      "embodiments": [],
+      "real_robot": "Not established; verify full text.",
+      "code_url": "",
+      "added_at": "2026-11-23",
+      "last_seen": "2026-11-23",
+      "sources_seen": [
+        "OpenAlex discovery"
       ]
     },
     {
@@ -8319,7 +9066,7 @@
       "source": "arXiv",
       "source_type": "primary",
       "status": "preprint",
-      "venue": "Preprint",
+      "venue": "arXiv (Cornell University)",
       "primary_bin": "vla",
       "secondary_bins": [
         "embodiment",
@@ -8337,7 +9084,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-19",
-      "last_seen": "2026-11-22",
+      "last_seen": "2026-11-23",
       "sources_seen": [
         "OpenAlex discovery",
         "arXiv"
@@ -8371,7 +9118,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-20",
-      "last_seen": "2026-11-22",
+      "last_seen": "2026-11-23",
       "sources_seen": [
         "OpenAlex discovery"
       ]
@@ -8599,7 +9346,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-19",
-      "last_seen": "2026-11-22",
+      "last_seen": "2026-11-23",
       "sources_seen": [
         "OpenAlex discovery",
         "arXiv"
@@ -8630,7 +9377,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-20",
-      "last_seen": "2026-11-22",
+      "last_seen": "2026-11-23",
       "sources_seen": [
         "OpenAlex discovery"
       ]
@@ -8707,7 +9454,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-21",
-      "last_seen": "2026-11-22",
+      "last_seen": "2026-11-23",
       "sources_seen": [
         "OpenAlex discovery"
       ]
@@ -8722,7 +9469,7 @@
       "abstract": "Vision-language-action (VLA) models enable unmanned aerial vehicles (UAVs) to follow natural-language instructions, yet still fail frequently in closed-loop flight. Correcting these failures requires repairs, i.e., actions that avoid them at the states the policy itself reaches, which human pilots cannot label at scale and rule-based planners cannot supply reliably. In this paper, we present AeroRSI, a recursive self-improvement framework in which an aerial navigation policy iteratively learns from its own failures. Our key insight is that a failing policy should judge its own repairs by flying on from them. Judged in this way, its sampled actions and even rule-based proposals that hurt it when imitated directly become reliable supervision. Moreover, an episode terminates at its first failure, concealing subsequent failures until the earlier ones are repaired. AeroRSI thus renews its supervision in every round, anchoring the failures of the current policy, verifying repairs by its continuation, and distilling them while keeping its behavior elsewhere. On TravelUAV, three rounds raise the success rate of a supervised 2B-parameter policy from 46.4% to 67.5% and reduce collisions by half, surpassing the previous state of the art by 10.6 points from the same initialization without extra human labels or inference cost. Code and models are available at https://github.com/starsholic/AeroRSI.",
       "paper_url": "https://arxiv.org/abs/2611.24077",
       "pdf_url": "https://arxiv.org/pdf/2611.24077v1",
-      "doi": "",
+      "doi": "https://doi.org/10.48550/arxiv.2611.24077",
       "journal_ref": "",
       "categories": [
         "cs.CV",
@@ -8732,7 +9479,7 @@
       "source": "arXiv",
       "source_type": "primary",
       "status": "preprint",
-      "venue": "Preprint",
+      "venue": "arXiv (Cornell University)",
       "primary_bin": "vla",
       "secondary_bins": [
         "embodiment",
@@ -8749,8 +9496,9 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "https://github.com/starsholic/AeroRSI",
       "added_at": "2026-11-19",
-      "last_seen": "2026-11-22",
+      "last_seen": "2026-11-23",
       "sources_seen": [
+        "OpenAlex discovery",
         "arXiv"
       ]
     },
@@ -8862,7 +9610,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-22",
-      "last_seen": "2026-11-22",
+      "last_seen": "2026-11-23",
       "sources_seen": [
         "OpenAlex discovery"
       ]
@@ -8926,7 +9674,7 @@
       "source": "arXiv",
       "source_type": "primary",
       "status": "preprint",
-      "venue": "Preprint",
+      "venue": "arXiv (Cornell University)",
       "primary_bin": "spatial",
       "secondary_bins": [
         "embodiment",
@@ -8943,7 +9691,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-19",
-      "last_seen": "2026-11-22",
+      "last_seen": "2026-11-23",
       "sources_seen": [
         "OpenAlex discovery",
         "arXiv"
@@ -9149,7 +9897,7 @@
       "abstract": "Coding agents built to repair software now write, test, and repair programs for robots, laboratories, and industrial controllers. Unlike in software engineering, no test suite comes with the code. Whether a program works must be established by running it on a robot, in a physics simulator, or through the policies it helps to train, and such evidence is costly to obtain and can itself be wrong. As these agents take on more physical tasks, how their programs are judged matters as much as how they are written. This paper examines this emerging area, agentic intelligence for the physical world, by treating the world as the program's test suite. We organize the discussion around three questions: how agents write programs for the physical world, how these programs are tested, and how agents learn from the results. We first trace how language models for robots and software engineering agents came together, ask which software testing practices carry over to physical tests, and describe each program by where it sits relative to the actuator and by what judges it. For writing, we cover programs that act as robot policies and programs that support policy learning by producing rewards, tasks, and training worlds. For testing, we examine what physical trials cost, what traces, learned judges, simulators, and formal checks can establish in their place, and what safety requires beyond task success. For learning, we discuss how tested programs are retained as experience, in skill libraries and in model weights. Finally, we turn to benchmarks and evaluation practice and outline open challenges. Writing programs is becoming cheap, while trustworthy evidence about what they do remains costly. Progress will therefore depend on a physical counterpart of continuous integration: verification cheap enough to run often, reliable enough to trust under search, and maintained alongside the experience it validates.",
       "paper_url": "https://arxiv.org/abs/2611.22291",
       "pdf_url": "https://arxiv.org/pdf/2611.22291v1",
-      "doi": "",
+      "doi": "https://doi.org/10.48550/arxiv.2611.22291",
       "journal_ref": "",
       "categories": [
         "cs.RO",
@@ -9159,7 +9907,7 @@
       "source": "arXiv",
       "source_type": "primary",
       "status": "preprint",
-      "venue": "Preprint",
+      "venue": "arXiv (Cornell University)",
       "primary_bin": "evaluation",
       "secondary_bins": [
         "learning"
@@ -9173,8 +9921,9 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-18",
-      "last_seen": "2026-11-22",
+      "last_seen": "2026-11-23",
       "sources_seen": [
+        "OpenAlex discovery",
         "arXiv"
       ]
     },
@@ -9209,7 +9958,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-22",
-      "last_seen": "2026-11-22",
+      "last_seen": "2026-11-23",
       "sources_seen": [
         "OpenAlex discovery"
       ]
@@ -9768,7 +10517,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-19",
-      "last_seen": "2026-11-22",
+      "last_seen": "2026-11-23",
       "sources_seen": [
         "OpenAlex discovery"
       ]
@@ -10543,7 +11292,7 @@
       "abstract": "General-purpose behavior models increasingly internalize broad procedural knowledge during training, making their adaptation to new goals and skill interfaces less a problem of learning entirely new behaviors than of reconfiguring existing competence. We study this capability as reconfigurability, the ability to realize new behaviors by cost-efficiently restructuring existing components and relations under sparse governing information, where task specifications provide high-level goals and procedure specifications expose a limited set of reusable factors, leaving the concrete bindings and compositions required for execution underdetermined. We propose RecPo, a framework that represents skills task-agnostically through multiple procedure views and materializes executable skill sequences by composing stored transitions to realize task-specific changes. RecPo maintains a procedure knowledge base of skill-induced transitions, with each view exposing a reusable factor and preserving local skill connectivity. At deployment, it interprets task specifications through the same views and resolves the resulting compositional queries over the stored relations to bind skills for execution. On long-horizon tasks in an extended Franka Kitchen benchmark, RecPo achieves 91.9% ordered completion with 1.0 ms of task inference per episode across varying procedure support and task-record sparsity. Real-robot studies further demonstrate adaptation through local memory edits without task-specific retraining.",
       "paper_url": "https://arxiv.org/abs/2611.22174",
       "pdf_url": "https://arxiv.org/pdf/2611.22174v1",
-      "doi": "",
+      "doi": "https://doi.org/10.48550/arxiv.2611.22174",
       "journal_ref": "",
       "categories": [
         "cs.AI"
@@ -10551,7 +11300,7 @@
       "source": "arXiv",
       "source_type": "primary",
       "status": "preprint",
-      "venue": "Preprint",
+      "venue": "arXiv (Cornell University)",
       "primary_bin": "systems",
       "secondary_bins": [
         "evaluation",
@@ -10567,8 +11316,9 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-18",
-      "last_seen": "2026-11-22",
+      "last_seen": "2026-11-23",
       "sources_seen": [
+        "OpenAlex discovery",
         "arXiv"
       ]
     },
@@ -10702,7 +11452,7 @@
       "abstract": "Large-scale robotic simulation requires diverse deformable objects with executable physical properties and realistic interaction behaviors. However, existing 3D asset collections primarily emphasize visual diversity, while scalable physical construction and verification remain challenging. We introduce RFW-S, a large-scale dataset of 83,365 simulation-verified assets spanning 485 everyday categories across five structural families: soft solids, cloth sheets, shells, garments, and bags. We develop an automated pipeline integrating reference-guided 3D generation, structure-aware physical modeling, and LLM-assisted parameter estimation and calibration. To ensure physical reliability, we introduce an independent simulation verification framework that evaluates object behaviors under interactions distinct from those used for parameter calibration. Extensive experiments demonstrate the effectiveness of independent verification and characterize deformable responses under different physical configurations. We further evaluate robotic grasping in terms of both task success and object integrity, and demonstrate the physical realism of our simulated objects through sim-to-real replay of fragile-object manipulation. RFW-S provides a scalable foundation for physically grounded simulation and embodied robotic learning.",
       "paper_url": "https://arxiv.org/abs/2611.23056",
       "pdf_url": "https://arxiv.org/pdf/2611.23056v1",
-      "doi": "",
+      "doi": "https://doi.org/10.48550/arxiv.2611.23056",
       "journal_ref": "",
       "categories": [
         "cs.RO",
@@ -10711,7 +11461,7 @@
       "source": "arXiv",
       "source_type": "primary",
       "status": "preprint",
-      "venue": "Preprint",
+      "venue": "arXiv (Cornell University)",
       "primary_bin": "evaluation",
       "secondary_bins": [
         "data",
@@ -10726,8 +11476,9 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-18",
-      "last_seen": "2026-11-22",
+      "last_seen": "2026-11-23",
       "sources_seen": [
+        "OpenAlex discovery",
         "arXiv"
       ]
     },
@@ -11245,7 +11996,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-18",
-      "last_seen": "2026-11-22",
+      "last_seen": "2026-11-23",
       "sources_seen": [
         "OpenAlex discovery",
         "arXiv"
@@ -11402,7 +12153,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-18",
-      "last_seen": "2026-11-22",
+      "last_seen": "2026-11-23",
       "sources_seen": [
         "OpenAlex discovery",
         "arXiv"
@@ -11567,7 +12318,7 @@
       "abstract": "Recent world action models (WAMs) drop future prediction at inference, assuming that representations learned through auxiliary future supervision still benefit action generation. However, our layerwise analysis of Fast-WAM reveals a depth-dependent mismatch: while probes decode future state transitions more accurately from deeper visual layers, the gradients and visual focuses of the future and action objectives increasingly diverge with depth, leaving much of this predictive information unused by the action pathway. To address this issue, we introduce RelayWAM, which adds an explicit transition space between the video and action backbones. Conditioned on the task instruction, robot state, and current action estimate, recurrent transition layers extract step-relevant predictive cues across depth and relay them directly into the action attention, without generating future frames at inference. Experiments show that RelayWAM substantially amplifies the benefit of future supervision, translating into stronger generalization under distribution shifts in both simulation and real-world robot tasks. On LIBERO-Plus, RelayWAM achieves 72.03% mean success, compared to 56.42% without future supervision and 51.50% for Fast-WAM.",
       "paper_url": "https://arxiv.org/abs/2611.22994",
       "pdf_url": "https://arxiv.org/pdf/2611.22994v1",
-      "doi": "",
+      "doi": "https://doi.org/10.48550/arxiv.2611.22994",
       "journal_ref": "",
       "categories": [
         "cs.RO"
@@ -11575,7 +12326,7 @@
       "source": "arXiv",
       "source_type": "primary",
       "status": "preprint",
-      "venue": "Preprint",
+      "venue": "arXiv (Cornell University)",
       "primary_bin": "world",
       "secondary_bins": [
         "evaluation",
@@ -11592,8 +12343,9 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-18",
-      "last_seen": "2026-11-22",
+      "last_seen": "2026-11-23",
       "sources_seen": [
+        "OpenAlex discovery",
         "arXiv"
       ]
     },
@@ -12866,7 +13618,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-20",
-      "last_seen": "2026-11-22",
+      "last_seen": "2026-11-23",
       "sources_seen": [
         "OpenAlex discovery"
       ]
@@ -13041,7 +13793,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-20",
-      "last_seen": "2026-11-22",
+      "last_seen": "2026-11-23",
       "sources_seen": [
         "OpenAlex discovery"
       ]
@@ -13409,7 +14161,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-18",
-      "last_seen": "2026-11-22",
+      "last_seen": "2026-11-23",
       "sources_seen": [
         "OpenAlex discovery",
         "arXiv"
@@ -13425,7 +14177,7 @@
       "abstract": "Currently, robots can learn whole-body loco-manipulation through scale: the strongest policies have billions of parameters and still need task-specific fine-tuning. Humans have limited processing capacity, yet learn and act efficiently through a body schema that organizes what they see and how they move. We introduce Body Schema Policy (BSP), an imitation learning policy that builds such a schema into the vision-action interface. Its latent body schema places joint and link tokens on the robot's kinematic tree, where learned screw motions carry features between links. Through body-queried vision, each body part retrieves its own visual evidence, which conditions the denoising of its actions. With this inductive bias, BSP returns an action chunk faster than any policy we compare. Compact, body-specific visual readouts also emerge without spatial supervision: manipulation commands depend strongly on task objects, while locomotion commands respond more broadly to the scene. On nine simulated Unitree G1 whole-body tasks, BSP matches the $Ψ_0$ humanoid foundation model with $75\\times$ fewer parameters and nearly doubles Diffusion Policy's success. The same holds on a real G1 and a Fetch mobile manipulator.",
       "paper_url": "https://arxiv.org/abs/2611.22713",
       "pdf_url": "https://arxiv.org/pdf/2611.22713v1",
-      "doi": "",
+      "doi": "https://doi.org/10.48550/arxiv.2611.22713",
       "journal_ref": "",
       "categories": [
         "cs.RO"
@@ -13433,7 +14185,7 @@
       "source": "arXiv",
       "source_type": "primary",
       "status": "preprint",
-      "venue": "Preprint",
+      "venue": "arXiv (Cornell University)",
       "primary_bin": "vla",
       "secondary_bins": [
         "embodiment",
@@ -13450,8 +14202,9 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-18",
-      "last_seen": "2026-11-22",
+      "last_seen": "2026-11-23",
       "sources_seen": [
+        "OpenAlex discovery",
         "arXiv"
       ]
     },
@@ -13928,7 +14681,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-21",
-      "last_seen": "2026-11-22",
+      "last_seen": "2026-11-23",
       "sources_seen": [
         "OpenAlex discovery"
       ]
@@ -49989,7 +50742,7 @@
       "real_robot": "Not established; verify full text.",
       "code_url": "",
       "added_at": "2026-11-07",
-      "last_seen": "2026-11-22",
+      "last_seen": "2026-11-23",
       "sources_seen": [
         "OpenAlex discovery",
         "arXiv"
